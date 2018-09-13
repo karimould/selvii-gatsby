@@ -6,6 +6,18 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
+      resolve: 'gatsby-plugin-snipcart',
+      options: {
+          apiKey: 'ZTc4NTUzYmEtYzViMS00ZjViLWE2OTUtYzliOGQzMGYzNDIxNjM2NzI0MzA2OTY1ODUzMTY5'
+      },
+    },
+    {
+      resolve: `gatsby-plugin-emotion`,
+      options: {
+        // Accepts all options defined by `babel-plugin-emotion` plugin.
+      },
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages`,
