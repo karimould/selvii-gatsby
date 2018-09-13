@@ -28,7 +28,7 @@ collections:
       - {label: "SEO Description", name: "description_SEO", widget: "text"}
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "produkt"}
       - {label: "New", name: "new", widget: "boolean", default: true}
-      - {label: 'Category', name: category', widget: select, options: [premium, zweiteiler, kleider]}
+      - {label: 'Category', name: category', widget: select, options: [premium, blazer, zweiteiler, kleider]}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Preis", name: "price", widget: "number"}
       - {label: "Description", name: "description", widget: "text"}
