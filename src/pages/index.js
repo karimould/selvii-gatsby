@@ -3,9 +3,10 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import styled from 'react-emotion'
 import Wrapper from '../components/wrapper/Wrapper'
-import Header from '../components/header/Header';
-import Slider from '../components/slider/Slider';
-import Footer from '../components/footer/Footer';
+import Header from '../components/header/Header'
+import Slider from '../components/slider/Slider'
+import Footer from '../components/footer/Footer'
+import '../styles/normalize.css'
 
 export default class IndexPage extends React.Component {
   render() {
