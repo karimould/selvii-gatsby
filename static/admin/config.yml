@@ -30,6 +30,7 @@ collections:
       - {label: "New", name: "new", widget: "boolean", default: true}
       - {label: 'Category', name: category', widget: select, options: [premium, zweiteiler, kleider]}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Preis", name: "price", widget: "number"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "featuredImage", widget: "image"}
       - {label: "Tags", name: "tags", widget: "list"}

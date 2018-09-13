@@ -1,18 +1,20 @@
 import React from 'react'
 import styled from 'react-emotion'
-import test from '../../img/test_1.jpg'
+import { Link } from 'gatsby'
 
 
 export default class ProductCard extends React.Component {
   render() {
     return(
       <ProductCardContainer>
+        <ProductCardLink title={this.props.title} to={this.props.link}>
         <ProductCardImageContainer>
-          <ProductCardImage src={test}/>
+          <ProductCardImage alt={this.props.title} src={this.props.img}/>
         </ProductCardImageContainer>
-        <NewProduct>NEU</NewProduct>
-        <ProductCardTitle>OVERSIZED BLAZER</ProductCardTitle>
+        {this.props.new ? (<NewProduct>NEU</NewProduct>) : (null)}
+        <ProductCardTitle>{this.props.title}</ProductCardTitle>
         <ProductPrice>35 €</ProductPrice>
+        </ProductCardLink>
       </ProductCardContainer>
     )
   }
@@ -43,4 +45,11 @@ const NewProduct = styled('h3')`
 `
 const ProductPrice = styled('p')`
   color: '#5d3126';
+`
+
+const ProductCardLink = styled(Link)`
+  color: black;
+  :hover {
+    text-decoration: overline underline;
+  }
 `
