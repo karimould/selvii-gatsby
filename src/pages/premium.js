@@ -64,6 +64,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
+            price
             new
             title
             templateKey
