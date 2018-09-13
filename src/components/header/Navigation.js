@@ -12,16 +12,16 @@ export default class Navigation extends React.Component {
             <NavigationLink to="/new">NEU</NavigationLink>
           </NavigationLI>
           <NavigationLI>
-            <NavigationLink to="/new">Premium</NavigationLink>
+            <NavigationLink to="/premium">Premium</NavigationLink>
           </NavigationLI>
           <NavigationLI>
-            <NavigationLink to="/new">Blazer</NavigationLink>
+            <NavigationLink to="/blazer">Blazer</NavigationLink>
           </NavigationLI>
           <NavigationLI>
-            <NavigationLink to="/new">Zweiteiler</NavigationLink>
+            <NavigationLink to="/zweiteiler">Zweiteiler</NavigationLink>
           </NavigationLI>
           <NavigationLI>
-            <NavigationLink to="/new">Kleider</NavigationLink>
+            <NavigationLink to="/kleider">Kleider</NavigationLink>
           </NavigationLI>
         </NavigationUL>
       </NavigationContainer>

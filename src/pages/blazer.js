@@ -9,10 +9,11 @@ import ProductCardWrapper from '../components/wrapper/ProductCardWrapper';
 import ProductCard from '../components/productCard/ProductCard';
 
 
-export default class New extends React.Component {
+export default class Blazer extends React.Component {
   render() {
     const { data } = this.props
-    const { edges: products } = data.allMarkdownRemark        
+    const { edges: products } = data.allMarkdownRemark
+        
     return(
       <Wrapper>
         <Header />
@@ -34,7 +35,7 @@ export default class New extends React.Component {
   }
 }
 
-New.propTypes = {
+Blazer.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -53,9 +54,9 @@ New.propTypes = {
 
 
 export const pageQuery = graphql`
-  query IndexQueryNewProducts {
+  query IndexQueryBlazerProducts {
     allMarkdownRemark(
-      filter: { frontmatter: { new: { eq: true } }}
+      filter: { frontmatter: { category_: { eq: "blazer" } }}
     ) {
       edges {
         node {

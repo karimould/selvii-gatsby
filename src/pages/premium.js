@@ -9,7 +9,7 @@ import ProductCardWrapper from '../components/wrapper/ProductCardWrapper';
 import ProductCard from '../components/productCard/ProductCard';
 
 
-export default class New extends React.Component {
+export default class Premium extends React.Component {
   render() {
     const { data } = this.props
     const { edges: products } = data.allMarkdownRemark        
@@ -34,7 +34,7 @@ export default class New extends React.Component {
   }
 }
 
-New.propTypes = {
+Premium.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -53,9 +53,9 @@ New.propTypes = {
 
 
 export const pageQuery = graphql`
-  query IndexQueryNewProducts {
+  query IndexQueryPremiumProducts {
     allMarkdownRemark(
-      filter: { frontmatter: { new: { eq: true } }}
+      filter: { frontmatter: { category_: { eq: "premium" } }}
     ) {
       edges {
         node {
