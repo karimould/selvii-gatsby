@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'react-emotion'
+import Link from 'gatsby-link'
+
 
 export default class Navigation extends React.Component {
   render() {
@@ -7,19 +9,19 @@ export default class Navigation extends React.Component {
       <NavigationContainer>
         <NavigationUL>
           <NavigationLI>
-            <NavigationLink>NEU</NavigationLink>
+            <NavigationLink to="/new">NEU</NavigationLink>
           </NavigationLI>
           <NavigationLI>
-            <NavigationLink>Premium</NavigationLink>
+            <NavigationLink to="/new">Premium</NavigationLink>
           </NavigationLI>
           <NavigationLI>
-            <NavigationLink>Blazer</NavigationLink>
+            <NavigationLink to="/new">Blazer</NavigationLink>
           </NavigationLI>
           <NavigationLI>
-            <NavigationLink>Zweiteiler</NavigationLink>
+            <NavigationLink to="/new">Zweiteiler</NavigationLink>
           </NavigationLI>
           <NavigationLI>
-            <NavigationLink>Kleider</NavigationLink>
+            <NavigationLink to="/new">Kleider</NavigationLink>
           </NavigationLI>
         </NavigationUL>
       </NavigationContainer>
@@ -43,7 +45,7 @@ const NavigationLI = styled('li')`
   text-decoration: none;
 `
 
-const NavigationLink = styled('a')`
+const NavigationLink = styled(Link)`
   color: black;
   text-decoration: none;
   :hover {
