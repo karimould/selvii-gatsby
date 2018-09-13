@@ -31,6 +31,7 @@ IndexPage.propTypes = {
   }),
 }
 
+
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(

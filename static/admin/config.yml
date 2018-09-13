@@ -25,15 +25,14 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "SEO Description", name: "description_SEO", widget: "text"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "produkt"}
       - {label: "New", name: "new", widget: "boolean", default: true}
       - {label: 'Category', name: category', widget: select, options: [premium, zweiteiler, kleider]}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "featuredImage", widget: "image"}
       - {label: "Tags", name: "tags", widget: "list"}
-    meta:
-      - {label: "SEO Description", name: "description_SEO", widget: "text"}
 
 
   - name: "pages"
