@@ -8,7 +8,7 @@
     "emotion": "^9.2.8",
     "emotion-server": "^9.2.8",
     "gatsby": "next",
-    "gatsby-plugin-emotion": "^1.1.17",
+    "gatsby-plugin-emotion": "^2.0.0-rc.5",
     "gatsby-plugin-netlify": "next",
     "gatsby-plugin-netlify-cms": "next",
     "gatsby-plugin-react-helmet": "next",
