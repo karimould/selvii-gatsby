@@ -10,6 +10,7 @@ export default class New extends React.Component {
     return(
       <Wrapper>
         <Header />
+          
         <Footer />
       </Wrapper>
     )

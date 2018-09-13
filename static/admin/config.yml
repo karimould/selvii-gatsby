@@ -23,14 +23,18 @@ collections:
     label: "Produkt"
     folder: "src/pages/produkt"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "New", name: "new", widget: "boolean", default: true}
+      - {label: 'Category', name: category', widget: select, options: [premium, zweiteiler,kleider]
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Featured Image", name: "featuredImage", widget: "image"}
       - {label: "Tags", name: "tags", widget: "list"}
+    meta:
+      - {label: "SEO Description", name: "description_SEO", widget: "text"}
+
 
   - name: "pages"
     label: "Pages"
