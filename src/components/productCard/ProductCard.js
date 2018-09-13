@@ -13,7 +13,7 @@ export default class ProductCard extends React.Component {
         </ProductCardImageContainer>
         {this.props.new ? (<NewProduct>NEU</NewProduct>) : (null)}
         <ProductCardTitle>{this.props.title}</ProductCardTitle>
-        <ProductPrice>35 €</ProductPrice>
+        <ProductPrice>{this.props.price} €</ProductPrice>
         </ProductCardLink>
       </ProductCardContainer>
     )
