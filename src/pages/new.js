@@ -24,6 +24,7 @@ export default class New extends React.Component {
               img={product.frontmatter.featuredImage}
               title={product.frontmatter.title}
               new={product.frontmatter.new}
+              price={product.frontmatter.price}
               key={product.id}
             />
           ))}
