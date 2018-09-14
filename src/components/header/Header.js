@@ -2,10 +2,8 @@ import React from 'react'
 import styled from 'react-emotion'
 import Navigation from './Navigation';
 import AddToCart from '../../img/addToCart.svg'
-
-
-
 export default class Header extends React.Component {
+
   render() {
     return(
       <HeaderContainer>

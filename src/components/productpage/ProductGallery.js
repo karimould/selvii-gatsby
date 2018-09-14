@@ -20,12 +20,14 @@ export default class ProductGallery extends React.Component {
 
 const ProductGalleryContainer = styled('div')`
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
+  width: 40%;
 `
 
 const ProductImgContainer = styled('div')`
-  width: 30%;
-  margin-right: 20px;
+  width: 100%;
+  margin-bottom: 20px;
   img {
     width: 100%;
     height: auto;
