@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'react-emotion'
 import Navigation from './Navigation';
+import AddToCart from '../../img/addToCart.svg'
+
 
 
 export default class Header extends React.Component {
@@ -12,7 +14,12 @@ export default class Header extends React.Component {
           <LogoH1>Selvii</LogoH1>
         </LogoContainer>
         <CartContainer>
-          <Cart href="#" className="snipcart-checkout">Click here to checkout</Cart>
+          <div class="snipcart-summary">
+            <Cart href="#" className="snipcart-checkout">
+              <img src={AddToCart} />
+              <span class="snipcart-total-items"></span>
+            </Cart>
+          </div>
         </CartContainer>
         </HeaderContainerFlex>
         <Navigation />
@@ -45,6 +52,10 @@ const LogoH1 = styled('h1')`
 const CartContainer = styled('div')`
     margin-top: 20px;
     margin-right: 50px;
+    
+    .snipcart-total-items {
+    color: black;
+  }
 `
 
 const Cart = styled('a')`
