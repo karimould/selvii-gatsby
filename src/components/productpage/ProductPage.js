@@ -9,26 +9,25 @@ export default class ProductPage extends React.Component {
   showModal() {
     setTimeout(function () {
       window.Snipcart.api.modal.show();;
-    }, 500);
+    },1000);
   }
 
 
   render() {
     return(
       <ProductPageContainer>
-        <ProductGallery />
+        <ProductGallery gallery={this.props.gallery} />
         <ProductDescContainer>
           <ProductDescWrapper>
-            <ProductPageTitle>BLAZER ZEBRA LOOK</ProductPageTitle>
-            <ProductPageDescText>
-              Blazer im Zebramuster aus der Herbst Kollektion 2018              
-            </ProductPageDescText>
+            <ProductPageTitle>{this.props.title}</ProductPageTitle>
+            <ProductPageDescText>{this.props.desc}</ProductPageDescText>
             <ProductDescInfos>
               Made in Italy | 80% Baumwolle | 20% Polyester
             </ProductDescInfos>
             <ProductModelInfos>
               Modell: Karim | <a href="#">Instagram</a> | 1,78m | 84kg
             </ProductModelInfos>
+            <ProductPrice>{this.props.price} €</ProductPrice>
             <br />
             <CallToActionContainer>
             <a href="#"
@@ -66,6 +65,7 @@ export default class ProductPage extends React.Component {
   }
 }
 
+
 const ProductPageContainer = styled('div')`
   padding-top: 100px;
   padding-left: 400px;
@@ -92,7 +92,9 @@ const ProductDescInfos = styled('p')`
 
 const ProductModelInfos = styled('p')`
 `
-
+const ProductPrice = styled('p')`
+  font-weight: bold;
+`
 const ProductPageAddToCartBTN = styled('a')`
 `
 const CallToActionContainer = styled('div')`

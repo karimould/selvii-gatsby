@@ -4,14 +4,14 @@ import img_1 from '../../img/test_1.jpg'
 
 export default class ProductGallery extends React.Component {
   render() {
+    console.log("KARIIIIM");
+    console.log(this.props.gallery);
+    
     return(
       <ProductGalleryContainer>
-        <ProductImgContainer>
-          <img src={img_1} />
-        </ProductImgContainer>
-        <ProductImgContainer>
-          <img src={img_1} />
-        </ProductImgContainer>
+      {this.props.gallery.map(function(img, i){
+        return <ProductImgContainer> <img alt={img.alt} src={img.image} /> </ProductImgContainer>
+      })}
       </ProductGalleryContainer>
 
     )

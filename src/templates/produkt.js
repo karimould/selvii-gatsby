@@ -8,13 +8,22 @@ import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
 import ProductPage from '../components/productpage/ProductPage';
 
-export const Produkt = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
+export const Produkt = ({ data }) => {
+  const { markdownRemark: product } = data 
+  console.log('====================================');
+  console.log(product.frontmatter.gallery);
+  console.log('====================================');
 
   return (
     <Wrapper>
       <Header />
-        <ProductPage />
+        <ProductPage 
+        title={product.frontmatter.title}
+        desc={product.frontmatter.description}
+        price={product.frontmatter.price}
+        link={product.fields.slug}
+        gallery={product.frontmatter.gallery}
+        />
       <Footer />
     </Wrapper>
   )
@@ -30,11 +39,20 @@ Produkt.propTypes = {
 export default Produkt
 
 export const aboutPageQuery = graphql`
-  query AboutPageProduktTest($id: String!) {
+  query ProductPageShop($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
+        price
+        description
+        gallery {
+          alt
+          image
+        }
       }
     }
   }
