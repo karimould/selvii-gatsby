@@ -30,6 +30,8 @@ collections:
       - {label: "New", name: "new", widget: "boolean", default: true}
       - {label: "Verfügbar", name: "available", widget: "boolean", default: true}
       - {label: 'Category', name: category', widget: select, options: [premium, blazer, zweiteiler, kleider]}
+      - {label: Size, name: size, widget: list, fields: [{label: "Size", name: "size", widget: "string"}]}
+      - {label: Color, name: color, widget: list, fields: [{label: "Farbe", name: "color", widget: "string"}]}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Preis", name: "price", widget: "number"}
       - {label: "Description", name: "description", widget: "text"}
