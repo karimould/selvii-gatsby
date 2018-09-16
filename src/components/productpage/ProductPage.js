@@ -5,7 +5,23 @@ import AddToCart from '../../img/addToCart.svg'
 
 
 export default class ProductPage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = ({size: 's', color: 'weiß'});
+    this.handleChangeSize = this.handleChangeSize.bind(this)
+    this.handleChangeColor = this.handleChangeColor.bind(this)
+  }
   
+  handleChangeSize(event) {
+    console.log("1: " + this.state.size);
+    this.setState({size: event.target.value});
+    console.log("2: " + this.state.size);
+  }
+
+  handleChangeColor(event) {
+    this.setState({color: event.target.value});
+  }
+
   //Shows the modal for the "Kaufen" button
   showModal() {
     setTimeout(function () {
@@ -37,6 +53,51 @@ export default class ProductPage extends React.Component {
     return colorArray
   }
 
+  renderSelection() {
+    if(this.props.color === null) {
+      return(
+      <label>
+        <h3>Größe:</h3>
+          <ProductPageSelect onChange={this.handleChangeSize}>
+          {this.props.sizes.map(function(size){
+          return(
+            <option value={size.size}>{size.size}</option>
+          )
+          })}
+          </ProductPageSelect>
+      </label>
+      )
+    } else {
+      return(
+        <div>
+        <label>
+          <h3>Größe:</h3>
+          <ProductPageSelect onChange={this.handleChangeSize}>
+          {this.props.sizes.map(function(size){
+          return(
+            <option value={size.size}>{size.size}</option>
+          )
+          })}
+          </ProductPageSelect>
+          <br />
+        </label>
+        <br />
+        <label>
+          <h3>Farbe:</h3>
+          <ProductPageSelect onChange={this.handleChangeColor}>
+          {this.props.colors.map(function(color){
+          return(
+            <option value={color.color}>{color.color}</option>
+          )
+          })}
+          </ProductPageSelect>
+          <br />
+        </label>
+        </div>
+        )
+    }
+  }
+
   renderProduct() {
     if(this.props.color === null) {
       return(
@@ -44,13 +105,13 @@ export default class ProductPage extends React.Component {
         <CallToActionContainer>
         <a href="#"
         class="snipcart-add-item"
-        data-item-name="Headphones"
-        data-item-price="200.00"
-        data-item-id="42"
+        data-item-name={this.props.title}
+        data-item-price={this.props.price}
+        data-item-id={this.props.id}
         data-item-url="https://snipcart.com/headphones"
         data-item-custom2-name="Größe"
         data-item-custom2-options={this.sizesToString()}
-        data-item-custom2-value="Medium"
+        data-item-custom2-value={this.state.size}
         data-item-custom2-required="true">
         In den Warenkorb hinzufügen
       </a>
@@ -59,13 +120,13 @@ export default class ProductPage extends React.Component {
       <CallToActionContainer>
       <a onClick={this.showModal} href="#"
         class="snipcart-add-item"
-        data-item-name="Headphones"
-        data-item-price="200.00"
-        data-item-id="42"
+        data-item-name={this.props.title}
+        data-item-price={this.props.price}
+        data-item-id={this.props.id}
         data-item-url="https://snipcart.com/headphones"
         data-item-custom2-name="Size"
         data-item-custom2-options={this.sizesToString()}
-        data-item-custom2-value="Medium"
+        data-item-custom2-value={this.state.size}
         data-item-custom2-required="true">
         Kaufen
       </a>
@@ -78,17 +139,17 @@ export default class ProductPage extends React.Component {
         <CallToActionContainer>
         <a href="#"
         class="snipcart-add-item"
-        data-item-name="Headphones"
-        data-item-price="200.00"
-        data-item-id="42"
+        data-item-name={this.props.title}
+        data-item-price={this.props.price}
+        data-item-id={this.props.id}
         data-item-url="https://snipcart.com/headphones"
         data-item-custom2-name="Größe"
         data-item-custom2-options={this.sizesToString()}
-        data-item-custom2-value="Medium"
+        data-item-custom2-value={this.state.size}
         data-item-custom2-required="true"
         data-item-custom3-name="Farbe"
         data-item-custom3-options={this.colorsToString()}
-        data-item-custom3-value="Medium"
+        data-item-custom3-value={this.state.color}
         data-item-custom3-required="true">
         In den Warenkorb hinzufügen
       </a>
@@ -97,17 +158,17 @@ export default class ProductPage extends React.Component {
       <CallToActionContainer>
       <a onClick={this.showModal} href="#"
         class="snipcart-add-item"
-        data-item-name="Headphones"
-        data-item-price="200.00"
-        data-item-id="42"
+        data-item-name={this.props.title}
+        data-item-price={this.props.price}
+        data-item-id={this.props.id}
         data-item-url="https://snipcart.com/headphones"
         data-item-custom2-name="Size"
         data-item-custom2-options={this.sizesToString()}
-        data-item-custom2-value="Medium"
+        data-item-custom2-value={this.state.size}
         data-item-custom2-required="true"        
         data-item-custom3-name="Farbe"
         data-item-custom3-options={this.colorsToString()}
-        data-item-custom3-value="Medium"
+        data-item-custom3-value={this.state.color}
         data-item-custom3-required="true">
         Kaufen
       </a>
@@ -115,10 +176,6 @@ export default class ProductPage extends React.Component {
       </div>
       )
     }
-  }
-
-  renderOptions() {
-    
   }
 
   render() {
@@ -136,6 +193,8 @@ export default class ProductPage extends React.Component {
               Modell: Karim | <a href="#">Instagram</a> | 1,78m | 84kg
             </ProductModelInfos>
             <ProductPrice>{this.props.price} €</ProductPrice>
+            <br />
+            {this.renderSelection()}
             <br />
             {this.renderProduct()}
           </ProductDescWrapper>
@@ -189,4 +248,32 @@ const CallToActionContainer = styled('div')`
     color: white;
 
   }
+`
+
+const ProductPageSelect = styled('select')`
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 1px solid black;
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+
+  option {
+    color: #666;
+  }
+  /*
+  * IE
+  */
+  ::-ms-expand {
+  display: none;
+  }
+  :focus::-ms-value {
+  background-color: transparent;
+}
 `

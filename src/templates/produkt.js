@@ -10,15 +10,12 @@ import ProductPage from '../components/productpage/ProductPage';
 
 export const Produkt = ({ data }) => {
   const { markdownRemark: product } = data 
-  console.log('====================================');
-  console.log(product.frontmatter.gallery);
-  console.log('====================================');
-
   return (
     <Wrapper>
       <Header />
         <ProductPage 
         title={product.frontmatter.title}
+        id={product.id}
         colors={product.frontmatter.color}
         sizes={product.frontmatter.size}
         desc={product.frontmatter.description}
@@ -44,6 +41,7 @@ export const aboutPageQuery = graphql`
   query ProductPageShop($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
+      id
       fields {
         slug
       }
