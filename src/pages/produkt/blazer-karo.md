@@ -2,7 +2,15 @@
 description_SEO: karo blazer
 templateKey: produkt
 new: true
+available: true
 category': blazer
+size:
+  - size: S
+  - size: M
+  - size: L
+color:
+  - color: Schwarz
+  - color: Weiß
 title: BLAZER KARO MUSTER
 price: '27'
 description: SCHWARZ WEIßER BLAZER IM KARO MUSTER
