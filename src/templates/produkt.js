@@ -19,6 +19,8 @@ export const Produkt = ({ data }) => {
       <Header />
         <ProductPage 
         title={product.frontmatter.title}
+        colors={product.frontmatter.color}
+        sizes={product.frontmatter.size}
         desc={product.frontmatter.description}
         price={product.frontmatter.price}
         link={product.fields.slug}
@@ -46,6 +48,12 @@ export const aboutPageQuery = graphql`
         slug
       }
       frontmatter {
+        color {
+          color
+        }
+        size {
+          size
+        }
         title
         price
         description

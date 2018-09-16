@@ -10,7 +10,7 @@ export default class ProductGallery extends React.Component {
     return(
       <ProductGalleryContainer>
       {this.props.gallery.map(function(img, i){
-        return <ProductImgContainer> <img alt={img.alt} src={img.image} /> </ProductImgContainer>
+        return <ProductImgContainer><img alt={img.alt} src={img.image} /></ProductImgContainer>
       })}
       </ProductGalleryContainer>
 

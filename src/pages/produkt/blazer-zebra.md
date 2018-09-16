@@ -3,6 +3,13 @@ description_SEO: zabra blazer
 templateKey: produkt
 new: false
 category': blazer
+size:
+  - size: S
+  - size: M
+  - size: L
+color:
+  - color: Schwarz
+  - color: Weiß
 title: BLAZER SCHWARZ WEIß 
 price: '24'
 description: SCHWARZ WEIßER BLAZER MODELL ZEBRA

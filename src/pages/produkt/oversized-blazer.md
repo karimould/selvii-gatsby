@@ -2,6 +2,13 @@
 templateKey: blog-post
 new: true
 category': premium
+size:
+  - size: S
+  - size: M
+  - size: L
+color:
+  - color: Schwarz
+  - color: Weiß
 title: OVERSIZED BLAZER
 price: '22'
 description: OVERSIZED BLAZER IN ZEBRA PRINT JACQUARD

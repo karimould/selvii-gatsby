@@ -3,6 +3,13 @@ description_SEO: umhängetasche
 templateKey: produkt
 new: false
 category': premium
+size:
+  - size: S
+  - size: M
+  - size: L
+color:
+  - color: Schwarz
+  - color: Weiß
 title: UMHÄNGETASCHE SCHWARZ 
 price: '29'
 description: MHÄNGETASCHE SCHWARZ AUS MATT-SCHWARZEM STOFF

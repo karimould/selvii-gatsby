@@ -6,12 +6,120 @@ import AddToCart from '../../img/addToCart.svg'
 
 export default class ProductPage extends React.Component {
   
+  //Shows the modal for the "Kaufen" button
   showModal() {
     setTimeout(function () {
       window.Snipcart.api.modal.show();;
     },1000);
   }
 
+  //Saves the different sizes in a string
+  sizesToString() {
+    let sizesArray = this.props.sizes.map(function(size){
+      return size['size']
+    })
+    return sizesArray.join("|")
+  }
+
+  //Saves the different colors in a string
+  colorsToString() {
+    let colorArray = this.props.colors.map(function(color){
+      return color['color']
+    })
+    return colorArray.join("|")
+  }
+
+  //Gives back a color array
+  getColorArray() {
+    let colorArray = this.props.colors.map(function(color){
+      return color['color']
+    })
+    return colorArray
+  }
+
+  renderProduct() {
+    if(this.props.color === null) {
+      return(
+        <div>
+        <CallToActionContainer>
+        <a href="#"
+        class="snipcart-add-item"
+        data-item-name="Headphones"
+        data-item-price="200.00"
+        data-item-id="42"
+        data-item-url="https://snipcart.com/headphones"
+        data-item-custom2-name="Größe"
+        data-item-custom2-options={this.sizesToString()}
+        data-item-custom2-value="Medium"
+        data-item-custom2-required="true">
+        In den Warenkorb hinzufügen
+      </a>
+      </CallToActionContainer>
+      <br />
+      <CallToActionContainer>
+      <a onClick={this.showModal} href="#"
+        class="snipcart-add-item"
+        data-item-name="Headphones"
+        data-item-price="200.00"
+        data-item-id="42"
+        data-item-url="https://snipcart.com/headphones"
+        data-item-custom2-name="Size"
+        data-item-custom2-options={this.sizesToString()}
+        data-item-custom2-value="Medium"
+        data-item-custom2-required="true">
+        Kaufen
+      </a>
+      </CallToActionContainer>
+      </div>
+    )
+    } else {
+      return(
+        <div>
+        <CallToActionContainer>
+        <a href="#"
+        class="snipcart-add-item"
+        data-item-name="Headphones"
+        data-item-price="200.00"
+        data-item-id="42"
+        data-item-url="https://snipcart.com/headphones"
+        data-item-custom2-name="Größe"
+        data-item-custom2-options={this.sizesToString()}
+        data-item-custom2-value="Medium"
+        data-item-custom2-required="true"
+        data-item-custom3-name="Farbe"
+        data-item-custom3-options={this.colorsToString()}
+        data-item-custom3-value="Medium"
+        data-item-custom3-required="true">
+        In den Warenkorb hinzufügen
+      </a>
+      </CallToActionContainer>
+      <br />
+      <CallToActionContainer>
+      <a onClick={this.showModal} href="#"
+        class="snipcart-add-item"
+        data-item-name="Headphones"
+        data-item-price="200.00"
+        data-item-id="42"
+        data-item-url="https://snipcart.com/headphones"
+        data-item-custom2-name="Size"
+        data-item-custom2-options={this.sizesToString()}
+        data-item-custom2-value="Medium"
+        data-item-custom2-required="true"        
+        data-item-custom3-name="Farbe"
+        data-item-custom3-options={this.colorsToString()}
+        data-item-custom3-value="Medium"
+        data-item-custom3-required="true">
+        Kaufen
+      </a>
+      </CallToActionContainer>
+      </div>
+      )
+    }
+  }
+
+  renderOptions() {
+    
+  }
 
   render() {
     return(
@@ -29,35 +137,7 @@ export default class ProductPage extends React.Component {
             </ProductModelInfos>
             <ProductPrice>{this.props.price} €</ProductPrice>
             <br />
-            <CallToActionContainer>
-            <a href="#"
-              class="snipcart-add-item"
-              data-item-name="Headphones"
-              data-item-price="200.00"
-              data-item-id="42"
-              data-item-url="https://snipcart.com/headphones"
-              data-item-custom2-name="Size"
-              data-item-custom2-options="Small|Medium|Large"
-              data-item-custom2-value="Medium"
-              data-item-custom2-required="true">
-              In den Warenkorb hinzufügen
-            </a>
-            </CallToActionContainer>
-            <br />
-            <CallToActionContainer>
-            <a onClick={this.showModal} href="#"
-              class="snipcart-add-item"
-              data-item-name="Headphones"
-              data-item-price="200.00"
-              data-item-id="42"
-              data-item-url="https://snipcart.com/headphones"
-              data-item-custom2-name="Size"
-              data-item-custom2-options="Small|Medium|Large"
-              data-item-custom2-value="Medium"
-              data-item-custom2-required="true">
-              Kaufen
-            </a>
-            </CallToActionContainer>
+            {this.renderProduct()}
           </ProductDescWrapper>
         </ProductDescContainer>
       </ProductPageContainer>

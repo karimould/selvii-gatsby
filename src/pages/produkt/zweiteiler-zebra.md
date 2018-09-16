@@ -3,6 +3,13 @@ description_SEO: zabra zweiteiler
 templateKey: produkt
 new: false
 category': zweiteiler
+size:
+  - size: S
+  - size: M
+  - size: L
+color:
+  - color: Schwarz
+  - color: Weiß
 title: ZWEITEILER SCHWARZ WEIß 
 price: '24'
 description: SCHWARZ WEIßER ZWEITEILER - MODELL ZEBRA

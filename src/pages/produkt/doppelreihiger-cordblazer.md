@@ -3,6 +3,13 @@ description_SEO: DOPPELREIHIGER CORDBLAZER
 templateKey: produkt
 new: true
 category': premium
+size:
+  - size: S
+  - size: M
+  - size: L
+color:
+  - color: Schwarz
+  - color: Weiß
 title: DOPPELREIHIGER CORDBLAZER
 price: '33'
 description: DOPPELREIHIGER CORDBLAZER IN ZEBRA LOOK
