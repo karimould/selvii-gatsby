@@ -2,6 +2,7 @@
 description_SEO: karo blazer
 templateKey: produkt
 new: true
+available: true
 category': zweiteiler
 size:
   - size: S

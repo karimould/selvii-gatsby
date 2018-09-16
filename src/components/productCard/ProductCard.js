@@ -4,9 +4,14 @@ import { Link } from 'gatsby'
 
 
 export default class ProductCard extends React.Component {
-  render() {
-    return(
-      <ProductCardContainer>
+
+
+  renderCard() {
+    console.log("KRIMS" + this.props.available);
+    
+    if(this.props.available) {
+      return(
+        <ProductCardContainer>
         <ProductCardLink title={this.props.title} to={this.props.link}>
         <ProductCardImageContainer>
           <ProductCardImage alt={this.props.title} src={this.props.img}/>
@@ -16,9 +21,29 @@ export default class ProductCard extends React.Component {
         <ProductPrice>{this.props.price} €</ProductPrice>
         </ProductCardLink>
       </ProductCardContainer>
+      )
+    } else {
+      return(
+        <ProductCardContainer>
+        <ProductCardImageContainer>
+          <ProductCardImage alt={this.props.title} src={this.props.img}>
+          </ProductCardImage>
+        </ProductCardImageContainer>
+          {this.props.new ? (<NewProduct>Ausverkauft</NewProduct>) : (null)}
+        <ProductCardTitle>{this.props.title}</ProductCardTitle>
+        <ProductPrice>{this.props.price} €</ProductPrice>
+        </ProductCardContainer>
+      )
+    }
+  }
+
+  render(){
+    return(
+      this.renderCard()
     )
   }
 }
+
 
 const ProductCardContainer = styled('div')`
   text-align: center;
@@ -34,7 +59,7 @@ const ProductCardImageContainer = styled('div')`
 
 const ProductCardImage = styled('img')`
   width: 100%;
-  height: auto;
+  height: auto; 
 `
 
 const ProductCardTitle = styled('h2')`

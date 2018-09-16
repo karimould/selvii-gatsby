@@ -2,6 +2,7 @@
 description_SEO: zabra zweiteiler
 templateKey: produkt
 new: false
+available: true
 category': zweiteiler
 size:
   - size: S

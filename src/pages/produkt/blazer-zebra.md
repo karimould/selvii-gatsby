@@ -2,6 +2,7 @@
 description_SEO: zabra blazer
 templateKey: produkt
 new: false
+available: true
 category': blazer
 size:
   - size: S

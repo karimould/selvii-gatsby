@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 new: true
+available: false
 category': premium
 size:
   - size: S

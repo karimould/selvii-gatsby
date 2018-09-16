@@ -27,6 +27,7 @@ export default class Blazer extends React.Component {
               new={product.frontmatter.new}
               price={product.frontmatter.price}
               key={product.id}
+              available={product.frontmatter.available}
             />
           ))}
           </ProductCardWrapper>
@@ -65,6 +66,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
+            available
             price
             new
             title

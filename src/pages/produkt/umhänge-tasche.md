@@ -2,6 +2,7 @@
 description_SEO: umhängetasche
 templateKey: produkt
 new: false
+available: true
 category': premium
 size:
   - size: S

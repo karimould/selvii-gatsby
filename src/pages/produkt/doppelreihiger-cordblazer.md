@@ -2,6 +2,7 @@
 description_SEO: DOPPELREIHIGER CORDBLAZER
 templateKey: produkt
 new: true
+available: true
 category': premium
 size:
   - size: S
