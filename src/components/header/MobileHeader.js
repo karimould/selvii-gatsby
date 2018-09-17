@@ -40,6 +40,7 @@ export default class MobileHeader extends React.Component {
 const MobileNavigationContainer = styled('div')`
   position: fixed;
   margin-top: 25px;
+  z-index: 100;
   @media (min-width: 851px) {
     display: none;
   }

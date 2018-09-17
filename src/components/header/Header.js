@@ -48,7 +48,7 @@ export default class Header extends React.Component {
 const HeaderContainer = styled('div')`
   position: fixed;
   width: 100%;
-  height: auto;
+  height: 100px;
   @media (max-width: 850px) {
     display: none;
   }
