@@ -49,7 +49,7 @@ const ProductCardContainer = styled('div')`
   text-align: center;
   font-size: 1.2rem;
   width: 500px;
-  height: 1000px;
+  margin-bottom: 100px;
 `
 
 const ProductCardImageContainer = styled('div')`

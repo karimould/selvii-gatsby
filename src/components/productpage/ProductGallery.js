@@ -23,6 +23,12 @@ const ProductGalleryContainer = styled('div')`
   flex-direction: column;
   justify-content: flex-start;
   width: 40%;
+  @media (max-width: 850px) {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 25px;
+    width: 100%;
+  }
 `
 
 const ProductImgContainer = styled('div')`

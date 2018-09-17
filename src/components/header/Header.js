@@ -2,9 +2,11 @@ import React from 'react'
 import styled from 'react-emotion'
 import Navigation from './Navigation';
 import AddToCart from '../../img/addToCart.svg'
+import MobileHeader from './MobileHeader';
 export default class Header extends React.Component {
 
-  render() {
+
+  renderDesktopHeader() {
     return(
       <HeaderContainer>
       <HeaderContainerFlex>
@@ -24,12 +26,32 @@ export default class Header extends React.Component {
       </HeaderContainer>
     )
   }
+
+
+  renderMobileHeader() {
+    return(
+      <MobileHeader />
+    )
+  }
+
+
+  render() {
+    return(
+      <div>
+      {this.renderDesktopHeader()}
+      {this.renderMobileHeader()}
+      </div>
+    )
+  }
 }
 
 const HeaderContainer = styled('div')`
   position: fixed;
   width: 100%;
   height: auto;
+  @media (max-width: 850px) {
+    display: none;
+  }
 `
 
 const HeaderContainerFlex = styled('div')`

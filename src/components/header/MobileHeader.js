@@ -1,0 +1,121 @@
+import React from 'react'
+import styled from 'react-emotion'
+import CartSVG from '../../img/addToCart.svg'
+import { slide as Menu } from 'react-burger-menu'
+import Link from 'gatsby-link'
+
+export default class MobileHeader extends React.Component {
+  showSettings (event) {
+    event.preventDefault();
+  }
+
+  render() {
+    return(
+      <MobileNavigationContainer>
+        <FlexWrapper>
+          <BurgerMenuContainer>
+            <Menu>
+              <h1>SELVII</h1>
+              <NavigationLink id="home" className="menu-item" to="/new">NEU</NavigationLink>
+              <NavigationLink id="about" className="menu-item" to="/premium">Premium</NavigationLink>
+              <NavigationLink id="contact" className="menu-item" to="/blazer">Blazer</NavigationLink>
+              <NavigationLink id="contact" className="menu-item" to="/zweiteiler">Zweiteiler</NavigationLink>
+              <NavigationLink id="contact" className="menu-item" to="/kleider">Kleider</NavigationLink>
+            </Menu>
+          </BurgerMenuContainer>
+          <CartContainer>
+            <div class="snipcart-summary">
+              <Cart href="#" className="snipcart-checkout">
+                <img src={CartSVG} />
+                <span class="snipcart-total-items"></span>
+              </Cart>
+            </div>
+          </CartContainer>
+        </FlexWrapper>
+      </MobileNavigationContainer>
+    )
+  }
+}
+
+const MobileNavigationContainer = styled('div')`
+  position: fixed;
+  margin-top: 25px;
+  @media (min-width: 851px) {
+    display: none;
+  }
+`
+
+const FlexWrapper = styled('div')`
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+`
+
+const BurgerMenuContainer = styled('div')`
+
+.bm-burger-button {
+  position: fixed;
+  width: 25px;
+  height: 20px;
+  left: 25px;
+}
+
+.bm-burger-bars {
+  background: black;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: black;
+}
+
+.bm-menu {
+  background: white;
+  font-size: 1.15em;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+.bm-item {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+`
+
+const NavigationLink = styled(Link)`
+  color: black;
+  text-decoration: none;
+  :hover {
+    text-decoration: underline;
+  }
+`
+
+const LogoContainer = styled('div')`
+`
+
+const CartContainer = styled('div')`
+  padding-right: 25px;
+  img {
+    width: 35px;
+    height: 25px;
+  }
+
+`
+
+const Cart = styled('a')`
+`

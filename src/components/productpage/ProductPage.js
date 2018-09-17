@@ -209,18 +209,44 @@ const ProductPageContainer = styled('div')`
   padding-top: 100px;
   padding-left: 400px;
   display: flex;
+  @media (max-width: 1000px) {
+    padding-left: 300px;
+  }
+  @media (max-width: 890px) {
+    padding-left: 200px;
+  }
+  @media (max-width: 850px) {
+    padding-left: 25px;
+  }
+  @media (max-width: 850px) {
+    padding-left: 0px;
+    flex-direction: column-reverse;
+  }
 `
 const ProductDescContainer = styled('div')`
   margin-left: 50px;
+  @media (max-width: 850px) {
+    margin-left: 0;
+  }
 `
 
 const ProductDescWrapper = styled('div')`
   position: fixed;
   width: 300px;
+  @media (max-width: 850px) {
+    position: sticky;
+    text-align: center;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 `
 
 const ProductPageTitle = styled('h1')`
   font-size: 1.7rem;
+  @media (max-width: 850px) {
+    font-size: 1.5rem;
+  }
 `
 
 const ProductPageDescText = styled('p')`
@@ -243,7 +269,6 @@ const CallToActionContainer = styled('div')`
   font-weight: bold;
   background-color: black;
   color: white;
-
   a {
     color: white;
 
