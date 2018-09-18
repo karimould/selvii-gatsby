@@ -11,13 +11,21 @@ export default class ProductPage extends React.Component {
     this.handleChangeSize = this.handleChangeSize.bind(this)
     this.handleChangeColor = this.handleChangeColor.bind(this)
   }
+
+
+  handleScrollTo = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
   
+  //Changes size for the cart
   handleChangeSize(event) {
-    console.log("1: " + this.state.size);
     this.setState({size: event.target.value});
-    console.log("2: " + this.state.size);
   }
 
+  //Changes color for the cart
   handleChangeColor(event) {
     this.setState({color: event.target.value});
   }
@@ -26,7 +34,7 @@ export default class ProductPage extends React.Component {
   showModal() {
     setTimeout(function () {
       window.Snipcart.api.modal.show();;
-    },1000);
+    },1500);
   }
 
   //Saves the different sizes in a string
@@ -181,9 +189,12 @@ export default class ProductPage extends React.Component {
   render() {
     return(
       <ProductPageContainer>
+        <ProductBuyButtonMobileContainer>
+          <a onClick={this.handleScrollTo}>Kaufen</a>
+        </ProductBuyButtonMobileContainer>
         <ProductGallery gallery={this.props.gallery} />
         <ProductDescContainer>
-          <ProductDescWrapper>
+          <ProductDescWrapper ref={ el => this.container = el}>
             <ProductPageTitle>{this.props.title}</ProductPageTitle>
             <ProductPageDescText>{this.props.desc}</ProductPageDescText>
             <ProductDescInfos>
@@ -301,4 +312,19 @@ const ProductPageSelect = styled('select')`
   :focus::-ms-value {
   background-color: transparent;
 }
+`
+
+const ProductBuyButtonMobileContainer = styled('div')`
+  width: 100%;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  a {
+    color: white;
+  }
+  @media (min-width: 851px) {
+    display: none;
+  }
 `
