@@ -40,6 +40,7 @@ export default class MobileHeader extends React.Component {
 const MobileNavigationContainer = styled('div')`
   position: fixed;
   margin-top: 25px;
+  width: 100%;
   z-index: 100;
   @media (min-width: 851px) {
     display: none;
@@ -49,7 +50,7 @@ const MobileNavigationContainer = styled('div')`
 const FlexWrapper = styled('div')`
   display: flex;
   justify-content: space-between;
-  width: 100vw;
+  width: 100%;
 `
 
 const BurgerMenuContainer = styled('div')`

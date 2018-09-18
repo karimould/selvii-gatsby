@@ -17,7 +17,7 @@ export default class Header extends React.Component {
           <div class="snipcart-summary">
             <Cart href="#" className="snipcart-checkout">
               <img src={AddToCart} />
-              <span class="snipcart-total-items"></span>
+              <span className="snipcart-total-items"></span>
             </Cart>
           </div>
         </CartContainer>

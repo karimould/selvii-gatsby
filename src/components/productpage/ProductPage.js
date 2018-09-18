@@ -194,7 +194,7 @@ export default class ProductPage extends React.Component {
         </ProductBuyButtonMobileContainer>
         <ProductGallery gallery={this.props.gallery} />
         <ProductDescContainer>
-          <ProductDescWrapper ref={ el => this.container = el}>
+          <ProductDescWrapper>
             <ProductPageTitle>{this.props.title}</ProductPageTitle>
             <ProductPageDescText>{this.props.desc}</ProductPageDescText>
             <ProductDescInfos>
