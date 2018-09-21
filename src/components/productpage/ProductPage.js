@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'react-emotion'
 import ProductGallery from './ProductGallery';
-import AddToCart from '../../img/addToCart.svg'
-
+import { Link, browserHistory } from 'gatsby-link'
 
 export default class ProductPage extends React.Component {
   constructor(props) {
@@ -12,7 +11,7 @@ export default class ProductPage extends React.Component {
     this.handleChangeColor = this.handleChangeColor.bind(this)
   }
 
-
+  //scroll for buy button on mobile
   handleScrollTo = () => {
     window.scrollTo({
       top: 0,

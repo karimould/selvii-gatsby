@@ -19,7 +19,5 @@ const Wrapper = styled('div')`
   @media (max-width: 321px) {
     padding-left: 25px;
     padding-right: 25px;
-    justify-content: center;
-    justify-items: center;
   }
 `

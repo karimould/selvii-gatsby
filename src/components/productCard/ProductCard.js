@@ -50,6 +50,10 @@ const ProductCardContainer = styled('div')`
   font-size: 1.2rem;
   width: 500px;
   margin-bottom: 100px;
+
+  @media (min-width: 980px) {
+    width: 350px;
+  }
   @media (max-width: 500px) {
     width: auto;
   }

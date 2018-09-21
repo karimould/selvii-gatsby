@@ -12,7 +12,7 @@ export const Produkt = ({ data }) => {
   const { markdownRemark: product } = data 
   return (
     <Wrapper>
-      <Header />
+      <Header productPage={true} />
         <ProductPage 
         title={product.frontmatter.title}
         id={product.id}

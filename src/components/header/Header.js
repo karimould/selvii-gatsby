@@ -1,8 +1,10 @@
 import React from 'react'
 import styled from 'react-emotion'
-import Navigation from './Navigation';
+import Navigation from './Navigation'
 import AddToCart from '../../img/addToCart.svg'
-import MobileHeader from './MobileHeader';
+import MobileHeader from './MobileHeader'
+import ProducPageHeader from './ProductPageHeader'
+import Link from 'gatsby-link'
 export default class Header extends React.Component {
 
 
@@ -11,7 +13,7 @@ export default class Header extends React.Component {
       <HeaderContainer>
       <HeaderContainerFlex>
         <LogoContainer>
-          <LogoH1>Selvii</LogoH1>
+          <Link to="/"><LogoH1>Selvii</LogoH1></Link>
         </LogoContainer>
         <CartContainer>
           <div class="snipcart-summary">
@@ -34,12 +36,19 @@ export default class Header extends React.Component {
     )
   }
 
+  renderProductPageHeader() {
+    return(
+      <ProducPageHeader />
+    )
+  }
+
 
   render() {
     return(
       <div>
       {this.renderDesktopHeader()}
-      {this.renderMobileHeader()}
+      {this.props.productPage ? (this.renderProductPageHeader()) : (this.renderMobileHeader())}
+
       </div>
     )
   }
