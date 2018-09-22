@@ -5,10 +5,25 @@ import { slide as Menu } from 'react-burger-menu'
 import Link from 'gatsby-link'
 
 export default class MobileHeader extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      cartCount: this.props.cartCount,
+      getCartCount: () => {
+        this.setState({cartCount: window.Snipcart.api.items.count()})
+      }
+    }
+  }
   showSettings (event) {
     event.preventDefault();
   }
 
+  componentDidMount() {
+    this.setState({
+      cartCount: window.Snipcart.api.items.count()
+    }) 
+  }
+  
   render() {
     return(
       <MobileNavigationContainer>
@@ -27,7 +42,7 @@ export default class MobileHeader extends React.Component {
             <div class="snipcart-summary">
               <Cart href="#" className="snipcart-checkout">
                 <img src={CartSVG} />
-                <span class="snipcart-total-items"></span>
+                <span className="snipcart-total-items">{this.state.cartCount}</span>
               </Cart>
             </div>
           </CartContainer>

@@ -4,10 +4,25 @@ import CartSVG from '../../img/addToCart.svg'
 import BackArrow from '../../img/svgs/baseline-arrow_back-24px.svg'
 
 export default class ProductPageHeader extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      cartCount: this.props.cartCount,
+      getCartCount: () => {
+        this.setState({cartCount: window.Snipcart.api.items.count()})
+      }
+    }
+  }
+
   showSettings (event) {
     event.preventDefault();
   }
 
+  componentDidMount() {
+    this.setState({
+      cartCount: window.Snipcart.api.items.count()
+    }) 
+  }
 
   //back for button on mobile
   goBack = () => {
@@ -25,7 +40,7 @@ export default class ProductPageHeader extends React.Component {
             <div class="snipcart-summary">
               <Cart href="#" className="snipcart-checkout">
                 <img src={CartSVG} />
-                <span class="snipcart-total-items"></span>
+                  <span className="snipcart-total-items">{this.state.cartCount}</span>
               </Cart>
             </div>
           </CartContainer>

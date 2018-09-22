@@ -6,39 +6,53 @@ import MobileHeader from './MobileHeader'
 import ProducPageHeader from './ProductPageHeader'
 import Link from 'gatsby-link'
 export default class Header extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      cartCount: 0,
+      getCartCount: () => {
+        this.setState({cartCount: window.Snipcart.api.items.count()})
+      }
+    }
+  }
 
+  componentDidMount() {
+    this.setState({
+      cartCount: window.Snipcart.api.items.count()
+    }) 
+  }
 
   renderDesktopHeader() {
     return(
-      <HeaderContainer>
-      <HeaderContainerFlex>
-        <LogoContainer>
-          <Link to="/"><LogoH1>Selvii</LogoH1></Link>
-        </LogoContainer>
-        <CartContainer>
-          <div class="snipcart-summary">
-            <Cart href="#" className="snipcart-checkout">
-              <img src={AddToCart} />
-              <span className="snipcart-total-items"></span>
-            </Cart>
-          </div>
-        </CartContainer>
-        </HeaderContainerFlex>
-        <Navigation />
-      </HeaderContainer>
+        <HeaderContainer>
+          <HeaderContainerFlex>
+            <LogoContainer>
+              <Link to="/"><LogoH1>Selvii</LogoH1></Link>
+            </LogoContainer>
+            <CartContainer>
+              <div class="snipcart-summary">
+                <Cart href="#" className="snipcart-checkout">
+                  <img src={AddToCart} />
+                  <span className="snipcart-total-items">{this.state.cartCount}</span>
+                </Cart>
+              </div>
+            </CartContainer>
+            </HeaderContainerFlex>
+            <Navigation />
+        </HeaderContainer>
     )
   }
 
 
   renderMobileHeader() {
     return(
-      <MobileHeader />
+      <MobileHeader cartCount={this.state.cartCount}/>
     )
   }
 
   renderProductPageHeader() {
     return(
-      <ProducPageHeader />
+      <ProducPageHeader cartCount={this.state.cartCount}/>
     )
   }
 
@@ -46,9 +60,8 @@ export default class Header extends React.Component {
   render() {
     return(
       <div>
-      {this.renderDesktopHeader()}
-      {this.props.productPage ? (this.renderProductPageHeader()) : (this.renderMobileHeader())}
-
+        {this.renderDesktopHeader()}
+        {this.props.productPage ? (this.renderProductPageHeader()) : (this.renderMobileHeader())}
       </div>
     )
   }

@@ -2,6 +2,9 @@ import React from 'react'
 import styled from 'react-emotion'
 import ProductGallery from './ProductGallery';
 import { Link, browserHistory } from 'gatsby-link'
+import Header from '../header/Header';
+import { ShoppingCartContext } from '../context/ShoppingCartContext';
+
 
 export default class ProductPage extends React.Component {
   constructor(props) {
@@ -32,8 +35,18 @@ export default class ProductPage extends React.Component {
   //Shows the modal for the "Kaufen" button
   showModal() {
     setTimeout(function () {
-      window.Snipcart.api.modal.show();;
+      window.Snipcart.api.modal.show();
+      this.setState.cartCount = window.Snipcart.api.items.count()
+      console.log("Kaufen: " + window.Snipcart.api.items.count());
     },1500);
+  }
+
+  //Update state cartCounter in the Header component to show item count in the cart 
+  //and rerender the header component
+  getCartCount() {
+    this.setState.cartCount = window.Snipcart.api.items.count()
+    console.log("In Warenkorb: " + window.Snipcart.api.items.count());
+    
   }
 
   //Saves the different sizes in a string
@@ -108,79 +121,80 @@ export default class ProductPage extends React.Component {
   renderProduct() {
     if(this.props.color === null) {
       return(
-        <div>
-        <CallToActionContainer>
-        <a href="#"
-        class="snipcart-add-item"
-        data-item-name={this.props.title}
-        data-item-price={this.props.price}
-        data-item-id={this.props.id}
-        data-item-url="https://snipcart.com/headphones"
-        data-item-custom2-name="Größe"
-        data-item-custom2-options={this.sizesToString()}
-        data-item-custom2-value={this.state.size}
-        data-item-custom2-required="true">
-        In den Warenkorb hinzufügen
-      </a>
-      </CallToActionContainer>
-      <br />
-      <CallToActionContainer>
-      <a onClick={this.showModal} href="#"
-        class="snipcart-add-item"
-        data-item-name={this.props.title}
-        data-item-price={this.props.price}
-        data-item-id={this.props.id}
-        data-item-url="https://snipcart.com/headphones"
-        data-item-custom2-name="Size"
-        data-item-custom2-options={this.sizesToString()}
-        data-item-custom2-value={this.state.size}
-        data-item-custom2-required="true">
-        Kaufen
-      </a>
-      </CallToActionContainer>
-      </div>
+          <div>
+            <CallToActionContainer>
+              <a onClick={this.getCartCount} href="#"
+              class="snipcart-add-item"
+              data-item-name={this.props.title}
+              data-item-price={this.props.price}
+              data-item-id={this.props.id}
+              data-item-url="https://snipcart.com/headphones"
+              data-item-custom2-name="Größe"
+              data-item-custom2-options={this.sizesToString()}
+              data-item-custom2-value={this.state.size}
+              data-item-custom2-required="true">
+              In den Warenkorb hinzufügen
+            </a>
+          </CallToActionContainer>
+          <br />
+          <CallToActionContainer>
+            <a onClick={this.showModal} href="#"
+              class="snipcart-add-item"
+              data-item-name={this.props.title}
+              data-item-price={this.props.price}
+              data-item-id={this.props.id}
+              data-item-url="https://snipcart.com/headphones"
+              data-item-custom2-name="Size"
+              data-item-custom2-options={this.sizesToString()}
+              data-item-custom2-value={this.state.size}
+              data-item-custom2-required="true">
+              Kaufen
+            </a>
+          </CallToActionContainer>
+        </div>
     )
     } else {
       return(
-        <div>
-        <CallToActionContainer>
-        <a href="#"
-        class="snipcart-add-item"
-        data-item-name={this.props.title}
-        data-item-price={this.props.price}
-        data-item-id={this.props.id}
-        data-item-url="https://snipcart.com/headphones"
-        data-item-custom2-name="Größe"
-        data-item-custom2-options={this.sizesToString()}
-        data-item-custom2-value={this.state.size}
-        data-item-custom2-required="true"
-        data-item-custom3-name="Farbe"
-        data-item-custom3-options={this.colorsToString()}
-        data-item-custom3-value={this.state.color}
-        data-item-custom3-required="true">
-        In den Warenkorb hinzufügen
-      </a>
-      </CallToActionContainer>
-      <br />
-      <CallToActionContainer>
-      <a onClick={this.showModal} href="#"
-        class="snipcart-add-item"
-        data-item-name={this.props.title}
-        data-item-price={this.props.price}
-        data-item-id={this.props.id}
-        data-item-url="https://snipcart.com/headphones"
-        data-item-custom2-name="Size"
-        data-item-custom2-options={this.sizesToString()}
-        data-item-custom2-value={this.state.size}
-        data-item-custom2-required="true"        
-        data-item-custom3-name="Farbe"
-        data-item-custom3-options={this.colorsToString()}
-        data-item-custom3-value={this.state.color}
-        data-item-custom3-required="true">
-        Kaufen
-      </a>
-      </CallToActionContainer>
-      </div>
+  
+          <div>
+            <CallToActionContainer>
+            <a onClick={this.getCartCount} href="#"
+            class="snipcart-add-item"
+            data-item-name={this.props.title}
+            data-item-price={this.props.price}
+            data-item-id={this.props.id}
+            data-item-url="https://snipcart.com/headphones"
+            data-item-custom2-name="Größe"
+            data-item-custom2-options={this.sizesToString()}
+            data-item-custom2-value={this.state.size}
+            data-item-custom2-required="true"
+            data-item-custom3-name="Farbe"
+            data-item-custom3-options={this.colorsToString()}
+            data-item-custom3-value={this.state.color}
+            data-item-custom3-required="true">
+            In den Warenkorb hinzufügen
+          </a>
+        </CallToActionContainer>
+        <br />
+          <CallToActionContainer>
+          <a onClick={this.showModal} href="#"
+            class="snipcart-add-item"
+            data-item-name={this.props.title}
+            data-item-price={this.props.price}
+            data-item-id={this.props.id}
+            data-item-url="https://snipcart.com/headphones"
+            data-item-custom2-name="Size"
+            data-item-custom2-options={this.sizesToString()}
+            data-item-custom2-value={this.state.size}
+            data-item-custom2-required="true"        
+            data-item-custom3-name="Farbe"
+            data-item-custom3-options={this.colorsToString()}
+            data-item-custom3-value={this.state.color}
+            data-item-custom3-required="true">
+            Kaufen
+          </a>
+          </CallToActionContainer>
+        </div>
       )
     }
   }

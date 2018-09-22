@@ -9,7 +9,7 @@ import Footer from '../components/footer/Footer';
 import ProductPage from '../components/productpage/ProductPage';
 
 export const Produkt = ({ data }) => {
-  const { markdownRemark: product } = data 
+  const { markdownRemark: product } = data
   return (
     <Wrapper>
       <Header productPage={true} />
