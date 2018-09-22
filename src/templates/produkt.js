@@ -12,7 +12,7 @@ export const Produkt = ({ data }) => {
   const { markdownRemark: product } = data
   return (
     <Wrapper>
-      <Header productPage={true} />
+      <Header productPage={true} backLink={product.frontmatter.category_}/>
         <ProductPage 
         title={product.frontmatter.title}
         id={product.id}
@@ -55,6 +55,7 @@ export const aboutPageQuery = graphql`
         title
         price
         description
+        category_
         gallery {
           alt
           image

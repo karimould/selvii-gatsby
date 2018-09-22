@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'react-emotion'
 import CartSVG from '../../img/addToCart.svg'
 import BackArrow from '../../img/svgs/baseline-arrow_back-24px.svg'
+import Link from 'gatsby-link'
+
 
 export default class ProductPageHeader extends React.Component {
   constructor(props) {
@@ -40,7 +42,8 @@ export default class ProductPageHeader extends React.Component {
       <MobileNavigationContainer>
         <FlexWrapper>
           <BackButtonContainer>
-            <a onClick={this.goBack} title="Link to go back"><img src={BackArrow} /></a>
+           {/*<a onClick={this.goBack} title="Link to go back"><img src={BackArrow} /></a>*/}
+           <Link to={"/" + this.props.backLink} title="Link to go back"><img src={BackArrow} /></Link>
           </BackButtonContainer>
           <CartContainer>
             <div class="snipcart-summary">

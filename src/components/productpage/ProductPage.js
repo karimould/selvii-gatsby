@@ -1,9 +1,6 @@
 import React from 'react'
 import styled from 'react-emotion'
 import ProductGallery from './ProductGallery';
-import { Link, browserHistory } from 'gatsby-link'
-import Header from '../header/Header';
-import { ShoppingCartContext } from '../context/ShoppingCartContext';
 
 
 export default class ProductPage extends React.Component {

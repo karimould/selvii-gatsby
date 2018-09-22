@@ -3,7 +3,7 @@ import styled from 'react-emotion'
 import Navigation from './Navigation'
 import AddToCart from '../../img/addToCart.svg'
 import MobileHeader from './MobileHeader'
-import ProducPageHeader from './ProductPageHeader'
+import ProductPageHeader from './ProductPageHeader'
 import Link from 'gatsby-link'
 export default class Header extends React.Component {
   constructor(props) {
@@ -52,7 +52,7 @@ export default class Header extends React.Component {
 
   renderProductPageHeader() {
     return(
-      <ProducPageHeader cartCount={this.state.cartCount}/>
+      <ProductPageHeader backLink={this.props.backLink} cartCount={this.state.cartCount}/>
     )
   }
 
