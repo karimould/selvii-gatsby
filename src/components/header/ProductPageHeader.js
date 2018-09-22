@@ -6,6 +6,7 @@ import BackArrow from '../../img/svgs/baseline-arrow_back-24px.svg'
 export default class ProductPageHeader extends React.Component {
   constructor(props) {
     super(props)
+    this.cartOpend = false
     this.state = {
       cartCount: this.props.cartCount,
       getCartCount: () => {
@@ -13,7 +14,6 @@ export default class ProductPageHeader extends React.Component {
       }
     }
   }
-
   showSettings (event) {
     event.preventDefault();
   }
@@ -26,7 +26,13 @@ export default class ProductPageHeader extends React.Component {
 
   //back for button on mobile
   goBack = () => {
-    window.history.back()
+    let currenthref = window.location.href
+    //if the cart was opend before klicking back
+    if(currenthref.includes("#!")) {
+      window.history.go(-3)
+    } else {
+      window.history.back()
+    }
   }
 
   render() {
@@ -38,7 +44,7 @@ export default class ProductPageHeader extends React.Component {
           </BackButtonContainer>
           <CartContainer>
             <div class="snipcart-summary">
-              <Cart href="#" className="snipcart-checkout">
+              <Cart className="snipcart-checkout">
                 <img src={CartSVG} />
                   <span className="snipcart-total-items">{this.state.cartCount}</span>
               </Cart>

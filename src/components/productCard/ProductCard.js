@@ -51,7 +51,7 @@ const ProductCardContainer = styled('div')`
   width: 500px;
   margin-bottom: 100px;
 
-  @media (min-width: 980px) {
+  @media (max-width: 980px) {
     width: 350px;
   }
   @media (max-width: 500px) {
