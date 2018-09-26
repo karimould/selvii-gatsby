@@ -6,14 +6,29 @@ export default class FooterNav extends React.Component {
   render() {
     return(
       <FooterNavContainer>
+      <FooterNavLeft>
         <FooterNavUL>
           <FoterNavLI>
-            <FoterNavLink title="link to impressum" to="/impressum">Impressum</FoterNavLink>
+            <FoterNavLink title="link zum impressum" to="/impressum">- Impressum</FoterNavLink>
           </FoterNavLI>
           <FoterNavLI>
-            <FoterNavLink title="link to datenschutz" to="/datenschutz">Datenschutz</FoterNavLink>
+            <FoterNavLink title="link zum datenschutz" to="/datenschutz">- Datenschutz</FoterNavLink>
+          </FoterNavLI>
+          <FoterNavLI>
+            <FoterNavLink title="link zu den AGBs" to="/agbs">- AGBs</FoterNavLink>
           </FoterNavLI>
         </FooterNavUL>
+      </FooterNavLeft>
+      <FooterNavRight>
+        <FooterNavUL>
+          <FoterNavLI>
+            <FoterNavLink title="link zu der Widerrufsbelehrung" to="/wiederrufsbelehrung">- Widerrufsbelehrung</FoterNavLink>
+          </FoterNavLI>
+          <FoterNavLI>
+            <FoterNavLink title="link zu der Kontaktseite" to="/kontakt">- Kontakt</FoterNavLink>
+          </FoterNavLI>
+        </FooterNavUL>
+      </FooterNavRight>
       </FooterNavContainer>
     )
   }
@@ -22,6 +37,16 @@ export default class FooterNav extends React.Component {
 const FooterNavContainer = styled('div')`
   grid-area: left;
   justify-self: start;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+`
+
+const FooterNavLeft = styled('div')`
+`
+
+const FooterNavRight = styled('div')`
+  margin-left: 50px;
 `
 
 const FooterNavUL = styled('ul')`

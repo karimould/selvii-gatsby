@@ -25,7 +25,7 @@ const FooterContainer = styled('div')`
   justify-content: space-around;
   background-color: black;
   bottom: 0;
-  height: 100px;
+  height: auto;
   color: white;
   width: 100%;
   @media (max-width: 550px) {

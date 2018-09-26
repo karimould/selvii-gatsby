@@ -18,11 +18,15 @@ export default class Slider extends React.Component {
 const SliderContainer = styled('div')`
   padding-top: 80px;
   width: 100%;
-  height: 100vh;
-  display: flex; 
-  align-items: center;
+  height: auto;
+  display: flex;
   justify-content: center;
+
 `
 const SliderIMGContainer = styled('div')`
-  width: 80%;
+  width: auto;
+  height: auto;
+  @media (max-width: 850px) {
+    width: 80%;
+  }
 `
