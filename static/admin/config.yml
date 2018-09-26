@@ -43,21 +43,21 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/impressum/index.md"
+      - file: "src/pages/rechtliches/impressum/index.md"
         label: "Impressum"
         name: "impressum"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "information-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/datenschutz/index.md"
+      - file: "src/pages/rechtliches/datenschutz/index.md"
         label: "Datenschutz"
         name: "datenschutz"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "information-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/contact/index.md"
+      - file: "src/pages/rechtliches/contact/index.md"
         label: "Kontakt"
         name: "kontakt"
         fields:
@@ -65,14 +65,14 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/agbs/index.md"
+      - file: "src/pages/rechtliches/agbs/index.md"
         label: "AGBs"
         name: "agbs"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "information-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/wierrufsbelehrung/index.md"
+      - file: "src/pages/rechtliches/wierrufsbelehrung/index.md"
         label: "Widerrufsbelehrung"
         name: "widerrufsbelehrung"
         fields:
