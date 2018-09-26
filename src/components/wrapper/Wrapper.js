@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'react-emotion'
+import '../all.sass'
 
 
 //Wrapper to set default css configs
