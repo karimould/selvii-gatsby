@@ -9,23 +9,23 @@ export default class FooterNav extends React.Component {
       <FooterNavLeft>
         <FooterNavUL>
           <FoterNavLI>
-            <FoterNavLink title="link zum impressum" to="/impressum">- Impressum</FoterNavLink>
+            <FoterNavLink title="link zum impressum" to="/rechtliches/impressum">- Impressum</FoterNavLink>
           </FoterNavLI>
           <FoterNavLI>
-            <FoterNavLink title="link zum datenschutz" to="/datenschutz">- Datenschutz</FoterNavLink>
+            <FoterNavLink title="link zum datenschutz" to="/rechtliches/datenschutz">- Datenschutz</FoterNavLink>
           </FoterNavLI>
           <FoterNavLI>
-            <FoterNavLink title="link zu den AGBs" to="/agbs">- AGBs</FoterNavLink>
+            <FoterNavLink title="link zu den AGBs" to="/rechtliches/agbs">- AGBs</FoterNavLink>
           </FoterNavLI>
         </FooterNavUL>
       </FooterNavLeft>
       <FooterNavRight>
         <FooterNavUL>
           <FoterNavLI>
-            <FoterNavLink title="link zu der Widerrufsbelehrung" to="/wiederrufsbelehrung">- Widerrufsbelehrung</FoterNavLink>
+            <FoterNavLink title="link zu der Widerrufsbelehrung" to="/rechtliches/widerrufsbelehrung">- Widerrufsbelehrung</FoterNavLink>
           </FoterNavLI>
           <FoterNavLI>
-            <FoterNavLink title="link zu der Kontaktseite" to="/kontakt">- Kontakt</FoterNavLink>
+            <FoterNavLink title="link zu der Kontaktseite" to="/rechtliches/kontakt">- Kontakt</FoterNavLink>
           </FoterNavLI>
         </FooterNavUL>
       </FooterNavRight>
