@@ -64,7 +64,7 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "information-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-                    - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/agbs/index.md"
         label: "AGBs"
         name: "agbs"
