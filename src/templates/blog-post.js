@@ -4,7 +4,10 @@ import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import Content, { HTMLContent } from '../components/siteContent/Content'
+import Wrapper from '../components/wrapper/Wrapper'
+import Header from '../components/header/Header'
+import Footer from '../components/footer/Footer'
 
 export const BlogPostTemplate = ({
   content,
@@ -58,7 +61,8 @@ const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <Layout>
+    <Wrapper>
+      <Header />
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
@@ -67,7 +71,8 @@ const BlogPost = ({ data }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
-    </Layout>
+      <Footer />
+    </Wrapper>
   )
 }
 

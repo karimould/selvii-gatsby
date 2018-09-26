@@ -1,8 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import Wrapper from '../components/wrapper/Wrapper'
+import Header from '../components/header/Header'
+import Footer from '../components/footer/Footer'
+import Content, { HTMLContent } from '../components/siteContent/Content'
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
@@ -35,13 +37,15 @@ const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <Layout>
+    <Wrapper>
+      <Header />
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
       />
-    </Layout>
+      <Footer />
+    </Wrapper>
   )
 }
 
