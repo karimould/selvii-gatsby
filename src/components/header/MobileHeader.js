@@ -3,6 +3,8 @@ import styled from 'react-emotion'
 import CartSVG from '../../img/addToCart.svg'
 import { slide as Menu } from 'react-burger-menu'
 import Link from 'gatsby-link'
+import Logo from '../../img/svgs/selviilogo_3.svg'
+
 
 export default class MobileHeader extends React.Component {
   constructor(props) {
@@ -30,12 +32,14 @@ export default class MobileHeader extends React.Component {
         <FlexWrapper>
           <BurgerMenuContainer>
             <Menu>
-              <h1>SELVII</h1>
-              <NavigationLink id="home" className="menu-item" to="/new">NEU</NavigationLink>
-              <NavigationLink id="about" className="menu-item" to="/premium">Premium</NavigationLink>
-              <NavigationLink id="contact" className="menu-item" to="/blazer">Blazer</NavigationLink>
-              <NavigationLink id="contact" className="menu-item" to="/zweiteiler">Zweiteiler</NavigationLink>
-              <NavigationLink id="contact" className="menu-item" to="/kleider">Kleider</NavigationLink>
+            <LogoLink to="/"> 
+                <img src={Logo} alt="Selvii logo"/>
+              </LogoLink>
+              <NavigationLink className="menu-item" to="/new">NEU</NavigationLink>
+              <NavigationLink className="menu-item" to="/premium">Premium</NavigationLink>
+              <NavigationLink className="menu-item" to="/blazer">Blazer</NavigationLink>
+              <NavigationLink className="menu-item" to="/zweiteiler">Zweiteiler</NavigationLink>
+              <NavigationLink className="menu-item" to="/kleider">Kleider</NavigationLink>
             </Menu>
           </BurgerMenuContainer>
           <CartContainer>
@@ -51,6 +55,13 @@ export default class MobileHeader extends React.Component {
     )
   }
 }
+
+const LogoLink = styled(Link)`
+  img {
+    width: 100px;
+    height: auto;
+  }
+`
 
 const MobileNavigationContainer = styled('div')`
   position: fixed;

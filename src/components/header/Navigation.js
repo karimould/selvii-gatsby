@@ -15,10 +15,19 @@ export default class Navigation extends React.Component {
             <NavigationLink to="/premium">Premium</NavigationLink>
           </NavigationLI>
           <NavigationLI>
+            <NavigationLink to="/hosen">Jacken/Mäntel</NavigationLink>
+          </NavigationLI>
+          <NavigationLI>
             <NavigationLink to="/blazer">Blazer</NavigationLink>
           </NavigationLI>
           <NavigationLI>
             <NavigationLink to="/zweiteiler">Zweiteiler</NavigationLink>
+          </NavigationLI>
+          <NavigationLI>
+            <NavigationLink to="/hosen">Pullover</NavigationLink>
+          </NavigationLI>
+          <NavigationLI>
+            <NavigationLink to="/hosen">Hosen</NavigationLink>
           </NavigationLI>
           <NavigationLI>
             <NavigationLink to="/kleider">Kleider</NavigationLink>
@@ -33,7 +42,7 @@ const NavigationContainer = styled('div')`
   margin-left: 50px;
   margin-top: 100px;
   color: black;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   width: 250px;
   font-weight: bold;
 `

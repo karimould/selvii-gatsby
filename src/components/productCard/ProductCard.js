@@ -6,19 +6,17 @@ import { Link } from 'gatsby'
 export default class ProductCard extends React.Component {
 
 
-  renderCard() {
-    console.log("KRIMS" + this.props.available);
-    
+  renderCard() {    
     if(this.props.available) {
       return(
         <ProductCardContainer>
         <ProductCardLink title={this.props.title} to={this.props.link}>
         <ProductCardImageContainer>
           <ProductCardImage alt={this.props.title} src={this.props.img}/>
-        </ProductCardImageContainer>
         {this.props.new ? (<NewProduct>NEU</NewProduct>) : (null)}
         <ProductCardTitle>{this.props.title}</ProductCardTitle>
         <ProductPrice>{this.props.price} €</ProductPrice>
+        </ProductCardImageContainer>
         </ProductCardLink>
       </ProductCardContainer>
       )
@@ -28,10 +26,10 @@ export default class ProductCard extends React.Component {
         <ProductCardImageContainer>
           <ProductCardImage alt={this.props.title} src={this.props.img}>
           </ProductCardImage>
-        </ProductCardImageContainer>
           {this.props.new ? (<NewProduct>Ausverkauft</NewProduct>) : (null)}
         <ProductCardTitle>{this.props.title}</ProductCardTitle>
         <ProductPrice>{this.props.price} €</ProductPrice>
+        </ProductCardImageContainer>
         </ProductCardContainer>
       )
     }
@@ -46,8 +44,8 @@ export default class ProductCard extends React.Component {
 
 
 const ProductCardContainer = styled('div')`
-  text-align: center;
-  font-size: 1.2rem;
+  text-align: left;
+  font-size: 1.0rem;
   width: 500px;
   margin-bottom: 100px;
 
@@ -60,7 +58,8 @@ const ProductCardContainer = styled('div')`
 `
 
 const ProductCardImageContainer = styled('div')`
-  width: 100%;
+  width: 70%;
+  margin: 0 auto;
   height: auto;
 `
 
@@ -70,10 +69,14 @@ const ProductCardImage = styled('img')`
 `
 
 const ProductCardTitle = styled('h2')`
+  :hover {
+    text-decoration: underline;
+  }
 `
 
 const NewProduct = styled('h3')`
   text-decoration: underline;
+  font-weight: bold;
 `
 const ProductPrice = styled('p')`
   color: '#5d3126';
@@ -81,7 +84,4 @@ const ProductPrice = styled('p')`
 
 const ProductCardLink = styled(Link)`
   color: black;
-  :hover {
-    text-decoration: overline underline;
-  }
 `

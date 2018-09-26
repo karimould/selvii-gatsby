@@ -1,25 +1,23 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
-import styled from 'react-emotion'
 import Wrapper from '../components/wrapper/Wrapper'
 import Header from '../components/header/Header'
-import Slider from '../components/slider/Slider'
 import Footer from '../components/footer/Footer'
+import '../styles/normalize.css'
 import ProductCardWrapper from '../components/wrapper/ProductCardWrapper';
 import ProductCard from '../components/productCard/ProductCard';
-import '../styles/normalize.css'
 
-export default class IndexPage extends React.Component {
+
+export default class Hosen extends React.Component {
   render() {
     const { data } = this.props
-    const { edges: products } = data.allMarkdownRemark  
-  
-    return (
+    const { edges: products } = data.allMarkdownRemark
+    console.log("Produkte: " + products)
+    return(
       <Wrapper>
         <Header />
-        <Slider />
-        <ProductCardWrapper>
+          <ProductCardWrapper>
           {products.map(({node: product}) => (
             <ProductCard 
               link={product.fields.slug}
@@ -39,7 +37,7 @@ export default class IndexPage extends React.Component {
   }
 }
 
-IndexPage.propTypes = {
+Hosen.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -48,34 +46,19 @@ IndexPage.propTypes = {
 }
 
 
-// export const pageQuery = graphql`
-//   query IndexQuery {
-//     allMarkdownRemark(
-//       sort: { order: DESC, fields: [frontmatter___date] },
-//       filter: { frontmatter: { templateKey: { eq: "blog-post" } }}
-//     ) {
-//       edges {
-//         node {
-//           excerpt(pruneLength: 400)
-//           id
-//           fields {
-//             slug
-//           }
-//           frontmatter {
-//             title
-//             templateKey
-//             date(formatString: "MMMM DD, YYYY")
-//           }
-//         }
-//       }
-//     }
-//   }
-// `
+/**
+ * 
+ * WICHTI!!!
+ * filter: { frontmatter: { templateKey: { eq: "blog-post" } }}
+ * 
+ * 
+ */
+
+
 export const pageQuery = graphql`
-  query NewProducts {
+  query IndexQueryHosenProducts {
     allMarkdownRemark(
-      limit: 2
-      filter: { frontmatter: { new: { eq: true } }}
+      filter: { frontmatter: { category_: { eq: "hosen" } }}
     ) {
       edges {
         node {
@@ -84,8 +67,8 @@ export const pageQuery = graphql`
           }
           frontmatter {
             available
-            new
             price
+            new
             title
             templateKey
             description

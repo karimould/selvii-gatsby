@@ -25,11 +25,12 @@ const FooterContainer = styled('div')`
   justify-content: space-around;
   background-color: black;
   bottom: 0;
-  height: 300px;
+  height: 100px;
   color: white;
   width: 100%;
   @media (max-width: 550px) {
     flex-direction: column-reverse;
     align-items: center;
+    height: auto;
   }
 `

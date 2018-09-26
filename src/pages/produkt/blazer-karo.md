@@ -14,7 +14,7 @@ color:
 title: BLAZER KARO MUSTER
 price: '27'
 description: SCHWARZ WEIßER BLAZER IM KARO MUSTER
-featuredImage: /img/mer_fashion-3.jpg
+featuredImage: /img/selvii-1-2.jpg
 gallery:
   - alt: blazer karriert
     image: /img/mer_fashion-1.jpg

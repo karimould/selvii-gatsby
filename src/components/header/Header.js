@@ -5,6 +5,8 @@ import AddToCart from '../../img/addToCart.svg'
 import MobileHeader from './MobileHeader'
 import ProductPageHeader from './ProductPageHeader'
 import Link from 'gatsby-link'
+import Logo from '../../img/svgs/selviilogo_3.svg'
+
 export default class Header extends React.Component {
   constructor(props) {
     super(props)
@@ -27,7 +29,9 @@ export default class Header extends React.Component {
         <HeaderContainer>
           <HeaderContainerFlex>
             <LogoContainer>
-              <Link to="/"><LogoH1>Selvii</LogoH1></Link>
+              <LogoLink to="/"> 
+                <img src={Logo} alt="Selvii logo"/>
+              </LogoLink>
             </LogoContainer>
             <CartContainer>
               <div class="snipcart-summary">
@@ -67,6 +71,15 @@ export default class Header extends React.Component {
   }
 }
 
+const LogoLink = styled(Link)`
+  padding-left: 50px;
+  img {
+    margin-top: 20px;
+    width: 150px;
+    height: auto;
+  }
+`
+
 const HeaderContainer = styled('div')`
   position: fixed;
   width: 100%;
@@ -80,15 +93,10 @@ const HeaderContainerFlex = styled('div')`
   display: flex;
   justify-content: space-between;
   width: 100%;
+  background-color: white;
 `
 
 const LogoContainer = styled('div')`
-`
-
-const LogoH1 = styled('h1')`
-  color: black;
-  font-size: 3.5rem;
-  padding-left: 50px;
 `
 
 const CartContainer = styled('div')`

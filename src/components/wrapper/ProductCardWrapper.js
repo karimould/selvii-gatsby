@@ -8,7 +8,7 @@ export default ({ children }) => <Wrapper>{children}</Wrapper>
 const Wrapper = styled('div')`
   padding-top: 100px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
   
   @media (max-width: 500px) {
