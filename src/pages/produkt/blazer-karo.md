@@ -12,6 +12,8 @@ color:
   - color: Schwarz
   - color: Weiß
 title: BLAZER KARO MUSTER
+productinfo: TEST INFOS
+modelinfo: MODEL INFOS
 price: '27'
 description: SCHWARZ WEIßER BLAZER IM KARO MUSTER
 featuredImage: /img/selvii-1-2.jpg
