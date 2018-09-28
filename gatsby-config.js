@@ -9,6 +9,9 @@ module.exports = {
       resolve: 'gatsby-plugin-snipcart',
       options: {
           apiKey: 'ZTc4NTUzYmEtYzViMS00ZjViLWE2OTUtYzliOGQzMGYzNDIxNjM2NzI0MzA2OTY1ODUzMTY5',
+          data-cart-custom3-name: "Do you accept terms?",
+          data-cart-custom3-options: "true|false",
+          data-cart-custom3-required: "true",
       },
     },
     {

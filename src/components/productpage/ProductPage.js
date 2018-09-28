@@ -208,10 +208,10 @@ export default class ProductPage extends React.Component {
             <ProductPageTitle>{this.props.title}</ProductPageTitle>
             <ProductPageDescText>{this.props.desc}</ProductPageDescText>
             <ProductDescInfos>
-              Made in Italy | 80% Baumwolle | 20% Polyester
+              {this.props.productinfo}
             </ProductDescInfos>
             <ProductModelInfos>
-              Modell: Karim | <a href="#">Instagram</a> | 1,78m | 84kg
+              {this.props.modelinfo}
             </ProductModelInfos>
             <ProductPrice>{this.props.price} €</ProductPrice>
             <br />
@@ -228,8 +228,8 @@ export default class ProductPage extends React.Component {
 
 const ProductPageContainer = styled('div')`
   padding-top: 100px;
-  padding-left: 400px;
   display: flex;
+  justify-content: center;
   @media (max-width: 1000px) {
     padding-left: 300px;
   }

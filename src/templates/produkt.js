@@ -55,6 +55,8 @@ export const aboutPageQuery = graphql`
         title
         price
         description
+        productinfo
+        modelinfo
         category_
         gallery {
           alt
