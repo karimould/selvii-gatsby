@@ -33,6 +33,8 @@ collections:
       - {label: Size, name: size, widget: list, fields: [{label: "Size", name: "size", widget: "string"}]}
       - {label: Color, name: color, widget: list, fields: [{label: "Farbe", name: "color", widget: "string"}]}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Produktinformationen", name: "productinfo", widget: "string"}
+      - {label: "Modelinformationen", name: "modelinfo", widget: "string"}
       - {label: "Preis", name: "price", widget: "number"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "featuredImage", widget: "image"}

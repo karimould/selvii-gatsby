@@ -17,6 +17,8 @@ export const Produkt = ({ data }) => {
         colors={product.frontmatter.color}
         sizes={product.frontmatter.size}
         desc={product.frontmatter.description}
+        productinfo={product.frontmatter.productinfo}
+        modelinfo={product.frontmatter.modelinfo}
         price={product.frontmatter.price}
         link={product.fields.slug}
         gallery={product.frontmatter.gallery}
