@@ -9,6 +9,7 @@ import Footer from '../components/footer/Footer'
 import ProductCardWrapper from '../components/wrapper/ProductCardWrapper';
 import ProductCard from '../components/productCard/ProductCard';
 import '../styles/normalize.css'
+import {Helmet} from 'react-helmet'
 
 export default class IndexPage extends React.Component {
   render() {
@@ -16,6 +17,16 @@ export default class IndexPage extends React.Component {
     const { edges: products } = data.allMarkdownRemark  
   
     return (
+      <div>
+      <Helmet>
+        <html lang="de" />
+        <title>KARIM TEST</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="ZTc4NTUzYmEtYzViMS00ZjViLWE2OTUtYzliOGQzMGYzNDIxNjM2NzI0MzA2OTY1ODUzMTY5"></script>
+
+<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
+      </Helmet>
       <Wrapper>
         <Header />
         <Slider />
@@ -35,6 +46,7 @@ export default class IndexPage extends React.Component {
           </ProductCardWrapper>
         <Footer />
       </Wrapper>
+      </div>
     )
   }
 }
