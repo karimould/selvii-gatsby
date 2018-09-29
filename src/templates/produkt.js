@@ -1,15 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import Wrapper from '../components/wrapper/Wrapper';
-import Header from '../components/header/Header';
-import Footer from '../components/footer/Footer';
-import ProductPage from '../components/productpage/ProductPage';
-
+import Wrapper from '../components/wrapper/Wrapper'
+import Header from '../components/header/Header'
+import Footer from '../components/footer/Footer'
+import ProductPage from '../components/productpage/ProductPage'
+import Head from '../components/util/Head'
 export const Produkt = ({ data }) => {
   const { markdownRemark: product } = data
   return (
     <Wrapper>
+      <Head title={product.frontmatter.title} desc={product.frontmatter.description}/>
       <Header productPage={true} backLink={product.frontmatter.category_}/>
         <ProductPage 
         title={product.frontmatter.title}

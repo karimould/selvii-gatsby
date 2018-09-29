@@ -5,9 +5,9 @@ import Wrapper from '../components/wrapper/Wrapper'
 import Header from '../components/header/Header'
 import Footer from '../components/footer/Footer'
 import '../styles/normalize.css'
-import ProductCardWrapper from '../components/wrapper/ProductCardWrapper';
-import ProductCard from '../components/productCard/ProductCard';
-
+import ProductCardWrapper from '../components/wrapper/ProductCardWrapper'
+import ProductCard from '../components/productCard/ProductCard'
+import Head from '../components/util/Head'
 
 export default class Premium extends React.Component {
   render() {
@@ -15,6 +15,7 @@ export default class Premium extends React.Component {
     const { edges: products } = data.allMarkdownRemark        
     return(
       <Wrapper>
+          <Head title="Premium - Selvii online shop" desc="Premium - Selvii online shop"/>
         <Header />
           <ProductCardWrapper>
           {products.map(({node: product}) => (

@@ -5,8 +5,9 @@ import Wrapper from '../components/wrapper/Wrapper'
 import Header from '../components/header/Header'
 import Footer from '../components/footer/Footer'
 import '../styles/normalize.css'
-import ProductCardWrapper from '../components/wrapper/ProductCardWrapper';
-import ProductCard from '../components/productCard/ProductCard';
+import ProductCardWrapper from '../components/wrapper/ProductCardWrapper'
+import ProductCard from '../components/productCard/ProductCard'
+import Head from '../components/util/Head'
 
 
 export default class Kleider extends React.Component {
@@ -16,6 +17,7 @@ export default class Kleider extends React.Component {
         
     return(
       <Wrapper>
+        <Head title="Kleider - Selvii online shop" desc="Kleider - Selvii online shop"/>
         <Header />
           <ProductCardWrapper>
           {products.map(({node: product}) => (

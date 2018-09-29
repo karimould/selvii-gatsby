@@ -7,6 +7,7 @@ import Footer from '../components/footer/Footer'
 import '../styles/normalize.css'
 import ProductCardWrapper from '../components/wrapper/ProductCardWrapper';
 import ProductCard from '../components/productCard/ProductCard';
+import Head from '../components/util/Head';
 
 
 export default class Blazer extends React.Component {
@@ -16,6 +17,7 @@ export default class Blazer extends React.Component {
         
     return(
       <Wrapper>
+          <Head title="Blazer - Selvii online shop" desc="Blazer - Selvii online shop"/>
         <Header />
           <ProductCardWrapper>
           {products.map(({node: product}) => (
