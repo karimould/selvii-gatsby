@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
-import styled from 'react-emotion'
+import { graphql } from 'gatsby'
 import Wrapper from '../components/wrapper/Wrapper'
 import Header from '../components/header/Header'
 import Slider from '../components/slider/Slider'
@@ -9,7 +8,6 @@ import Footer from '../components/footer/Footer'
 import ProductCardWrapper from '../components/wrapper/ProductCardWrapper';
 import ProductCard from '../components/productCard/ProductCard';
 import '../styles/normalize.css'
-import {Helmet} from 'react-helmet'
 import Head from '../components/util/Head';
 
 export default class IndexPage extends React.Component {
