@@ -11,7 +11,7 @@ export default class Head extends React.Component {
         <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" 
         data-autopop="false"
         data-api-key="ZTc4NTUzYmEtYzViMS00ZjViLWE2OTUtYzliOGQzMGYzNDIxNjM2NzI0MzA2OTY1ODUzMTY5"
-        data-cart-custom2-name="Mit der Bestellung akzeptieren Sie unsere AGBs? TEST"
+        data-cart-custom2-name="Mit der Bestellung akzeptieren Sie unsere AGBs. Diese können Sie <a href='/'>hier</a> nachlesen."
         data-cart-custom2-options="true|false"
         data-cart-custom2-required="true"></script>
         <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
