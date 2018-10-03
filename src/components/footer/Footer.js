@@ -18,7 +18,7 @@ export default class Footer extends React.Component {
 }
 
 const FooterContainer = styled('div')`
-  margin-top: 50px;
+  margin-top: 100px;
   display: flex;
   flex-direction: row;
   align-items: center;

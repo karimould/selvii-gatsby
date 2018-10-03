@@ -17,7 +17,7 @@ export default class Kleider extends React.Component {
         
     return(
       <Wrapper>
-        <Head title="Kleider - Selvii online shop" desc="Kleider - Selvii online shop"/>
+        <Head title="Kleider | Damenmode | Selvii Online Shop" desc="Endecken Sie die Selvii Kleider. Kleider für die Abendgarderobe oder Freizeit"/>
         <Header />
           <ProductCardWrapper>
           {products.map(({node: product}) => (

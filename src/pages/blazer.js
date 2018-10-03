@@ -17,7 +17,7 @@ export default class Blazer extends React.Component {
         
     return(
       <Wrapper>
-          <Head title="Blazer - Selvii online shop" desc="Blazer - Selvii online shop"/>
+        <Head title="Blazer | Damenmode | Selvii Online Shop" desc="Endecken Sie die Selvii Blazer von kurz bis oversized finden Sie hier alles"/>
         <Header />
           <ProductCardWrapper>
           {products.map(({node: product}) => (

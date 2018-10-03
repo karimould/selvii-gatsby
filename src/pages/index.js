@@ -17,7 +17,7 @@ export default class IndexPage extends React.Component {
   
     return (
       <Wrapper>
-        <Head title="Selvii online shop" desc="Selvii online shop"/>
+        <Head title="Selvii Online Shop | Die neue Kollektion online kaufen" desc="Selvii Damenmode online kaufen. Shoppen Sie die neueste Selvii Damenmode."/>
         <Header />
         <Slider />
         <ProductCardWrapper>

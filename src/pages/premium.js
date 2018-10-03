@@ -15,7 +15,7 @@ export default class Premium extends React.Component {
     const { edges: products } = data.allMarkdownRemark        
     return(
       <Wrapper>
-          <Head title="Premium - Selvii online shop" desc="Premium - Selvii online shop"/>
+        <Head title="Neu | Damenmode | Selvii Online Shop" desc="Endecken Sie die Premium Damenkollektionen von Selvii bei uns im Onlineshop"/>
         <Header />
           <ProductCardWrapper>
           {products.map(({node: product}) => (

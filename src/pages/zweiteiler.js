@@ -16,7 +16,7 @@ export default class Zweiteiler extends React.Component {
         
     return(
       <Wrapper>
-        <Head title="Zweiteiler - Selvii online shop" desc="Zweiteiler - Selvii online shop"/>
+        <Head title="Zweiteiler | Damenmode | Selvii Online Shop" desc="Endecken Sie die Zweitiler von Selvii. Zweiteiler für die Abendgarderobe oder Freizeit"/>
         <Header />
           <ProductCardWrapper>
           {products.map(({node: product}) => (
