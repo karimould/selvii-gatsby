@@ -8,11 +8,11 @@ export default class Slider extends React.Component {
   render() {
     return(
       <SliderContainer>
-      <Link to="/kleider">
         <SliderIMGContainer>
+          <Link to="/kleider">
             <img src={bg_1} alt="slider img" />
+          </Link>
         </SliderIMGContainer>
-        </Link>
       </SliderContainer>
     )
   }
