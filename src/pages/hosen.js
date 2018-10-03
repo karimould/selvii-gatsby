@@ -10,7 +10,7 @@ import ProductCard from '../components/productCard/ProductCard'
 import Head from '../components/util/Head'
 
 
-export default class Kleider extends React.Component {
+export default class Hosen extends React.Component {
   render() {
     const { data } = this.props
     const { edges: products } = data.allMarkdownRemark
@@ -39,7 +39,7 @@ export default class Kleider extends React.Component {
   }
 }
 
-Kleider.propTypes = {
+Hosen.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -58,7 +58,7 @@ Kleider.propTypes = {
 
 
 export const pageQuery = graphql`
-  query IndexQueryKleiderProducts {
+  query IndexQueryHosenProducts {
     allMarkdownRemark(
       filter: { frontmatter: { category_: { eq: "hosen" } }}
     ) {
