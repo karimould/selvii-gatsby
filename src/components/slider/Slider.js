@@ -25,7 +25,6 @@ const SliderContainer = styled('div')`
   display: flex;
   justify-content: center;
   text-align: center;
-
 `
 const SliderIMGContainer = styled('div')`
   width: 90%;
