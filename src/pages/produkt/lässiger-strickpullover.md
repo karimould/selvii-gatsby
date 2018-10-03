@@ -1,5 +1,5 @@
 ---
-description_SEO: Schwarzer Strickpullover mit Rundausschnitt und Butterfly Ärmel von Selvii.
+description_SEO: Strickpullover mit Rundausschnitt und Butterfly Ärmel in Altrosa von Selvii.
 templateKey: produkt
 new: true
 available: true
@@ -7,7 +7,7 @@ category': hosen
 size:
   - size: UNI
 color:
-  - color: schwarz
+  - color: Altrosa
 title: LÄSSIGER STRICKPULLOVER
 productinfo: >-
   100% Acryl | Hose & Blazer 30°C Wäsche/ Bleichen nicht erlaubt/Bügeln mit
@@ -15,12 +15,12 @@ productinfo: >-
   trocknen/
 modelinfo: Model Größe 1.68cm Model trägt Größe UNI
 price: '19.99'
-description: |-
-  Schwarzer Strickpullover mit Rundausschnitt und Butterfly Ärmel.
-  Rückseite länger als Vorderseite.
+description: >-
+  Strickpullover mit Rundausschnitt und Butterfly Ärmel in Altrosa. Rückseite
+  länger als Vorderseite.
 featuredImage: /img/selvii-2.jpg
 gallery:
-  - alt: Schwarzer Pullover von Selvii
+  - alt: Strickpullover in altrosa von Selvii
     image: /img/selvii-1-2.jpg
 tags:
   - Pullover
