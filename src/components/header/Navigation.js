@@ -15,7 +15,7 @@ export default class Navigation extends React.Component {
             <NavigationLink to="/premium">Premium</NavigationLink>
           </NavigationLI>
           <NavigationLI>
-            <NavigationLink to="/hosen">Jacken/Mäntel</NavigationLink>
+            <NavigationLink to="/jacken">Jacken/Mäntel</NavigationLink>
           </NavigationLI>
           <NavigationLI>
             <NavigationLink to="/blazer">Blazer</NavigationLink>
@@ -24,7 +24,7 @@ export default class Navigation extends React.Component {
             <NavigationLink to="/zweiteiler">Zweiteiler</NavigationLink>
           </NavigationLI>
           <NavigationLI>
-            <NavigationLink to="/hosen">Pullover</NavigationLink>
+            <NavigationLink to="/pullover">Pullover</NavigationLink>
           </NavigationLI>
           <NavigationLI>
             <NavigationLink to="/hosen">Hosen</NavigationLink>
@@ -57,8 +57,4 @@ const NavigationLI = styled('li')`
 const NavigationLink = styled(Link)`
   color: black;
   text-decoration: none;
-  :hover {
-    color: white;
-    text-decoration: underline;
-  }
 `

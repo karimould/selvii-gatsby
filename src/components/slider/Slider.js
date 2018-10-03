@@ -1,17 +1,18 @@
 import React from 'react'
 import styled from 'react-emotion'
 import bg_1 from '../../img/startseite/selvii-1-4-min.jpg'
+import Link from 'gatsby-link'
 
 
 export default class Slider extends React.Component {
   render() {
     return(
       <SliderContainer>
+      <Link to="/kleider">
         <SliderIMGContainer>
             <img src={bg_1} alt="slider img" />
-            <h1>ORANGES KLEID</h1>
-            <p>40 €</p>
         </SliderIMGContainer>
+        </Link>
       </SliderContainer>
     )
   }

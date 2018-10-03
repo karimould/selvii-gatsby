@@ -45,7 +45,7 @@ export default class ProductCard extends React.Component {
 
 const ProductCardContainer = styled('div')`
   text-align: left;
-  font-size: 1.0rem;
+  font-size: 0.8rem;
   width: 500px;
   margin-bottom: 100px;
 

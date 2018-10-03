@@ -37,8 +37,11 @@ export default class MobileHeader extends React.Component {
               </LogoLink>
               <NavigationLink className="menu-item" to="/new">NEU</NavigationLink>
               <NavigationLink className="menu-item" to="/premium">Premium</NavigationLink>
+              <NavigationLink className="menu-item" to="/jacken">Jacken/Mäntel</NavigationLink>
               <NavigationLink className="menu-item" to="/blazer">Blazer</NavigationLink>
               <NavigationLink className="menu-item" to="/zweiteiler">Zweiteiler</NavigationLink>
+              <NavigationLink className="menu-item" to="/pullover">Pullover</NavigationLink>
+              <NavigationLink className="menu-item" to="/hosen">Hosen</NavigationLink>
               <NavigationLink className="menu-item" to="/kleider">Kleider</NavigationLink>
             </Menu>
           </BurgerMenuContainer>
