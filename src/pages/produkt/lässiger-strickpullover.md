@@ -3,7 +3,7 @@ description_SEO: Strickpullover mit Rundausschnitt und Butterfly Ärmel in Altro
 templateKey: produkt
 new: true
 available: true
-category': hosen
+category': pullover
 size:
   - size: UNI
 color:
