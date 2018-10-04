@@ -10,6 +10,7 @@ module.exports = {
       options: {
         headers: {
           '/*': [
+            "Content-Security-Policy: frame-ancestors 'self' http://*.selvii.de/",
             "X-Frame-Options: ALLOW-FROM http://selvii.de/",
           ]
         },
