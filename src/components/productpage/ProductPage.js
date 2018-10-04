@@ -1,15 +1,29 @@
 import React from 'react'
 import styled from 'react-emotion'
-import ProductGallery from './ProductGallery';
+import ProductGallery from './ProductGallery'
+import Modal from 'react-responsive-modal'
 
 
 export default class ProductPage extends React.Component {
   constructor(props) {
     super(props);
-    this.state = ({size: 's', color: 'weiß'});
+    this.state = ({
+      size: 's', 
+      color: 'weiß',
+      open: false,
+    });
     this.handleChangeSize = this.handleChangeSize.bind(this)
     this.handleChangeColor = this.handleChangeColor.bind(this)
   }
+
+  //Function for the modal
+  onOpenModal = () => {
+    this.setState({ open: true });
+  };
+
+  onCloseModal = () => {
+    this.setState({ open: false });
+  };
 
   //scroll for buy button on mobile
   handleScrollTo = () => {
@@ -197,6 +211,7 @@ export default class ProductPage extends React.Component {
   }
 
   render() {
+    const { open } = this.state;
     return(
       <ProductPageContainer>
         <ProductBuyButtonMobileContainer>
@@ -207,9 +222,6 @@ export default class ProductPage extends React.Component {
           <ProductDescWrapper>
             <ProductPageTitle>{this.props.title}</ProductPageTitle>
             <ProductPageDescText>{this.props.desc}</ProductPageDescText>
-            <ProductDescInfos>
-              {this.props.productinfo}
-            </ProductDescInfos>
             <ProductModelInfos>
               {this.props.modelinfo}
             </ProductModelInfos>
@@ -218,6 +230,13 @@ export default class ProductPage extends React.Component {
             {this.renderSelection()}
             <br />
             {this.renderProduct()}
+            <br />
+            <MoreInformationLink onClick={this.onOpenModal}>Pflege und Material</MoreInformationLink>
+            <Modal open={open} onClose={this.onCloseModal} center>
+              <ModalContainer>
+                {this.props.productinfo}
+              </ModalContainer>
+            </Modal>
           </ProductDescWrapper>
         </ProductDescContainer>
       </ProductPageContainer>
@@ -254,6 +273,7 @@ const ProductDescContainer = styled('div')`
 const ProductDescWrapper = styled('div')`
   position: fixed;
   width: 300px;
+
   @media (max-width: 850px) {
     position: sticky;
     text-align: center;
@@ -261,6 +281,17 @@ const ProductDescWrapper = styled('div')`
     padding-left: 25px;
     padding-right: 25px;
   }
+`
+
+const MoreInformationLink = styled('a')`
+  color: black;
+  text-decoration: none;
+`
+
+const ModalContainer = styled('div')`
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
 `
 
 const ProductPageTitle = styled('h1')`

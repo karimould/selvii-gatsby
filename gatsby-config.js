@@ -3,7 +3,20 @@ module.exports = {
     title: 'Gatsby + Netlify CMS Starter',
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-plugin-netlify',
+      options: {
+        headers: {
+          '/*': [
+            "Content-Security-Policy: frame-ancestors 'self' https://*.storyblok.com/",
+            "X-Frame-Options: ALLOW-FROM https://selvii.de/",
+          ]
+        },
+        mergeSecurityHeaders: false,
+      }
+    },
     {
       resolve: `gatsby-plugin-emotion`,
       options: {
@@ -38,7 +51,6 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
-    'gatsby-plugin-react-helmet',
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }
