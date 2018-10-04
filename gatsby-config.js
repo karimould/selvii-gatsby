@@ -11,7 +11,7 @@ module.exports = {
         headers: {
           '/*': [
             "Content-Security-Policy: frame-ancestors 'self' https://*.storyblok.com/",
-            "X-Frame-Options: ALLOW-FROM https://selvii.de/",
+            "X-Frame-Options: ALLOW-FROM http://selvii.de/",
           ]
         },
         mergeSecurityHeaders: false,
