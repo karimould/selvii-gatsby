@@ -6,6 +6,12 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
+      resolve: 'gatsby-plugin-snipcart',
+      options: {
+      apiKey: 'ZTc4NTUzYmEtYzViMS00ZjViLWE2OTUtYzliOGQzMGYzNDIxNjM2NzI0MzA2OTY1ODUzMTY5'
+      }
+    },
+    {
       resolve: 'gatsby-plugin-netlify',
       options: {
         headers: {

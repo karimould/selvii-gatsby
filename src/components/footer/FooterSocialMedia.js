@@ -8,7 +8,7 @@ export default class FooterSocialMedia extends React.Component {
       <FooterSocialMediaContainer>
         <FooterSocialMediaH3>Follow us on:</FooterSocialMediaH3>
         <br/>
-        <a target="_blank" title="link to immajung instagram page" href="#"><FooterSocialMediaImg title="instagram logo" alt="instagram logo" src={instagram}/></a>
+        <a target="_blank" title="Link zu dem Selvii Instagram Profil" href="https://www.instagram.com/selviiofficial/"><FooterSocialMediaImg title="instagram logo" alt="instagram logo" src={instagram}/></a>
       </FooterSocialMediaContainer>
     )
   }

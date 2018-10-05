@@ -84,6 +84,11 @@ export default class ProductPage extends React.Component {
     return colorArray
   }
 
+  //Methods creates the product link for Snipcart
+  createProductLink() {
+
+  }
+
   renderSelection() {
     if(this.props.color === null) {
       return(
@@ -139,7 +144,7 @@ export default class ProductPage extends React.Component {
               data-item-name={this.props.title}
               data-item-price={this.props.price}
               data-item-id={this.props.id}
-              data-item-url="https://snipcart.com/headphones"
+              data-item-url={"https://selvii.netlify.com" + this.props.link}
               data-item-custom2-name="Größe"
               data-item-custom2-options={this.sizesToString()}
               data-item-custom2-value={this.state.size}
@@ -154,7 +159,7 @@ export default class ProductPage extends React.Component {
               data-item-name={this.props.title}
               data-item-price={this.props.price}
               data-item-id={this.props.id}
-              data-item-url="https://snipcart.com/headphones"
+              data-item-url={"https://selvii.netlify.com" + this.props.link}
               data-item-custom2-name="Size"
               data-item-custom2-options={this.sizesToString()}
               data-item-custom2-value={this.state.size}
@@ -174,7 +179,7 @@ export default class ProductPage extends React.Component {
             data-item-name={this.props.title}
             data-item-price={this.props.price}
             data-item-id={this.props.id}
-            data-item-url="https://snipcart.com/headphones"
+            data-item-url={"https://selvii.netlify.com" + this.props.link}
             data-item-custom2-name="Größe"
             data-item-custom2-options={this.sizesToString()}
             data-item-custom2-value={this.state.size}
@@ -193,7 +198,7 @@ export default class ProductPage extends React.Component {
             data-item-name={this.props.title}
             data-item-price={this.props.price}
             data-item-id={this.props.id}
-            data-item-url="https://snipcart.com/headphones"
+            data-item-url={"https://selvii.netlify.com" + this.props.link}
             data-item-custom2-name="Size"
             data-item-custom2-options={this.sizesToString()}
             data-item-custom2-value={this.state.size}
@@ -225,7 +230,7 @@ export default class ProductPage extends React.Component {
             <ProductModelInfos>
               {this.props.modelinfo}
             </ProductModelInfos>
-            <ProductPrice>{this.props.price} €</ProductPrice>
+            <ProductPrice>{this.props.price} € <SpanWithSmallText>exkl. Versand</SpanWithSmallText></ProductPrice>
             <br />
             {this.renderSelection()}
             <br />
@@ -273,6 +278,7 @@ const ProductDescContainer = styled('div')`
 const ProductDescWrapper = styled('div')`
   position: fixed;
   width: 300px;
+  font-size: 0.8rem;
 
   @media (max-width: 850px) {
     position: sticky;
@@ -295,9 +301,9 @@ const ModalContainer = styled('div')`
 `
 
 const ProductPageTitle = styled('h1')`
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   @media (max-width: 850px) {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 `
 
@@ -317,7 +323,7 @@ const ProductPageAddToCartBTN = styled('a')`
 const CallToActionContainer = styled('div')`
   width: 100%;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.0rem;
   font-weight: bold;
   background-color: black;
   color: white;
@@ -337,7 +343,7 @@ const ProductPageSelect = styled('select')`
   padding-left: 10px;
   background-color: white;
   color: black;
-  font-size: 16px;
+  font-size: 0.9rem;
   cursor: pointer;
   outline: none;
 
@@ -368,4 +374,9 @@ const ProductBuyButtonMobileContainer = styled('div')`
   @media (min-width: 851px) {
     display: none;
   }
+`
+
+const SpanWithSmallText = styled('span')`
+  font-weight: lighter;
+  font-size: 0.65rem;
 `
