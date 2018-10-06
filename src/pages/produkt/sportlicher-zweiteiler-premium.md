@@ -20,10 +20,14 @@ price: '54.99'
 description: >-
   Eng anliegender Zweiteiler mit Weißem Seitenstreifen. Hose Highwaist mit
   elastischem Bund und Schnur. Oberteil kurz.
-featuredImage: /img/selvii-1-2.jpg
+featuredImage: /img/selvii_premium_zweiteiler_khaki-2.jpg
 gallery:
   - alt: Zweiteiler in khaki von Selvii
-    image: /img/selvii-2.jpg
+    image: /img/selvii_premium_zweiteiler_khaki-3.jpg
+  - alt: sprotlicher premium Zweiteiler von selvii
+    image: /img/selvii_premium_zweiteiler_khaki-1.jpg
+  - alt: sprotlicher premium Zweiteiler von selvii
+    image: /img/selvii_premium_zweiteiler_khaki-2.jpg
 tags:
   - Zweiteiler
   - Premium
