@@ -12,8 +12,8 @@ import Head from '../components/util/Head';
 
 export default class IndexPage extends React.Component {
   render() {
-    const { data } = this.props
-    const { edges: products } = data.allMarkdownRemark  
+    // const { data } = this.props
+    // const { edges: products } = data.allMarkdownRemark  
   
     return (
       <Wrapper>
