@@ -24,16 +24,16 @@ description: >-
   Stoff. Knopfärmel.
 
   V-Ausschnitt.
-featuredImage: /img/selvii_kleid_in_seidenoptik_mustard-2.jpg
+featuredImage: /img/selvii_kleid_in_seidenoptik_schwarz-2.jpg
 gallery:
+  - alt: bodenlanges Kleid von Selvii in schwarz
+    image: /img/selvii_kleid_in_seidenoptik_schwarz-1.jpg
+  - alt: bodenlanges Kleid von Selvii in schwarz
+    image: /img/selvii_kleid_in_seidenoptik_schwarz-3.jpg
   - alt: bodenlanges Kleid von Selvii in mustard
-    image: /img/selvii_kleid_in_seidenoptik_mustard-1.jpg
-  - alt: bodenlanges Kleid von Selvii in mustard
-    image: /img/selvii_kleid_in_seidenoptik_mustard-3.jpg
-  - alt: bodenlanges Kleid von Selvii in mustard
-    image: /img/selvii_kleid_in_seidenoptik_mustard-4.jpg
-  - alt: bodenlanges Kleid von Selvii in mustard
-    image: /img/selvii_kleid_in_seidenoptik_mustard-5.jpg
+    image: /img/selvii_kleid_in_seidenoptik_schwarz-4.jpg
+  - alt: bodenlanges Kleid von Selvii in schwarz
+    image: /img/selvii_kleid_in_seidenoptik_schwarz-5.jpg
 tags:
   - Kleid
 ---
