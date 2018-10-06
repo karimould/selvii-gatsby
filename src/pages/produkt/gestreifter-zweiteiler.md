@@ -28,10 +28,14 @@ description: >-
   Gürtel aus gleichem Material. Elastischer Bund.
 
   Ärmel 52cm
-featuredImage: /img/selvii-1-2.jpg
+featuredImage: /img/selvii_gestreifter_blazer_mit_hose-1.jpg
 gallery:
   - alt: Gestreifter zweiteiler von Selvii
-    image: /img/selvii-2.jpg
+    image: /img/selvii_gestreifter_blazer_mit_hose-2.jpg
+  - alt: Gestreifter Blazer mit Hose von selvii
+    image: /img/selvii_gestreifter_blazer_mit_hose-3.jpg
+  - alt: gestreifter Zweiteiler von Slvii Nahaufnahme
+    image: /img/selvii_gestreifter_blazer_mit_hose-4.jpg
 tags:
   - Blazer
   - Hose
