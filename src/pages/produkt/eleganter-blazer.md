@@ -24,10 +24,19 @@ description: >-
   Seitentaschen.
 
   Blazerlänge 79cm
-featuredImage: /img/selvii-2.jpg
+featuredImage: /img/selvii_eleganter_blazer-1.jpg
 gallery:
   - alt: Figurbetonter Longblazer von Selvii
-    image: /img/selvii-1-2.jpg
+    image: /img/selvii_eleganter_blazer-2.jpg
+    gallery:
+  - alt: Figurbetonter Longblazer von Selvii
+    image: /img/selvii_eleganter_blazer-3.jpg
+    gallery:
+  - alt: Figurbetonter Longblazer von Selvii
+    image: /img/selvii_eleganter_blazer-4.jpg
+    gallery:
+  - alt: Figurbetonter Longblazer von Selvii
+    image: /img/selvii_eleganter_blazer-5.jpg
 tags:
   - Blazer
   - Longblazer

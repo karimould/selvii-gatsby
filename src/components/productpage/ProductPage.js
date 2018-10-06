@@ -171,7 +171,6 @@ export default class ProductPage extends React.Component {
     )
     } else {
       return(
-  
           <div>
             <CallToActionContainer>
             <a onClick={this.getCartCount} href="#"
@@ -184,12 +183,13 @@ export default class ProductPage extends React.Component {
             data-item-custom2-options={this.sizesToString()}
             data-item-custom2-value={this.state.size}
             data-item-custom2-required="true"
-            data-item-custom3-name="Farbe"
-            data-item-custom3-options={this.colorsToString()}
-            data-item-custom3-value={this.state.color}
-            data-item-custom3-required="true">
+            // data-item-custom3-name="Farbe"
+            // data-item-custom3-options={this.colorsToString()}
+            // data-item-custom3-value={this.state.color}
+            // data-item-custom3-required="true"
+            >
             In den Warenkorb hinzufügen
-          </a>
+        </a>
         </CallToActionContainer>
         <br />
           <CallToActionContainer>
@@ -203,10 +203,11 @@ export default class ProductPage extends React.Component {
             data-item-custom2-options={this.sizesToString()}
             data-item-custom2-value={this.state.size}
             data-item-custom2-required="true"        
-            data-item-custom3-name="Farbe"
-            data-item-custom3-options={this.colorsToString()}
-            data-item-custom3-value={this.state.color}
-            data-item-custom3-required="true">
+            // data-item-custom3-name="Farbe"
+            // data-item-custom3-options={this.colorsToString()}
+            // data-item-custom3-value={this.state.color}
+            // data-item-custom3-required="true"
+            >
             Kaufen
           </a>
           </CallToActionContainer>
