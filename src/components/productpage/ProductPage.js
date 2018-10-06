@@ -49,7 +49,7 @@ export default class ProductPage extends React.Component {
       window.Snipcart.api.modal.show();
       this.setState.cartCount = window.Snipcart.api.items.count()
       console.log("Kaufen: " + window.Snipcart.api.items.count());
-    },1500);
+    },2500);
   }
 
   //Update state cartCounter in the Header component to show item count in the cart 
