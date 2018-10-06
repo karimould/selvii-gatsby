@@ -14,7 +14,7 @@ productinfo: >-
   geringer Temperatur/Reinigen mit Perchlorethylen/Nicht im Trommeltrockner
   trocknen/
 modelinfo: Model Größe 1.68cm
-price: '22.99'
+price: '22.95'
 description: |-
   Fliedergrauer Blazer im leichtem oversize look mit Schulterpolster.
   3/4 Ärmel mit Perlen Applikation. Ohne Taschen.
