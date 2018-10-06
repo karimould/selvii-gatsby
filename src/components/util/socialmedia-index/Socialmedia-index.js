@@ -13,8 +13,9 @@ export default class SocialmediaIndex extends React.Component {
       <SocialmediaContainer>
         <FollowusH1>Folgt uns auf</FollowusH1>
         <br />
-        <a target="_blank" rel="noopener noreferrer" title="Link zu dem Selvii Instagram Profil" href="https://www.instagram.com/selviiofficial/"><FooterSocialMediaImg title="instagram logo" alt="instagram logo" src={instagram}/></a>
-        <a target="_blank" rel="noopener noreferrer" title="Link zu dem Selvii Pinterest Profil" href="https://www.pinterest.de/cd815bc591e728ea8ef3d6be17ae77/?eq=selvii%20women%20fa&etslf=4826"><FooterSocialMediaImg title="pinterest logo" alt="pinterest logo" src={pinterest}/></a>
+        <a target="_blank" rel="noopener noreferrer" title="Link zu dem Selvii Instagram Profil" href="https://www.instagram.com/selviiofficial/">Instagram</a>
+        <br />
+        <a target="_blank" rel="noopener noreferrer" title="Link zu dem Selvii Pinterest Profil" href="https://www.pinterest.de/cd815bc591e728ea8ef3d6be17ae77/?eq=selvii%20women%20fa&etslf=4826">Pinterest</a>
       </SocialmediaContainer>
     )
   }
@@ -22,7 +23,7 @@ export default class SocialmediaIndex extends React.Component {
 
 const SocialmediaContainer = styled('div')`
   text-align: center;
-  margin-top: 50px;
+  margin-top: 100px;
 `
 
 const FollowusH1 = styled('h1')`

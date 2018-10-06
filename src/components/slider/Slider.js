@@ -24,7 +24,7 @@ export default class SliderCon extends React.Component {
         <Slider {...settings}>
           <SliderIMGContainer>
             <Link to="/premium">
-              <img src={bg_1} alt="slider img" />
+              <img src={bg_3} alt="slider img" />
             </Link>
           </SliderIMGContainer>
           <SliderIMGContainer>
@@ -34,7 +34,7 @@ export default class SliderCon extends React.Component {
           </SliderIMGContainer>
           <SliderIMGContainer>
             <Link to="/zweiteiler">
-              <img src={bg_3} alt="slider img" />
+              <img src={bg_1} alt="slider img" />
             </Link>
           </SliderIMGContainer>
         </Slider>
