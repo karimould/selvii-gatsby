@@ -18,10 +18,14 @@ price: '19.99'
 description: >-
   Strickpullover mit Rundausschnitt und Butterfly Ärmel in Dunkelgrau. Rückseite
   länger als Vorderseite.
-featuredImage: /img/selvii-2.jpg
+featuredImage: /img/selvii_strickpullover_dunkelgrau-1.jpg
 gallery:
   - alt: Strickpullover in altrosa von Selvii
-    image: /img/selvii-1-2.jpg
+    image: /img/selvii_strickpullover_dunkelgrau-2.jpg
+  - alt: Strickpullover in altrosa von Selvii
+    image: /img/selvii_strickpullover_dunkelgrau-3.jpg
+  - alt: Strickpullover in altrosa von Selvii
+    image: /img/selvii_strickpullover_dunkelgrau-4.jpg
 tags:
   - Pullover
 ---

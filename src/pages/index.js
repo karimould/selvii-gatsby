@@ -20,33 +20,19 @@ export default class IndexPage extends React.Component {
         <Head title="Selvii Online Shop | Die neue Kollektion online kaufen" desc="Selvii Damenmode online kaufen. Shoppen Sie die neueste Selvii Damenmode."/>
         <Header />
         <SliderComp />
-        <ProductCardWrapper>
-          {products.map(({node: product}) => (
-            <ProductCard 
-              link={product.fields.slug}
-              category={product.frontmatter.category_}
-              img={product.frontmatter.featuredImage}
-              title={product.frontmatter.title}
-              new={product.frontmatter.new}
-              price={product.frontmatter.price}
-              key={product.id}
-              available={product.frontmatter.available}
-            />
-          ))}
-          </ProductCardWrapper>
         <Footer />
       </Wrapper>
     )
   }
 }
 
-IndexPage.propTypes = {
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
-}
+// IndexPage.propTypes = {
+//   data: PropTypes.shape({
+//     allMarkdownRemark: PropTypes.shape({
+//       edges: PropTypes.array,
+//     }),
+//   }),
+// }
 
 
 // export const pageQuery = graphql`
@@ -72,29 +58,29 @@ IndexPage.propTypes = {
 //     }
 //   }
 // `
-export const pageQuery = graphql`
-  query NewProducts {
-    allMarkdownRemark(
-      limit: 6
-      filter: { frontmatter: { new: { eq: true } }}
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-          }
-          frontmatter {
-            available
-            new
-            price
-            title
-            templateKey
-            description
-            featuredImage
-            category_
-          }
-        }
-      }
-    }
-  }
-`
+// export const pageQuery = graphql`
+//   query NewProducts {
+//     allMarkdownRemark(
+//       limit: 6
+//       filter: { frontmatter: { new: { eq: true } }}
+//     ) {
+//       edges {
+//         node {
+//           fields {
+//             slug
+//           }
+//           frontmatter {
+//             available
+//             new
+//             price
+//             title
+//             templateKey
+//             description
+//             featuredImage
+//             category_
+//           }
+//         }
+//       }
+//     }
+//   }
+// `
