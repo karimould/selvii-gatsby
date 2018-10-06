@@ -38,14 +38,13 @@ export default class SliderCon extends React.Component {
 }
 
 const SliderContainer = styled('div')`
-  padding-top: 80px;
   width: 100%;
 `
 const SliderIMGContainer = styled('div')`
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   img {
-    height: 80vh;
+    height: 95vh;
     width: 100%;
     object-fit: cover;
     object-position: 50% -1%;

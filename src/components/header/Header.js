@@ -94,7 +94,6 @@ const HeaderContainerFlex = styled('div')`
   display: flex;
   justify-content: space-between;
   width: 100%;
-  background-color: white;
 `
 
 const LogoContainer = styled('div')`
