@@ -18,12 +18,24 @@ price: '22.99'
 description: |-
   Fliedergrauer Blazer im leichtem oversize look mit Schulterpolster.
   3/4 Ärmel mit Perlen Applikation. Ohne Taschen.
-featuredImage: /img/selvii-1-2.jpg
+featuredImage: /img/selvii_fliessender_blazer_fliedergrau-1.jpg
 gallery:
-  - alt: >-
+  - alt:
       Fliedergrauer Blazer im leichtem oversize look mit Schulterpolster von
       Selvii.
-    image: /img/selvii-2.jpg
+    image: /img/selvii_fliessender_blazer_fliedergrau-2.jpg
+  - alt:
+      Fliedergrauer Blazer im leichtem oversize look mit Schulterpolster von
+      Selvii.
+    image: /img/selvii_fliessender_blazer_fliedergrau-3.jpg
+  - alt:
+      Fliedergrauer Blazer im leichtem oversize look mit Schulterpolster von
+      Selvii.
+    image: /img/selvii_fliessender_blazer_fliedergrau-4.jpg
+  - alt:
+      Fliedergrauer Blazer im leichtem oversize look mit Schulterpolster von
+      Selvii.
+    image: /img/selvii_fliessender_blazer_fliedergrau-5.jpg
 tags:
   - Blazer
 ---
