@@ -9,6 +9,7 @@ import ProductCardWrapper from '../components/wrapper/ProductCardWrapper';
 import ProductCard from '../components/productCard/ProductCard';
 import '../styles/normalize.css'
 import Head from '../components/util/Head';
+import SocialmediaIndex from '../components/util/socialmedia-index/Socialmedia-index';
 
 export default class IndexPage extends React.Component {
   render() {
@@ -20,6 +21,7 @@ export default class IndexPage extends React.Component {
         <Head title="Selvii Online Shop | Die neue Kollektion online kaufen" desc="Selvii Damenmode online kaufen. Shoppen Sie die neueste Selvii Damenmode."/>
         <Header />
         <SliderComp />
+        <SocialmediaIndex />
         <Footer />
       </Wrapper>
     )

@@ -1,32 +1,38 @@
-import * as React from 'react'
+import React from 'react'
 import styled from 'react-emotion'
-import instagram from '../../img/socialmedia/instagram.svg'
-import pinterest from '../../img/socialmedia/pinterest.svg'
+import instagram from '../../../img/socialmedia/instagram_black.svg'
+import pinterest from '../../../img/socialmedia/pinterest_black.svg'
 
-export default class FooterSocialMedia extends React.Component {
+
+
+
+export default class SocialmediaIndex extends React.Component {
+
   render() {
-    return(
-      <FooterSocialMediaContainer>
-        <FooterSocialMediaH3>Follow us on:</FooterSocialMediaH3>
-        <br/>
+    return (
+      <SocialmediaContainer>
+        <FollowusH1>Folgt uns auf</FollowusH1>
+        <br />
         <a target="_blank" rel="noopener noreferrer" title="Link zu dem Selvii Instagram Profil" href="https://www.instagram.com/selviiofficial/"><FooterSocialMediaImg title="instagram logo" alt="instagram logo" src={instagram}/></a>
         <a target="_blank" rel="noopener noreferrer" title="Link zu dem Selvii Pinterest Profil" href="https://www.pinterest.de/cd815bc591e728ea8ef3d6be17ae77/?eq=selvii%20women%20fa&etslf=4826"><FooterSocialMediaImg title="pinterest logo" alt="pinterest logo" src={pinterest}/></a>
-      </FooterSocialMediaContainer>
+      </SocialmediaContainer>
     )
   }
 }
 
-const FooterSocialMediaContainer = styled('div')`
-  grid-area: right;
+const SocialmediaContainer = styled('div')`
   text-align: center;
+  margin-top: 50px;
 `
 
-const FooterSocialMediaH3 = styled('h3')`
+const FollowusH1 = styled('h1')`
+  font-weight: bold;
+  color: black;
+  font-size: 1.5rem
 `
-
 const FooterSocialMediaImg = styled('img')`
-  width: 30px;
+  width: 40px;
   height: auto;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 `
