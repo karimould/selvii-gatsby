@@ -32,6 +32,8 @@
     "react-emotion": "^9.2.8",
     "react-helmet": "^5.2.0",
     "react-responsive-modal": "^3.4.0",
+    "react-slick": "^0.23.1",
+    "slick-carousel": "^1.8.1",
     "uuid": "^3.2.1"
   },
   "keywords": [

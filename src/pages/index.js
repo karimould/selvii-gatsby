@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Wrapper from '../components/wrapper/Wrapper'
 import Header from '../components/header/Header'
-import Slider from '../components/slider/Slider'
+import SliderComp from '../components/slider/Slider'
 import Footer from '../components/footer/Footer'
 import ProductCardWrapper from '../components/wrapper/ProductCardWrapper';
 import ProductCard from '../components/productCard/ProductCard';
@@ -19,7 +19,7 @@ export default class IndexPage extends React.Component {
       <Wrapper>
         <Head title="Selvii Online Shop | Die neue Kollektion online kaufen" desc="Selvii Damenmode online kaufen. Shoppen Sie die neueste Selvii Damenmode."/>
         <Header />
-        <Slider />
+        <SliderComp />
         <ProductCardWrapper>
           {products.map(({node: product}) => (
             <ProductCard 
@@ -75,7 +75,7 @@ IndexPage.propTypes = {
 export const pageQuery = graphql`
   query NewProducts {
     allMarkdownRemark(
-      limit: 2
+      limit: 6
       filter: { frontmatter: { new: { eq: true } }}
     ) {
       edges {

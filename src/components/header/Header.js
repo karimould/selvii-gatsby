@@ -82,6 +82,7 @@ const LogoLink = styled(Link)`
 
 const HeaderContainer = styled('div')`
   position: fixed;
+  z-index: 1000;
   width: 100%;
   height: 100px;
   @media (max-width: 850px) {

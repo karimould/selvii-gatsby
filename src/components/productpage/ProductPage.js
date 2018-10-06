@@ -226,11 +226,11 @@ export default class ProductPage extends React.Component {
         <ProductDescContainer>
           <ProductDescWrapper>
             <ProductPageTitle>{this.props.title}</ProductPageTitle>
-            <ProductPageDescText>{this.props.desc}</ProductPageDescText>
-            <ProductModelInfos>
-              {this.props.modelinfo}
-            </ProductModelInfos>
             <ProductPrice>{this.props.price} € <SpanWithSmallText>exkl. Versand</SpanWithSmallText></ProductPrice>
+            <br />
+            <ProductPageDescText>{this.props.desc}</ProductPageDescText>
+            <br />
+            <ProductModelInfos>{this.props.modelinfo}</ProductModelInfos>
             <br />
             {this.renderSelection()}
             <br />
@@ -302,6 +302,7 @@ const ModalContainer = styled('div')`
 
 const ProductPageTitle = styled('h1')`
   font-size: 1.4rem;
+  font-weight: bold;
   @media (max-width: 850px) {
     font-size: 1.3rem;
   }
@@ -331,6 +332,30 @@ const CallToActionContainer = styled('div')`
     color: white;
 
   }
+
+  :active {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+  
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }  
 `
 
 const ProductPageSelect = styled('select')`

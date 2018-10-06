@@ -1,18 +1,37 @@
 import React from 'react'
 import styled from 'react-emotion'
 import bg_1 from '../../img/startseite/selvii-1-4-min.jpg'
+import bg_2 from '../../img/startseite/selvii_kleid_in_seidenoptik_mustard_startseite-2.jpg'
 import Link from 'gatsby-link'
-
-
-export default class Slider extends React.Component {
+import Slider from "react-slick";
+import '../../styles/normalize.css'
+export default class SliderCon extends React.Component {
   render() {
+    var settings = {
+      dots: false,
+      arrows: false,
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    };
+
     return(
       <SliderContainer>
-        <SliderIMGContainer>
-          <Link to="/kleider">
-            <img src={bg_1} alt="slider img" />
-          </Link>
-        </SliderIMGContainer>
+        <Slider {...settings}>
+          <SliderIMGContainer>
+            <Link to="/kleider">
+              <img src={bg_1} alt="slider img" />
+            </Link>
+          </SliderIMGContainer>
+          <SliderIMGContainer>
+            <Link to="/kleider">
+              <img src={bg_2} alt="slider img" />
+            </Link>
+          </SliderIMGContainer>
+        </Slider>
       </SliderContainer>
     )
   }
@@ -21,15 +40,20 @@ export default class Slider extends React.Component {
 const SliderContainer = styled('div')`
   padding-top: 80px;
   width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  text-align: center;
 `
 const SliderIMGContainer = styled('div')`
-  width: 90%;
-  height: auto;
-  @media (max-width: 850px) {
-    width: 80%;
+  width: 100%;
+  height: 80vh;
+  img {
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% -1%;
+  }
+
+  @media (max-width: 1400px) {
+    img {
+      object-fit: cover;
+    }
   }
 `
