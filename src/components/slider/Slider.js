@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'react-emotion'
-import bg_1 from '../../img/startseite/premium-1efgvse.jpg'
-import bg_2 from '../../img/startseite/selvii_kleid_in_seidenoptik_mustard_startseite-1.jpg'
-import bg_3 from '../../img/startseite/selvii_start_premium_zweiteiler-1.jpg'
+import bg_1 from '../../img/startseite/selvii_slider_startseite-1.jpg'
+import bg_2 from '../../img/startseite/selvii_slider_startseite-2.jpg'
+import bg_3 from '../../img/startseite/selvii_slider_startseite-3.jpg'
 import Link from 'gatsby-link'
 import Slider from "react-slick";
 import '../../styles/normalize.css'
