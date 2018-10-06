@@ -20,7 +20,7 @@ productinfo: >-
   30°C Wäsche/ Bleichen nicht erlaubt/Bügeln mit geringer Temperatur/Reinigen
   mit Perchlorethylen/Nicht im Trommeltrockner trocknen/
 modelinfo: Model Größe 1.66cm
-price: '39.99'
+price: '39.95'
 description: >-
   Gestreifter zweiteiler bestehend aus Hose und Blaze. Blazer ohne Knopfleiste
   und Taschen.

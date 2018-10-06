@@ -18,7 +18,7 @@ productinfo: >-
   Perchlorethylen/Nicht im Trommeltrockner trocknen/Bleichen nicht
   erlaubt/Bügeln mit geringer
 modelinfo: Model Größe 1.63cm Model trägt Größe S
-price: '34.9'
+price: '34.95'
 description: >-
   Figurbetonter Longblazer in schwarz mit Goldenem Knopf. Kragen und
   Seitentaschen.

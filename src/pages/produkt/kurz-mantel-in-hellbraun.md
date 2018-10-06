@@ -18,7 +18,7 @@ productinfo: >-
   geringer Temperatur/Reinigen mit Perchlorethylen/Nicht im Trommeltrockner
   trocknen/
 modelinfo: Model Größe 1.63cm Model trägt Größe S
-price: '42.99'
+price: '42.95'
 description: >-
   Kurzer Mantel ohne Knopfleiste in nussbarun. Rundhals ausschnitt. Seiten
   Taschen.

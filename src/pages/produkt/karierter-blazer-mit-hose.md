@@ -18,7 +18,7 @@ productinfo: >-
   30°C Wäsche/ Bleichen nicht erlaubt/Bügeln mit geringer Temperatur/Reinigen
   mit Perchlorethylen/Nicht im Trommeltrockner trocknen/
 modelinfo: Model Größe 1.68cm
-price: '39.99'
+price: '39.95'
 description: >-
   Karierter Zweiteiler. Blazer ohne Knopfleiste und Taschen. Gürtel aus gleichem
   Material. Elastischer Bund.

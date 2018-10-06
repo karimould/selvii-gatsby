@@ -16,7 +16,7 @@ productinfo: >-
   erlaubt/Bügeln mit geringer Temperatur/Reinigen mit Perchlorethylen/Nicht im
   Trommeltrockner trocknen/
 modelinfo: Model Größe 1.63cm Model trägt Größe UNI
-price: '54.99'
+price: '54.95'
 description: >-
   Eng anliegender Zweiteiler mit Weißem Seitenstreifen. Hose Highwaist mit
   elastischem Bund und Schnur. Oberteil kurz.

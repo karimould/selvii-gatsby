@@ -14,7 +14,7 @@ productinfo: >-
   geringer Temperatur/Reinigen mit Perchlorethylen/Nicht im Trommeltrockner
   trocknen/
 modelinfo: Model Größe 1.68cm Model trägt Größe UNI
-price: '19.99'
+price: '19.95'
 description: >-
   Strickpullover mit Rundausschnitt und Butterfly Ärmel in Altrosa. Rückseite
   länger als Vorderseite.

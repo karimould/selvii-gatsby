@@ -18,7 +18,7 @@ productinfo: >-
   erlaubt/Temperatur/Nicht bügeln/Reinigen mit Perchlorethylen/Nicht im
   Trommeltrockner trocknen/
 modelinfo: Model Größe 1.66cm
-price: '34.50'
+price: '34.95'
 description: >-
   Bodenlanges Kleid in schwart mit 152cm Länge. Elastischer bund im gleichen
   Stoff. Knopfärmel.

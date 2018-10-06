@@ -15,7 +15,7 @@ productinfo: >-
   95% Polyester  5% Elastan | 30°C Wäsche/Bügeln mit geringer/Bleichen nicht
   erlaubt/Reinigen mit Perchlorethylen/Nicht im Trommeltrockner trocknen
 modelinfo: Model Größe 1.68cm
-price: '25.99'
+price: '25.95'
 description: |-
   Gestreifter figurbetonter Long Blazer mit goldenen knöpfen
   Ärmel lang

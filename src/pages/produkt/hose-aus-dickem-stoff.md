@@ -16,7 +16,7 @@ productinfo: >-
   geringer Temperatur/Reinigen mit Perchlorethylen/Nicht im Trommeltrockner
   trocknen/
 modelinfo: Model Größe 1.68cm
-price: '27.5'
+price: '27.95'
 description: >-
   Schwarz-Grau Moire Muster aus dickem Stoff. Seitentaschen. Elastischer bund
   mit Gürtel aus gleichem material.
