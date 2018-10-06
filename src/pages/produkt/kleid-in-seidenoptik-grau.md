@@ -20,20 +20,20 @@ productinfo: >-
 modelinfo: Model Größe 1.66cm
 price: '34.50'
 description: >-
-  Bodenlanges Kleid in grau mit 152cm Länge. Elastischer bund im gleichen
-  Stoff. Knopfärmel.
+  Bodenlanges Kleid in grau mit 152cm Länge. Elastischer bund im gleichen Stoff.
+  Knopfärmel.
 
   V-Ausschnitt.
-featuredImage: /img/selvii_kleid_in_seidenoptik_mustard-2.jpg
+featuredImage: /img/selvii_kleid_in_seidenoptik_grau-5.jpg
 gallery:
-  - alt: bodenlanges Kleid von Selvii in mustard
-    image: /img/selvii_kleid_in_seidenoptik_mustard-1.jpg
-  - alt: bodenlanges Kleid von Selvii in mustard
-    image: /img/selvii_kleid_in_seidenoptik_mustard-3.jpg
-  - alt: bodenlanges Kleid von Selvii in mustard
-    image: /img/selvii_kleid_in_seidenoptik_mustard-4.jpg
-  - alt: bodenlanges Kleid von Selvii in mustard
-    image: /img/selvii_kleid_in_seidenoptik_mustard-5.jpg
+  - alt: bodenlanges Kleid von Selvii in grau
+    image: /img/selvii_kleid_in_seidenoptik_grau-1.jpg
+  - alt: bodenlanges Kleid von Selvii in grau
+    image: /img/selvii_kleid_in_seidenoptik_grau-2.jpg
+  - alt: bodenlanges Kleid von Selvii in grau
+    image: /img/selvii_kleid_in_seidenoptik_grau-3.jpg
+  - alt: bodenlanges Kleid von Selvii in grau
+    image: /img/selvii_kleid_in_seidenoptik_grau-4.jpg
 tags:
   - Kleid
 ---
