@@ -26,10 +26,16 @@ description: >-
   Kariert mit Dunkelrotem Akzent.
 
   Ärmel 52cm
-featuredImage: /img/selvii-2.jpg
+featuredImage: /img/selvii_karierter_blazer_mit_hose-1.jpg
 gallery:
   - alt: Zweiteiler von Selvii mit Blazer und Hose
-    image: /img/selvii-2.jpg
+    image: /img/selvii_karierter_blazer_mit_hose-2.jpg
+  - alt: Karrierter Blazer mit pullover
+    image: /img/selvii_karierter_blazer_mit_hose-3.jpg
+  - alt: Blazer karriert von selvii
+    image: /img/selvii_karierter_blazer_mit_hose-4.jpg
+  - alt: Hose zum Zweiteiler
+    image: /img/selvii_karierter_blazer_mit_hose-5.jpg
 tags:
   - Blazer
   - Hose
