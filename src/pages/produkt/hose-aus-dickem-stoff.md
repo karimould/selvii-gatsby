@@ -22,10 +22,12 @@ description: >-
   mit Gürtel aus gleichem material.
 
   Hosenbein länge 98cm
-featuredImage: /img/selvii-2.jpg
+featuredImage: /img/selvii_hose_aus_dickem_stoff-1.jpg
 gallery:
   - alt: Schwarz-Grau Moire Muster Hose von Selvii
-    image: /img/selvii-1-2.jpg
+    image: /img/selvii_hose_aus_dickem_stoff-2.jpg
+  - alt: Schwarz-Grau Moire Muster Hose von Selvii
+    image: /img/selvii_hose_aus_dickem_stoff-3.jpg
 tags:
   - Hose
 ---

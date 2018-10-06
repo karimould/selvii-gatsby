@@ -1,6 +1,6 @@
 ---
 description_SEO: >-
-  Kurzer Mantel ohne Knopfleiste in Hellbarun von Selvii. Rundhals ausschnitt
+  Kurzer Mantel ohne Knopfleiste in nussbarun von Selvii. Rundhals ausschnitt
   mit Seiten Taschen und Ohne Innenfutter.
 templateKey: produkt
 new: true
@@ -11,8 +11,8 @@ size:
   - size: M
   - size: L
 color:
-  - color: hellbraun
-title: KURZ MANTEL IN HELLBRAUN
+  - color: nussbraun
+title: KURZ MANTEL IN NUSSBRAUN
 productinfo: >-
   80% Polyester 20% Viscose | 30°C Wäsche/ Bleichen nicht erlaubt/Bügeln mit
   geringer Temperatur/Reinigen mit Perchlorethylen/Nicht im Trommeltrockner
@@ -20,14 +20,18 @@ productinfo: >-
 modelinfo: Model Größe 1.63cm Model trägt Größe S
 price: '42.99'
 description: >-
-  Kurzer Mantel ohne Knopfleiste in Hellbarun. Rundhals ausschnitt. Seiten
+  Kurzer Mantel ohne Knopfleiste in nussbarun. Rundhals ausschnitt. Seiten
   Taschen.
 
   Ohne Innenfutter.
-featuredImage: /img/selvii-2.jpg
+featuredImage: /img/selvii_kurzmantel_braun-1.jpg
 gallery:
-  - alt: Kurzmantel in Hellbraun von Selvii
-    image: /img/selvii-1-2.jpg
+  - alt: Kurzmantel in nussbraun von Selvii
+    image: /img/selvii_kurzmantel_braun-1.jpg
+  - alt: Kurzmantel in nussbraun von Selvii
+    image: /img/selvii_kurzmantel_braun-2.jpg
+  - alt: Kurzmantel in nussbraun von Selvii
+    image: /img/selvii_kurzmantel_braun-3.jpg
 tags:
   - Mantel
   - Kurzmantel
