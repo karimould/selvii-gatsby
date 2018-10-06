@@ -21,10 +21,14 @@ description: >-
   Taschen.
 
   Ohne Innenfutter.
-featuredImage: /img/selvii-2.jpg
+featuredImage: /img/selvi_kurzmantel_rosa-1.jpg
 gallery:
   - alt: Kurzer Mantel von Selvii in Altrosa
-    image: /img/selvii-1-2.jpg
+    image: /img/selvi_kurzmantel_rosa-2.jpg
+  - alt: Kurzer Mantel von Selvii in Altrosa
+    image: /img/selvi_kurzmantel_rosa-3.jpg
+  - alt: Kurzer Mantel von Selvii in Altrosa
+    image: /img/selvi_kurzmantel_rosa-4.jpg
 tags:
   - Mantel
   - Kurzmantel

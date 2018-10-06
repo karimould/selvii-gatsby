@@ -18,10 +18,12 @@ price: '19.99'
 description: >-
   Strickpullover mit Rundausschnitt und Butterfly Ärmel in Altrosa. Rückseite
   länger als Vorderseite.
-featuredImage: /img/selvii-2.jpg
+featuredImage: /img/selvii_strickpullover_altrosa-1.jpg
 gallery:
   - alt: Strickpullover in altrosa von Selvii
-    image: /img/selvii-1-2.jpg
+    image: /img/selvii_strickpullover_altrosa-2.jpg
+  - alt: Strickpullover in altrosa von Selvii
+    image: /img/selvii_strickpullover_altrosa-3.jpg
 tags:
   - Pullover
 ---
