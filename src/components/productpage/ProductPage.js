@@ -118,7 +118,7 @@ export default class ProductPage extends React.Component {
           <br />
         </label>
         <br />
-        <label>
+        {/*<label>
           <h3>Farbe:</h3>
           <ProductPageSelect onChange={this.handleChangeColor}>
           {this.props.colors.map(function(color){
@@ -128,7 +128,7 @@ export default class ProductPage extends React.Component {
           })}
           </ProductPageSelect>
           <br />
-        </label>
+        </label> */}
         </div>
         )
     }
