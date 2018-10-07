@@ -4,7 +4,7 @@ title: Impressum
 ---
 Inhaber: Ertugrul Selvi
 
-Burgdorfer Damm
+Burgdorfer Damm 27
 
 30625 Hannover
 
@@ -23,8 +23,6 @@ Ertugrul Selvi
 Burgdorfer Damm 27
 
 30625 Hannover
-
-
 
 Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die Sie hier finden https://ec.europa.eu/consumers/odr/. 
 
