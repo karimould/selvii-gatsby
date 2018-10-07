@@ -27,9 +27,6 @@ module.exports = {
         },
       },
       {
-        resolve: `gatsby-plugin-sitemap`
-      },
-      {
         resolve: 'gatsby-plugin-robots-txt',
         options: {
           host: 'https://www.selvii.de',
