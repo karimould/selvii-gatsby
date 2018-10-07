@@ -17,6 +17,7 @@ const FooterSloganContainer = styled('div')`
   display: flex;
   justify-content: center;
   justify-items: center;
+  color: black;
 `
 
 const FooterSloganH1 = styled('h1')`

@@ -61,14 +61,13 @@ const FooterNavUL = styled('ul')`
 const FoterNavLI = styled('li')`
   text-decoration: none;
   margin-top: 10px;
-  color: white;
+  color: black;
 `
 
 const FoterNavLink = styled(Link)`
   text-decoration: none;
-  color: white;
+  color: black;
   :hover {
-    color: lightcyan;
     text-decoration: underline;
   }
 `

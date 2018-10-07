@@ -74,7 +74,7 @@ export default class Header extends React.Component {
 const LogoLink = styled(Link)`
   padding-left: 50px;
   img {
-    margin-top: 20px;
+    margin-top: 50px;
     width: 150px;
     height: auto;
   }
@@ -100,7 +100,7 @@ const LogoContainer = styled('div')`
 `
 
 const CartContainer = styled('div')`
-    margin-top: 20px;
+    margin-top: 50px;
     margin-right: 50px;
     
     .snipcart-total-items {

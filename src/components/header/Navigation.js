@@ -9,9 +9,6 @@ export default class Navigation extends React.Component {
       <NavigationContainer>
         <NavigationUL>
           <NavigationLI>
-            <NavigationLink to="/new">NEU</NavigationLink>
-          </NavigationLI>
-          <NavigationLI>
             <NavigationLink to="/premium">Premium</NavigationLink>
           </NavigationLI>
           <NavigationLI>
@@ -40,7 +37,7 @@ export default class Navigation extends React.Component {
 
 const NavigationContainer = styled('div')`
   margin-left: 50px;
-  margin-top: 100px;
+  margin-top: 70px;
   color: black;
   font-size: 1.8rem;
   width: 250px;

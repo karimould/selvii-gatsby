@@ -1,7 +1,7 @@
 import * as React from 'react'
 import styled from 'react-emotion'
-import instagram from '../../img/socialmedia/instagram.svg'
-import pinterest from '../../img/socialmedia/pinterest.svg'
+import instagram from '../../img/socialmedia/instagram_black.svg'
+import pinterest from '../../img/socialmedia/pinterest_black.svg'
 
 export default class FooterSocialMedia extends React.Component {
   render() {
@@ -19,6 +19,7 @@ export default class FooterSocialMedia extends React.Component {
 const FooterSocialMediaContainer = styled('div')`
   grid-area: right;
   text-align: center;
+  color: black;
 `
 
 const FooterSocialMediaH3 = styled('h3')`
