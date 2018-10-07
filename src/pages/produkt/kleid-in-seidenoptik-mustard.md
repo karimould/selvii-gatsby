@@ -14,26 +14,24 @@ color:
   - color: mustard
 title: KLEID IN SEIDENOPTIK IN MUSTARD
 productinfo: >-
-  95% Polyester  5% Elastan | 30°C Wäsche/ Bleichen nicht
-  erlaubt/Temperatur/Nicht bügeln/Reinigen mit Perchlorethylen/Nicht im
-  Trommeltrockner trocknen/
-modelinfo: Model Größe 1.66cm
+  95% Polyester, 5% Elastan. 30°C Wäsche. Bleichen nicht erlaubt. Nicht
+  bügeln. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner trocknen.
+modelinfo: Model Größe 166cm
 price: '34.95'
-description: >-
-  Bodenlanges Kleid in mustard mit 152cm Länge. Elastischer bund im gleichen
-  Stoff. Knopfärmel.
-
-  V - Ausschnitt.
-featuredImage: /img/selvii_kleid_in_seidenoptik_mustard-2.jpg
+description: |-
+  Bodenlanges Kleid in mustard. Elastischer Bund im selben Stoff. Knopfärmel.
+  Kleidlänge 152cm.
+  V-Ausschnitt.
+featuredImage: /img/selvii_kleid_in_seidenoptik_mustard-1.jpg
 gallery:
   - alt: bodenlanges Kleid von Selvii in mustard
     image: /img/selvii_kleid_in_seidenoptik_mustard-1.jpg
   - alt: bodenlanges Kleid von Selvii in mustard
+    image: /img/selvii_kleid_in_seidenoptik_mustard-2.jpg
+  - alt: bodenlanges Kleid von Selvii in mustard. Nahaufnahme der Taille.
     image: /img/selvii_kleid_in_seidenoptik_mustard-3.jpg
-  - alt: bodenlanges Kleid von Selvii in mustard
+  - alt: bodenlanges Kleid von Selvii in mustard. Nahaufnahme der Taille.
     image: /img/selvii_kleid_in_seidenoptik_mustard-4.jpg
-  - alt: bodenlanges Kleid von Selvii in mustard
-    image: /img/selvii_kleid_in_seidenoptik_mustard-5.jpg
 tags:
   - Kleid
 ---
