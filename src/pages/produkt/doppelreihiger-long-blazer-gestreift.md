@@ -15,7 +15,7 @@ productinfo: >-
   95% Polyester, 5% Elastan. 30°C Wäsche. Bügeln mit geringer Temperatur.
   Bleichen nicht erlaubt. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner
   trocknen.
-modelinfo: Model Größe 168cm
+modelinfo: Model Größe 166cm
 price: '25.95'
 description: |-
   Gestreifter figurbetonter Longblazer mit goldenen Knöpfen.
