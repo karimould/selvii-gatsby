@@ -1,5 +1,5 @@
 ---
-description_SEO: Kurzer Mantel ohne Knopfleiste in Altrosa mit Rundhals ausschnitt von Selvii.
+description_SEO: Kurzermantel ohne Knopfleiste in Altrosa mit Rundhalsausschnitt von Selvii.
 templateKey: produkt
 new: true
 available: true
@@ -10,7 +10,7 @@ size:
   - size: L - ausverkauft!
 color:
   - color: Altrosa
-title: KURZ MANTEL IN ALTROSA
+title: KURZMANTEL IN ALTROSA
 productinfo: >-
   80% Polyester, 20% Viscose. 30°C Wäsche. Bleichen nicht erlaubt. Bügeln mit
   geringer Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner
@@ -20,7 +20,7 @@ price: '42.95'
 description: |-
   Kurzmantel ohne Knopfleiste in Altrosa. Rundhalsausschnitt. Seitentaschen.
   Ohne Innenfutter.
-featuredImage: /img/selvi_kurzmantel_rosa-1.jpg
+featuredImage: /img/selvi_kurzmantel_rosa-3.jpg
 gallery:
   - alt: Kurzmantel von Selvii in Altrosa
     image: /img/selvi_kurzmantel_rosa-1.jpg
