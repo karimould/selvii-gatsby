@@ -12,7 +12,7 @@ Verbraucher ist jede natürliche Person, die ein Rechtsgeschäft zu Zwecken absc
 
 Der Kaufvertrag kommt zustande mit Ertugrul Selvi.
 
-Mit Einstellung der Produkte in den Online-Shop geben wir ein verbindliches Angebot zum Vertragsschluss über diese Artikel ab. Sie können unsere Produkte zunächst unverbindlich in den Warenkorb legen und Ihre Eingaben vor Absenden Ihrer verbindlichen Bestellung jederzeit korrigieren, indem Sie die hierfür im Bestellablauf vorgesehenen und erläuterten Korrekturhilfen nutzen. Der Vertrag kommt zustande, indem Sie durch Anklicken des Bestellbuttons das Angebot über die im Warenkorb enthaltenen Waren annehmen. Unmittelbar nach dem Absenden der Bestellung erhalten Sie noch einmal eine Bestätigung per E-Mail.
+Die in diesen Bedingungen enthaltenen Informationen und die auf der Website enthaltenen Angaben stellen kein Verkaufsangebot, sondern eine Einladung zum Abschluss von Geschäften dar. Ein Vertrag über jegliches Produkt kommt erst dann zwischen Ihnen und uns zustande, wenn Ihre Bestellung ausdrücklich von uns angenommen wurde. Sollten wir Ihr Angebot nicht annehmen, werden bereits abgebuchte Beträge vollständig zurückerstattet. Sie können unsere Produkte zunächst unverbindlich in den Warenkorb legen und Ihre Eingaben vor Absenden Ihrer verbindlichen Bestellung jederzeit korrigieren, indem Sie die hierfür im Bestellablauf vorgesehenen und erläuterten Korrekturhilfen nutzen. Unmittelbar nach dem Absenden der Bestellung erhalten Sie noch einmal eine Bestätigung per E-Mail. 
 
 ## 3. Vertragssprache, Vertragstextspeicherung
 
@@ -22,7 +22,7 @@ Wir speichern den Vertragstext und senden Ihnen die Bestelldaten und unsere AGB 
 
 ## 4. Lieferbedingungen
 
-Zuzüglich zu den angegebenen Produktpreisen können noch Versandkosten anfallen. Nähere Bestimmungen zu ggf. anfallenden Versandkosten erfahren Sie bei den Angeboten.
+Zuzüglich zu den angegebenen Produktpreisen können noch Versandkosten anfallen. Nähere Bestimmungen zu ggf. anfallenden Versandkosten erfahren Sie bei den Angeboten. 
 
 Wir liefern nur im Versandweg. Eine Selbstabholung der Ware ist leider nicht möglich.
 
