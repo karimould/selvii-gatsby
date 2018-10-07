@@ -49,7 +49,7 @@ export default class Navigation extends React.Component {
 
 const Break = styled('br')`
   display: block;
-   margin: 10px 0;
+  margin: 10px 0;
 `
 
 const BreakSmall = styled('br')`
@@ -72,11 +72,11 @@ const NavigationLI = styled('li')`
 `
 
 const NavigationLinkSmall = styled(Link)`
-  color: black;
-  text-decoration: none;
-  text-transform: none;
-  font-size: 1.0rem;
-  font-weight: medium;
+  color: black !important;
+  text-decoration: none !important;
+  text-transform: none !important;
+  font-size: 1.0rem !important;
+  font-weight: medium !important;
 `
 
 const NavigationLink = styled(Link)`
