@@ -33,11 +33,11 @@ export default class Navigation extends React.Component {
           <Break />
           <Break />
           <NavigationLI>
-            <NavigationLink className="small" to="/rechtliches/kontakt">Kontakt</NavigationLink>
+            <NavigationLinkSmall className="small" to="/rechtliches/kontakt">Kontakt</NavigationLinkSmall>
             <BreakSmall />
             </NavigationLI>
             <NavigationLI>
-            <NavigationLink className="small" to="/rechtliches/unternehmen">Unternehmen</NavigationLink>
+            <NavigationLinkSmall className="small" to="/rechtliches/unternehmen">Unternehmen</NavigationLinkSmall>
           </NavigationLI>
         </NavigationUL>
       </NavigationContainer>
@@ -71,6 +71,11 @@ const NavigationUL = styled('div')`
 
 const NavigationLI = styled('li')`
   text-decoration: none;
+`
+
+const NavigationLink = styled(Link)`
+  color: black;
+  text-decoration: none;
   .small {
     text-transform: none;
     font-size: 1.0rem;
@@ -78,7 +83,10 @@ const NavigationLI = styled('li')`
   }
 `
 
-const NavigationLink = styled(Link)`
+const NavigationLinkSmall = styled(Link)`
   color: black;
   text-decoration: none;
+  text-transform: none;
+  font-size: 1.0rem;
+  font-weight: lighter;
 `
