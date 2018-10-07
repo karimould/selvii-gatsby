@@ -35,6 +35,8 @@ export default class Navigation extends React.Component {
           <NavigationLI>
             <NavigationLink className="small" to="/rechtliches/kontakt">Kontakt</NavigationLink>
             <BreakSmall />
+            </NavigationLI>
+            <NavigationLI>
             <NavigationLink className="small" to="/rechtliches/unternehmen">Unternehmen</NavigationLink>
           </NavigationLI>
         </NavigationUL>

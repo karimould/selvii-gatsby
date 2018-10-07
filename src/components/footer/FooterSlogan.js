@@ -32,5 +32,6 @@ const LogoLink = styled(Link)`
     height: auto;
   }
 ` 
+
 const FooterSloganH1 = styled('h1')`
 `
