@@ -2,7 +2,7 @@
 templateKey: information-page
 title: Widerrufsbelehrung
 ---
-## Widerrufsrecht
+## 
 
 Sie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen.
 
