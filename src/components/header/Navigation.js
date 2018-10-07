@@ -3,6 +3,7 @@ import styled from 'react-emotion'
 import Link from 'gatsby-link'
 
 
+
 export default class Navigation extends React.Component {
   render() {
     return(
@@ -33,11 +34,11 @@ export default class Navigation extends React.Component {
           <Break />
           <Break />
           <NavigationLI>
-            <NavigationLinkSmall className="small" to="/rechtliches/kontakt">Kontakt</NavigationLinkSmall>
-            </NavigationLI>
+            <NavigationLinkSmall to="/rechtliches/kontakt">Kontakt</NavigationLinkSmall>
+          </NavigationLI>
             <BreakSmall />
-            <NavigationLI>
-            <NavigationLinkSmall className="small" to="/rechtliches/unternehmen">Unternehmen</NavigationLinkSmall>
+          <NavigationLI>
+            <NavigationLinkSmall to="/rechtliches/unternehmen">Unternehmen</NavigationLinkSmall>
           </NavigationLI>
         </NavigationUL>
       </NavigationContainer>
@@ -53,7 +54,7 @@ const Break = styled('br')`
 
 const BreakSmall = styled('br')`
   display: block;
-   margin: -2px 0;
+  margin: -2px 0;
 `
 
 const NavigationContainer = styled('div')`
@@ -68,6 +69,14 @@ const NavigationUL = styled('div')`
 
 const NavigationLI = styled('li')`
   text-decoration: none;
+`
+
+const NavigationLinkSmall = styled(Link)`
+  color: black;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 1.0rem;
+  font-weight: medium;
 `
 
 const NavigationLink = styled(Link)`
