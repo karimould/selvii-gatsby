@@ -34,8 +34,8 @@ export default class Navigation extends React.Component {
           <Break />
           <NavigationLI>
             <NavigationLinkSmall className="small" to="/rechtliches/kontakt">Kontakt</NavigationLinkSmall>
-            <BreakSmall />
             </NavigationLI>
+            <BreakSmall />
             <NavigationLI>
             <NavigationLinkSmall className="small" to="/rechtliches/unternehmen">Unternehmen</NavigationLinkSmall>
           </NavigationLI>
@@ -53,17 +53,14 @@ const Break = styled('br')`
 
 const BreakSmall = styled('br')`
   display: block;
-   margin: -8px 0;
+   margin: -2px 0;
 `
 
 const NavigationContainer = styled('div')`
   margin-left: 50px;
   margin-top: 70px;
   color: black;
-  font-size: 1.6rem;
   width: 250px;
-  font-weight: bold;
-  text-transform: uppercase;
 `
 const NavigationUL = styled('div')`
   list-style: none;
@@ -76,11 +73,9 @@ const NavigationLI = styled('li')`
 const NavigationLink = styled(Link)`
   color: black;
   text-decoration: none;
-  .small {
-    text-transform: none;
-    font-size: 1.0rem;
-    font-weight: lighter;
-  }
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.6rem;
 `
 
 const NavigationLinkSmall = styled(Link)`
@@ -88,5 +83,5 @@ const NavigationLinkSmall = styled(Link)`
   text-decoration: none;
   text-transform: none;
   font-size: 1.0rem;
-  font-weight: lighter;
+  font-weight: medium;
 `
