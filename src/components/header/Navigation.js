@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'react-emotion'
 import Link from 'gatsby-link'
+import LinkSmall from 'gatsby-link'
 
 
 
@@ -71,7 +72,7 @@ const NavigationLI = styled('li')`
   text-decoration: none;
 `
 
-const NavigationLinkSmall = styled(Link)`
+const NavigationLinkSmall = styled(LinkSmall)`
   color: black !important;
   text-decoration: none !important;
   text-transform: none !important;
