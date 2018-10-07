@@ -12,7 +12,7 @@ size:
   - size: UNI
 color:
   - color: kariert
-title: KARIERTER BLAZER MIT HOSE
+title: KARIERTER ZWEITEILER
 productinfo: >-
   Hose: 95% Baumwolle, 5% Elastan Blazer: 95% Viscose, 5% Elastan. Hose &
   Blazer: 30°C Wäsche. Bleichen nicht erlaubt. Bügeln mit geringer Temperatur.
@@ -20,8 +20,8 @@ productinfo: >-
 modelinfo: Model Größe 168cm
 price: '39.95'
 description: >-
-  Karierter Zweiteiler. Blazer ohne Knopfleiste und Taschen. Gürtel aus selbem
-  Material. Elastischer Bund.
+  Karierter Zweiteiler bestehend aus Blazer und Hose. Blazer ohne Knopfleiste
+  und Taschen.  Hose mit elastischem Bund. Gürtel aus selbem Material.
 
   Kariert mit dunkelrotem Akzent.
 
