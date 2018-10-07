@@ -1,30 +1,32 @@
 ---
 description_SEO: >-
-  Gestreifter figurbetonter Long Blazer mit knöpfen von Selvii mit langen Ärmel.
+  Gestreifter figurbetonter Longblazer mit Knöpfen von Selvii mit langen Ärmeln.
   Blazerlänge 83cm
 templateKey: produkt
 new: true
-available: true
+available: false
 category': blazer
 size:
   - size: UNI
 color:
   - color: gestreift
-title: DOPPELREIHIGER LONG BLAZER GESTREIFT
+title: DOPPELREIHIGER LONGBLAZER GESTREIFT
 productinfo: >-
-  95% Polyester  5% Elastan | 30°C Wäsche/Bügeln mit geringer/Bleichen nicht
-  erlaubt/Reinigen mit Perchlorethylen/Nicht im Trommeltrockner trocknen
-modelinfo: Model Größe 1.68cm
+  95% Polyester, 5% Elastan. 30°C Wäsche. Bügeln mit geringer Temperatur.
+  Bleichen nicht erlaubt. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner
+  trocknen.
+modelinfo: Model Größe 168cm
 price: '25.95'
 description: |-
-  Gestreifter figurbetonter Long Blazer mit goldenen knöpfen
-  Ärmel lang
+  Gestreifter figurbetonter Longblazer mit goldenen Knöpfen.
   Blazerlänge 83cm
 featuredImage: /img/selvii_doppelreihiger_blazer_gestreift-1.jpg
 gallery:
-  - alt: Gestreifter figurbetonter Long Blazer mit goldenen knöpfen von Selvii
+  - alt: Gestreifter figurbetonter Longblazer mit goldenen Knöpfen von Selvii
+    image: /img/selvii_doppelreihiger_blazer_gestreift-1.jpg
+  - alt: Gestreifter figurbetonter Longblazer mit goldenen Knöpfen von Selvii
     image: /img/selvii_doppelreihiger_blazer_gestreift-2.jpg
-  - alt: Gestreifter figurbetonter Long Blazer mit goldenen knöpfen von Selvii
+  - alt: Gestreifter figurbetonter Longblazer mit goldenen Knöpfen von Selvii
     image: /img/selvii_doppelreihiger_blazer_gestreift-3.jpg
 tags:
   - Blazer
