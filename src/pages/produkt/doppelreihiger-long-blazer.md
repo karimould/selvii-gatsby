@@ -1,7 +1,7 @@
 ---
 description_SEO: >-
-  Cremeweißer figurbetonter Long Blazer mit goldenen knöpfen von Selvii mit
-  langen Ärmel. Blazerlänge 83cm
+  Cremeweißer figurbetonter Longblazer mit goldenen Knöpfen von Selvii mit
+  langen Ärmeln. Blazerlänge 83cm
 templateKey: produkt
 new: true
 available: true
@@ -10,18 +10,21 @@ size:
   - size: UNI
 color:
   - color: Cremeweiß
-title: DOPPELREIHIGER LONG BLAZER
+title: DOPPELREIHIGER LONGBLAZER
 productinfo: >-
-  95% Polyester  5% Elastan | 30°C Wäsche/Bügeln mit geringer/Bleichen nicht
-  erlaubt/Reinigen mit Perchlorethylen/Nicht im Trommeltrockner trocknen
-modelinfo: Model Größe 1.68cm
+  95% Polyester  5% Elastan 30°C Wäsche. Bügeln mit geringer Temperatur.
+  Bleichen nicht erlaubt. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner
+  trocknen.
+modelinfo: Model Größe 168cm
 price: '25.95'
 description: |-
-  Cremeweißer figurbetonter Long Blazer mit goldenen knöpfen
-  Ärmel lang
-  Blazerlänge 83cm
+  Cremeweißer figurbetonter Longblazer mit goldenen Knöpfen.
+  Ärmel lang.
+  Blazerlänge 83cm.
 featuredImage: /img/selvii_doppelreihiger_blazer_weiss-1.jpg
 gallery:
+  - alt: Cremeweißer Long Blazer mit goldenen Knöpfen von Selvii 3/4 Aufnahme.
+    image: /img/selvii_doppelreihiger_blazer_weiss-1.jpg
   - alt: Cremeweißer figurbetonter Long Blazer mit goldenen knöpfen von Selvii
     image: /img/selvii_doppelreihiger_blazer_weiss-2.jpg
   - alt: Cremeweißer figurbetonter Long Blazer mit goldenen knöpfen von Selvii
@@ -29,7 +32,7 @@ gallery:
   - alt: Cremeweißer Long Blazer mit goldenen knöpfen von Selvii Nahaufnahme
     image: /img/selvii_doppelreihiger_blazer_weiss-4.jpg
   - alt: >-
-      Cremeweißer Long Blazer mit goldenen knöpfen von Selvii Nahaufnahme vom
+      Cremeweißer Long Blazer mit goldenen Knöpfen von Selvii Nahaufnahme vom
       Ärmel
     image: /img/selvii_doppelreihiger_blazer_weiss-5.jpg
 tags:
