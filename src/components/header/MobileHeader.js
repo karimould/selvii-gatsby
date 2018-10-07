@@ -35,13 +35,17 @@ export default class MobileHeader extends React.Component {
             <LogoLink to="/"> 
                 <img src={Logo} alt="Selvii logo"/>
               </LogoLink>
-              <NavigationLink className="menu-item" to="/premium">Premium</NavigationLink>
-              <NavigationLink className="menu-item" to="/jacken">Jacken/Mäntel</NavigationLink>
+              <NavigationLink className="menu-item" to="/pullover">Pullover</NavigationLink>
               <NavigationLink className="menu-item" to="/blazer">Blazer</NavigationLink>
               <NavigationLink className="menu-item" to="/zweiteiler">Zweiteiler</NavigationLink>
-              <NavigationLink className="menu-item" to="/pullover">Pullover</NavigationLink>
-              <NavigationLink className="menu-item" to="/hosen">Hosen</NavigationLink>
               <NavigationLink className="menu-item" to="/kleider">Kleider</NavigationLink>
+              <NavigationLink className="menu-item" to="/hosen">Hosen</NavigationLink>
+              <NavigationLink className="menu-item" to="/jacken">Jacken</NavigationLink>
+              <Break/>
+              <NavigationLink className="menu-item" to="/premium">Premium</NavigationLink>
+              <Break/>
+              <NavigationLink className="menu-item small" to="/rechtliches/kontakt">Kontakt</NavigationLink>
+              <NavigationLink className="menu-item small" to="/rechtliches/unternehmen">Unternehmen</NavigationLink>
             </Menu>
           </BurgerMenuContainer>
           <CartContainer>
@@ -57,6 +61,16 @@ export default class MobileHeader extends React.Component {
     )
   }
 }
+
+const Break = styled('br')`
+  display: block;
+   margin: 10px 0;
+`
+
+const BreakSmall = styled('br')`
+  display: block;
+   margin: -8px 0;
+`
 
 const LogoLink = styled(Link)`
   img {
@@ -82,6 +96,10 @@ const FlexWrapper = styled('div')`
 `
 
 const BurgerMenuContainer = styled('div')`
+
+.small {
+  font-size: 0.8rem;
+}
 
 .bm-burger-button {
   position: fixed;
@@ -119,7 +137,7 @@ const BurgerMenuContainer = styled('div')`
 
 .bm-item {
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .bm-overlay {

@@ -5,11 +5,13 @@ import Wrapper from '../components/wrapper/Wrapper'
 import Header from '../components/header/Header'
 import Footer from '../components/footer/Footer'
 import Content, { HTMLContent } from '../components/siteContent/Content'
+import styled from 'react-emotion'
 
 export const InformationPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
+    <ContainerWithMarginLeft>
     <section className="section section--gradient">
       <div className="container">
         <div className="columns">
@@ -24,6 +26,7 @@ export const InformationPageTemplate = ({ title, content, contentComponent }) =>
         </div>
       </div>
     </section>
+    </ContainerWithMarginLeft>
   )
 }
 
@@ -63,5 +66,14 @@ export const informationPageQuery = graphql`
         title
       }
     }
+  }
+`
+
+const ContainerWithMarginLeft = styled('div')`
+  padding-left: 120px;
+  padding-top: 60px;
+  @media (max-width: 851px) {
+    padding-left: 0;
+    padding-top: 0;
   }
 `

@@ -24,7 +24,7 @@ export default class Footer extends React.Component {
 
 const FooterContainer = styled('div')`
   margin-top: 100px;
-  border-top: 1px solid black;
+  border-top: 1px solid lightgray;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -46,4 +46,6 @@ const CopyRightCon = styled('div')`
   text-align: right;
   color: black;
   margin-top: 30px;
+  margin-right: 10px;
+  font-size: 0.8rem;
 `

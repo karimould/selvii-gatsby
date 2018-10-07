@@ -14,18 +14,15 @@ export default class FooterNav extends React.Component {
           <FoterNavLI>
             <FoterNavLink title="link zum datenschutz" to="/rechtliches/datenschutz">Datenschutz</FoterNavLink>
           </FoterNavLI>
-          <FoterNavLI>
-            <FoterNavLink title="link zu den AGBs" to="/rechtliches/agbs">AGBs</FoterNavLink>
-          </FoterNavLI>
         </FooterNavUL>
       </FooterNavLeft>
       <FooterNavRight>
         <FooterNavUL>
           <FoterNavLI>
-            <FoterNavLink title="link zu der Widerrufsbelehrung" to="/rechtliches/widerrufsbelehrung">Widerrufsbelehrung</FoterNavLink>
+            <FoterNavLink title="link zu der Widerrufsbelehrung" to="/rechtliches/widerrufsbelehrung">Widerruf</FoterNavLink>
           </FoterNavLI>
           <FoterNavLI>
-            <FoterNavLink title="link zu der Kontaktseite" to="/rechtliches/kontakt">Kontakt</FoterNavLink>
+            <FoterNavLink title="link zu den AGBs" to="/rechtliches/agbs">AGB</FoterNavLink>
           </FoterNavLI>
         </FooterNavUL>
       </FooterNavRight>
@@ -40,10 +37,13 @@ const FooterNavContainer = styled('div')`
   display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
   @media (max-width: 550px) {
     flex-direction: column;
     align-items: center;
     height: auto;
+    text-align: center;
   }
 `
 
@@ -51,7 +51,6 @@ const FooterNavLeft = styled('div')`
 `
 
 const FooterNavRight = styled('div')`
-  margin-left: 50px;
 `
 
 const FooterNavUL = styled('ul')`
@@ -62,6 +61,10 @@ const FoterNavLI = styled('li')`
   text-decoration: none;
   margin-top: 10px;
   color: black;
+  margin-left: 5px;
+  @media (max-width: 550px) {
+    margin-left: 0px;
+  }
 `
 
 const FoterNavLink = styled(Link)`
