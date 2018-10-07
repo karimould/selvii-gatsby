@@ -1,8 +1,8 @@
 ---
 templateKey: information-page
-title: Datenschutz
+title: Kontakt
 ---
-# Kontakt
+# 
 
 
 
