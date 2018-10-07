@@ -16,7 +16,7 @@ title: KLEID IN SEIDENOPTIK IN MUSTARD
 productinfo: >-
   95% Polyester, 5% Elastan. 30°C Wäsche. Bleichen nicht erlaubt. Nicht
   bügeln. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner trocknen.
-modelinfo: Model Größe 166cm
+modelinfo: Model Größe 168cm
 price: '34.95'
 description: |-
   Bodenlanges Kleid in mustard. Elastischer Bund im selben Stoff. Knopfärmel.
