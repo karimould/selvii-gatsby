@@ -8,13 +8,19 @@ export default class FooterSocialMedia extends React.Component {
     return(
       <FooterSocialMediaContainer>
         <FooterSocialMediaH3>Folge uns:</FooterSocialMediaH3>
-        <br/>
+        <BreakSmall />
         <a target="_blank" rel="noopener noreferrer" title="Link zu dem Selvii Instagram Profil" href="https://www.instagram.com/selviiofficial/"><FooterSocialMediaImg title="instagram logo" alt="instagram logo" src={instagram}/></a>
         <a target="_blank" rel="noopener noreferrer" title="Link zu dem Selvii Pinterest Profil" href="https://www.pinterest.de/cd815bc591e728ea8ef3d6be17ae77/?eq=selvii%20women%20fa&etslf=4826"><FooterSocialMediaImg title="pinterest logo" alt="pinterest logo" src={pinterest}/></a>
       </FooterSocialMediaContainer>
     )
   }
 }
+
+
+const BreakSmall = styled('br')`
+  display: block;
+  margin-top: 5px;
+`
 
 const FooterSocialMediaContainer = styled('div')`
   grid-area: right;

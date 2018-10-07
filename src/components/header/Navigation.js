@@ -86,11 +86,3 @@ const NavigationLink = styled(Link)`
   text-transform: uppercase;
   font-size: 1.6rem;
 `
-
-const NavigationLinkSmall = styled(Link)`
-  color: black;
-  text-decoration: none;
-  text-transform: none;
-  font-size: 1.0rem;
-  font-weight: medium;
-`

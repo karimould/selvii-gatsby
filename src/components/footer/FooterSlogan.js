@@ -27,7 +27,7 @@ const FooterSloganContainer = styled('div')`
 `
 const LogoLink = styled(Link)`
   img {
-    margin-top: 50px;
+    margin-top: 10px;
     width: 150px;
     height: auto;
   }
