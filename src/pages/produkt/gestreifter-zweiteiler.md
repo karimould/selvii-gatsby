@@ -1,6 +1,6 @@
 ---
 description_SEO: >-
-  Gestreifter zweiteiler bestehend aus Hose und Blaze von Selvii. Blazer ohne
+  Gestreifter Zweiteiler bestehend aus Hose und Blazer von Selvii. Blazer ohne
   Knopfleiste und Taschen.
 
   Gürtel aus gleichem Material. Elastischer Bund.
@@ -22,12 +22,12 @@ productinfo: >-
 modelinfo: Model Größe 166cm
 price: '39.95'
 description: >-
-  Gestreifter Zweiteiler bestehend aus Hose und Blazer. Blazer ohne Knopfleiste
-  und Taschen.
+  Gestreifter Zweiteiler bestehend aus Blazer und Hose. Blazer ohne Knopfleiste
+  und Taschen.  Hose mit elastischem Bund. Gürtel aus selbem Material.
 
-  Gürtel aus selbem Material. Elastischer Bund.
+  Kariert mit dunkelrotem Akzent.
 
-  Ärmel 52cm
+  Ärmel 52cm.
 featuredImage: /img/selvii_gestreifter_blazer_mit_hose-1.jpg
 gallery:
   - alt: gestreifter Zweiteiler von Selvii
