@@ -18,30 +18,25 @@ module.exports = {
       }
     },
     {
-            resolve: 'gatsby-plugin-snipcart',
-            options: {
-              apiKey: 'ZTc4NTUzYmEtYzViMS00ZjViLWE2OTUtYzliOGQzMGYzNDIxNjM2NzI0MzA2OTY1ODUzMTY5'
-            }
-          },
-      
-    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-127059928-1",
-        // Puts tracking script in the head instead of the body
         head: true,
-        // Setting this parameter is optional
         anonymize: true,
-        // Setting this parameter is also optional
         respectDNT: true,
-        // Avoids sending pageview hits from custom paths
-        // Enables Google Optimize using your container Id
-        // Any additional create only fields (optional)
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: "selvii.de",
         },
       },
+      {
+        resolve: `gatsby-plugin-sitemap`
+      },
+      {
+        resolve: 'gatsby-plugin-robots-txt',
+        options: {
+          host: 'https://www.selvii.de',
+          sitemap: 'https://www.selvii.de/sitemap.xml',
+          policy: [{ userAgent: '*', allow: '/' }]
+        }
+  },
     {
       resolve: `gatsby-plugin-emotion`,
       options: {
