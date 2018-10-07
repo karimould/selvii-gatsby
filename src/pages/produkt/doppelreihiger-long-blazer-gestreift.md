@@ -19,7 +19,8 @@ modelinfo: Model Größe 168cm
 price: '25.95'
 description: |-
   Gestreifter figurbetonter Longblazer mit goldenen Knöpfen.
-  Blazerlänge 83cm
+  Ärmel lang.
+  Blazerlänge 83cm.
 featuredImage: /img/selvii_doppelreihiger_blazer_gestreift-1.jpg
 gallery:
   - alt: Gestreifter figurbetonter Longblazer mit goldenen Knöpfen von Selvii
