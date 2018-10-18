@@ -6,12 +6,14 @@ import Header from '../components/header/Header'
 import Footer from '../components/footer/Footer'
 import Content, { HTMLContent } from '../components/siteContent/Content'
 import styled from 'react-emotion'
+import Head from '../components/util/Head'
 
 export const InformationPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
     <ContainerWithMarginLeft>
+    <Head title="Selvii Online Shop | Die neue Kollektion online kaufen" desc="Selvii Damenmode online kaufen. Shoppen Sie die neueste Selvii Damenmode."/>
     <section className="section section--gradient">
       <div className="container">
         <div className="columns">
