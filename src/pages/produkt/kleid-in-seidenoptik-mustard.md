@@ -12,13 +12,14 @@ size:
   - size: UNI
 color:
   - color: mustard
-title: KLEID IN SEIDENOPTIK IN MUSTARD
+title: VORBESTELLEN - KLEID IN SEIDENOPTIK IN MUSTARD
 productinfo: >-
   95% Polyester, 5% Elastan. 30°C Wäsche. Bleichen nicht erlaubt. Nicht
   bügeln. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner trocknen.
 modelinfo: Model Größe 168cm
 price: '34.95'
 description: |-
+  Achtung Vorbestellung. Artikel wird verschickt sobald verfügbar (3 Wochen).
   Bodenlanges Kleid in mustard. Elastischer Bund im selben Stoff. Knopfärmel.
   Kleidlänge 152cm.
   V-Ausschnitt.
