@@ -1,12 +1,8 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
 import Wrapper from '../components/wrapper/Wrapper'
 import Header from '../components/header/Header'
 import SliderComp from '../components/slider/Slider'
 import Footer from '../components/footer/Footer'
-import ProductCardWrapper from '../components/wrapper/ProductCardWrapper';
-import ProductCard from '../components/productCard/ProductCard';
 import '../styles/normalize.css'
 import Head from '../components/util/Head';
 import SocialmediaIndex from '../components/util/socialmedia-index/Socialmedia-index';

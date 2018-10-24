@@ -6,7 +6,7 @@ description_SEO: >-
   V - Ausschnitt.
 templateKey: produkt
 new: true
-available: true
+available: false
 category': kleider
 size:
   - size: UNI
@@ -19,6 +19,7 @@ productinfo: >-
 modelinfo: Model Größe 168cm
 price: '34.95'
 description: |-
+  Achtung Vorbestellung. Artikel wird verschickt sobald verfügbar (3 Wochen).
   Bodenlanges Kleid in mustard. Elastischer Bund im selben Stoff. Knopfärmel.
   Kleidlänge 152cm.
   V-Ausschnitt.
