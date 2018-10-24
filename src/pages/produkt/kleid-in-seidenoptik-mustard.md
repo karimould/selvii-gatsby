@@ -6,13 +6,13 @@ description_SEO: >-
   V - Ausschnitt.
 templateKey: produkt
 new: true
-available: true
+available: false
 category': kleider
 size:
   - size: UNI
 color:
   - color: mustard
-title: VORBESTELLEN - KLEID IN SEIDENOPTIK IN MUSTARD
+title: KLEID IN SEIDENOPTIK IN MUSTARD
 productinfo: >-
   95% Polyester, 5% Elastan. 30°C Wäsche. Bleichen nicht erlaubt. Nicht
   bügeln. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner trocknen.
