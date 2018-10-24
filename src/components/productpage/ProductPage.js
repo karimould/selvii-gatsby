@@ -229,7 +229,7 @@ export default class ProductPage extends React.Component {
             <ProductPageTitle>{this.props.title}</ProductPageTitle>
             <ProductPrice>{this.props.price} € <SpanWithSmallText>exkl. Versand</SpanWithSmallText></ProductPrice>
             <br />
-            <ProductPageDescText>{this.props.desc}</ProductPageDescText>
+            <ProductPageDescText>{this.props.desc}  Lieferzeit 2 - 3 Tage.</ProductPageDescText>
             <br />
             <ProductModelInfos>{this.props.modelinfo}</ProductModelInfos>
             <br />
