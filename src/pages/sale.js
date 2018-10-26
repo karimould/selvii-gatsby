@@ -5,18 +5,19 @@ import Wrapper from '../components/wrapper/Wrapper'
 import Header from '../components/header/Header'
 import Footer from '../components/footer/Footer'
 import '../styles/normalize.css'
-import ProductCardWrapper from '../components/wrapper/ProductCardWrapper'
-import ProductCard from '../components/productCard/ProductCard'
-import Head from '../components/util/Head'
+import ProductCardWrapper from '../components/wrapper/ProductCardWrapper';
+import ProductCard from '../components/productCard/ProductCard';
+import Head from '../components/util/Head';
 
-export default class Zweiteiler extends React.Component {
+
+export default class Sale extends React.Component {
   render() {
     const { data } = this.props
     const { edges: products } = data.allMarkdownRemark
         
     return(
       <Wrapper>
-        <Head title="Zweiteiler | Damenmode | Selvii Online Shop" desc="Endecken Sie die Zweitiler von Selvii. Zweiteiler für die Abendgarderobe oder Freizeit"/>
+        <Head title="Sale | Damenmode | Selvii Online Shop" desc="Endecken Sie viele günstige Angebote in unserem Sale"/>
         <Header />
           <ProductCardWrapper>
           {products.map(({node: product}) => (
@@ -40,7 +41,7 @@ export default class Zweiteiler extends React.Component {
   }
 }
 
-Zweiteiler.propTypes = {
+Sale.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -59,29 +60,29 @@ Zweiteiler.propTypes = {
 
 
 export const pageQuery = graphql`
-  query IndexQueryZweiteilerProducts {
-    allMarkdownRemark(
-      filter: { frontmatter: { category_: { eq: "zweiteiler" } }}
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-          }
-          frontmatter {
-            available
-            sale
-            price
-            sale_price
-            new
-            title
-            templateKey
-            description
-            featuredImage
-            category_
+  query IndexQuerySaleProducts {
+      allMarkdownRemark(
+           filter: { frontmatter: { sale: { eq: true } }}
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                available
+                sale
+                price
+                sale_price
+                new
+                title
+                templateKey
+                description
+                featuredImage
+                category_
+              }
+            }
           }
         }
       }
-    }
-  }
 `

@@ -27,7 +27,9 @@ export default class Hosen extends React.Component {
               img={product.frontmatter.featuredImage}
               title={product.frontmatter.title}
               new={product.frontmatter.new}
+              sale={product.frontmatter.sale}
               price={product.frontmatter.price}
+              sale_price={product.frontmatter.sale_price}
               key={product.id}
               available={product.frontmatter.available}
             />
@@ -69,7 +71,9 @@ export const pageQuery = graphql`
           }
           frontmatter {
             available
+            sale
             price
+            sale_price
             new
             title
             templateKey

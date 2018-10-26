@@ -142,7 +142,7 @@ export default class ProductPage extends React.Component {
               <a onClick={this.getCartCount} href="#"
               class="snipcart-add-item"
               data-item-name={this.props.title}
-              data-item-price={this.props.price}
+              data-item-price={this.props.sale ? (this.props.sale_price) : (this.props.price)}
               data-item-id={this.props.id}
               data-item-url={"https://selvii.netlify.com" + this.props.link}
               data-item-custom2-name="Größe"
@@ -157,7 +157,7 @@ export default class ProductPage extends React.Component {
             <a onClick={this.showModal} href="#"
               class="snipcart-add-item"
               data-item-name={this.props.title}
-              data-item-price={this.props.price}
+              data-item-price={this.props.sale ? (this.props.sale_price) : (this.props.price)}
               data-item-id={this.props.id}
               data-item-url={"https://selvii.netlify.com" + this.props.link}
               data-item-custom2-name="Size"
@@ -176,7 +176,7 @@ export default class ProductPage extends React.Component {
             <a onClick={this.getCartCount} href="#"
             class="snipcart-add-item"
             data-item-name={this.props.title}
-            data-item-price={this.props.price}
+            data-item-price={this.props.sale ? (this.props.sale_price) : (this.props.price)}
             data-item-id={this.props.id}
             data-item-url={"https://selvii.netlify.com" + this.props.link}
             data-item-custom2-name="Größe"
@@ -196,7 +196,7 @@ export default class ProductPage extends React.Component {
           <a onClick={this.showModal} href="#"
             class="snipcart-add-item"
             data-item-name={this.props.title}
-            data-item-price={this.props.price}
+            data-item-price={this.props.sale ? (this.props.sale_price) : (this.props.price)}
             data-item-id={this.props.id}
             data-item-url={"https://selvii.netlify.com" + this.props.link}
             data-item-custom2-name="Size"
@@ -227,7 +227,8 @@ export default class ProductPage extends React.Component {
         <ProductDescContainer>
           <ProductDescWrapper>
             <ProductPageTitle>{this.props.title}</ProductPageTitle>
-            <ProductPrice>{this.props.price} € <SpanWithSmallText>exkl. Versand</SpanWithSmallText></ProductPrice>
+            <br />
+            {this.props.sale ? (<div><ProductSalePrice>{this.props.price} €</ProductSalePrice><ProductPrice>SALE: {this.props.sale_price} € <SpanWithSmallText>exkl. Versand</SpanWithSmallText></ProductPrice></div>) : (<ProductPrice>{this.props.price} € <SpanWithSmallText>exkl. Versand</SpanWithSmallText></ProductPrice>)}
             <br />
             <ProductPageDescText>{this.props.desc}  Lieferzeit 2 - 3 Tage.</ProductPageDescText>
             <br />
@@ -319,6 +320,12 @@ const ProductModelInfos = styled('p')`
 `
 const ProductPrice = styled('p')`
   font-weight: bold;
+`
+
+const ProductSalePrice = styled('p')`
+  font-weight: bold;
+  color: '#5d3126';
+  text-decoration: line-through;
 `
 const ProductPageAddToCartBTN = styled('a')`
 `

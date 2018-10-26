@@ -10,6 +10,10 @@ export default class Navigation extends React.Component {
     return(
       <NavigationContainer>
         <NavigationUL>
+        <NavigationLI>
+            <NavigationLink to="/sale">Sale</NavigationLink>
+          </NavigationLI>
+          <Break />
           <NavigationLI>
             <NavigationLink to="/pullover">Pullover</NavigationLink>
           </NavigationLI>

@@ -15,7 +15,7 @@ export default class ProductCard extends React.Component {
           <ProductCardImage alt={this.props.title} src={this.props.img}/>
         {this.props.new ? (<NewProduct>NEU</NewProduct>) : (null)}
         <ProductCardTitle>{this.props.title}</ProductCardTitle>
-        <ProductPrice>{this.props.price} €</ProductPrice>
+        {this.props.sale ? (<div><ProductSalePrice>{this.props.price} €</ProductSalePrice><ProductPrice>SALE: {this.props.sale_price} €</ProductPrice></div>) : (<ProductPrice>{this.props.price} €</ProductPrice>)}
         </ProductCardImageContainer>
         </ProductCardLink>
       </ProductCardContainer>
@@ -27,7 +27,7 @@ export default class ProductCard extends React.Component {
           <ProductCardImage alt={this.props.title} src={this.props.img}></ProductCardImage>
           {this.props.new ? (<NewProduct>Ausverkauft</NewProduct>) : (null)}
         <ProductCardTitle>{this.props.title}</ProductCardTitle>
-        <ProductPrice>{this.props.price} €</ProductPrice>
+        {this.props.sale ? (<div><ProductSalePrice>{this.props.price} €</ProductSalePrice><ProductPrice>SALE: {this.props.sale_price} €</ProductPrice></div>) : (<ProductPrice>{this.props.sale}</ProductPrice>)}
         </ProductCardImageContainer>
         </ProductCardContainer>
       )
@@ -79,6 +79,11 @@ const NewProduct = styled('h3')`
 `
 const ProductPrice = styled('p')`
   color: '#5d3126';
+`
+
+const ProductSalePrice = styled('p')`
+  color: '#5d3126';
+  text-decoration: line-through;
 `
 
 const ProductCardLink = styled(Link)`

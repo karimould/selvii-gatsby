@@ -4,6 +4,7 @@ description_SEO: >-
   langen Ärmeln. Blazerlänge 83cm
 templateKey: produkt
 new: true
+sale: true
 available: true
 category': blazer
 size:
@@ -17,6 +18,7 @@ productinfo: >-
   trocknen.
 modelinfo: Model Größe 168cm
 price: '25.95'
+sale-price: '19.99'
 description: |-
   Cremeweißer figurbetonter Longblazer mit goldenen Knöpfen.
   Ärmel lang.
