@@ -28,10 +28,13 @@ export default class Navigation extends React.Component {
           <NavigationLI>
             <NavigationLink to="/jacken">Mäntel</NavigationLink>
           </NavigationLI>
-          <Break />
           <NavigationLI>
-            <NavigationLink to="/premium">Premium</NavigationLink>
+            <NavigationLink to="/taschen">Taschen</NavigationLink>
           </NavigationLI>
+          <NavigationLI>
+            <NavigationLink to="/accessoires">Accessoires</NavigationLink>
+          </NavigationLI>
+          <Break />
           <Break />
           <Break />
           <NavigationLI>

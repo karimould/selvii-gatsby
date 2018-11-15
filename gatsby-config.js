@@ -18,6 +18,12 @@ module.exports = {
       }
     },
     {
+      resolve: 'gatsby-plugin-snipcart',
+      options: {
+        apiKey: 'ZTc4NTUzYmEtYzViMS00ZjViLWE2OTUtYzliOGQzMGYzNDIxNjM2NzI0MzA2OTY1ODUzMTY5'
+      }
+    },      
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-127059928-1",
