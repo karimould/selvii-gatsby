@@ -15,10 +15,10 @@ export default class New extends React.Component {
     const { edges: products } = data.allMarkdownRemark        
     return(
       <Wrapper>
-        <Head title="Neu | Damenmode | Selvii Online Shop" desc="Endecken Sie die neusten Damenkollektionen von Selvii bei uns im Onlineshop"/>
+        <Head title="Neu | Damenmode | Selvii Online Shop" desc="Endecken Sie die neusten Damenkollektionen von Selvii bei uns im Onlineshop auf unsere NEU Seite finden Sie immer die neusten Sachen von Selvii"/>
         <Header />
           <ProductCardWrapper>
-          {products.map(({node: product}) => (
+          {products.slice(0).reverse().map(({node: product}) => (
             <ProductCard 
               link={product.fields.slug}
               category={product.frontmatter.category_}

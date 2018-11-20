@@ -18,7 +18,7 @@ export default class Premium extends React.Component {
         <Head title="Neu | Damenmode | Selvii Online Shop" desc="Endecken Sie die Premium Damenkollektionen von Selvii bei uns im Onlineshop"/>
         <Header />
           <ProductCardWrapper>
-          {products.map(({node: product}) => (
+          {products.slice(0).reverse().map(({node: product}) => (
             <ProductCard 
               link={product.fields.slug}
               category={product.frontmatter.category_}
