@@ -14,20 +14,24 @@ productinfo: >-
   100% Acryl: 30°C Wäsche. Bleichen nicht
   erlaubt. Bügeln mit geringer Temperatur. Reinigen mit Perchlorethylen. Nicht
   im Trommeltrockner trocknen.
-modelinfo: Modelgröße 1,65m. Model trägt Größe UNI
+modelinfo: Modelgröße 1,68m.
 price: '34.95'
 description: >-
   Lange Ballon-Ärmel. Saum enganliegend. Doppelter Rollkragen. Farbe Cremeweiß.
-featuredImage: /img/selvii_premium_zweiteiler_khaki-1.jpg
+featuredImage: /img/selvii_strickpullover_mit_hohem_rollkragen-1.jpg
 gallery:
-  - alt: sprotlicher premium Zweiteiler von selvii
-    image: /img/selvii_premium_zweiteiler_khaki-1.jpg
-  - alt: sprotlicher premium Zweiteiler von selvii
-    image: /img/selvii_premium_zweiteiler_khaki-2.jpg
-  - alt: Zweiteiler in khaki von Selvii
-    image: /img/selvii_premium_zweiteiler_khaki-3.jpg
-  - alt: sprotlicher premium Zweiteiler von selvii
-    image: /img/selvii_premium_zweiteiler_khaki-4.jpg
+  - alt: Cremeweißer Strickpullove mit hohem Rollkragen von Selvii
+    image: /img/selvii_strickpullover_mit_hohem_rollkragen-1.jpg
+  - alt: Cremeweißer Strickpullove mit hohem Rollkragen von Selvii
+    image: /img/selvii_strickpullover_mit_hohem_rollkragen-2.jpg
+  - alt: Cremeweißer Strickpullove mit hohem Rollkragen von Selvii
+    image: /img/selvii_strickpullover_mit_hohem_rollkragen-3.jpg
+  - alt: Cremeweißer Strickpullove mit hohem Rollkragen von Selvii
+    image: /img/selvii_strickpullover_mit_hohem_rollkragen-4.jpg
+  - alt: Cremeweißer Strickpullove mit hohem Rollkragen von Selvii
+    image: /img/selvii_strickpullover_mit_hohem_rollkragen-5.jpg
+  - alt: Cremeweißer Strickpullove mit hohem Rollkragen von Selvii
+    image: /img/selvii_strickpullover_mit_hohem_rollkragen-6.jpg
 tags:
   - Pullover
 ---

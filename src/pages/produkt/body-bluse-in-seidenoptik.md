@@ -19,18 +19,19 @@ modelinfo: Modelgröße 1,65m. Model trägt Größe UNI
 price: '34.95'
 description: >-
   Lässige Bluse mit Body. V-Ausschnitt. Lange Ärmel. Farbe Mustard.
-featuredImage: /img/selvii_premium_zweiteiler_khaki-1.jpg
+featuredImage: /img/selvii_body_bluse_in_seidenoptik-1.jpg
 gallery:
-  - alt: sprotlicher premium Zweiteiler von selvii
-    image: /img/selvii_premium_zweiteiler_khaki-1.jpg
-  - alt: sprotlicher premium Zweiteiler von selvii
-    image: /img/selvii_premium_zweiteiler_khaki-2.jpg
-  - alt: Zweiteiler in khaki von Selvii
-    image: /img/selvii_premium_zweiteiler_khaki-3.jpg
-  - alt: sprotlicher premium Zweiteiler von selvii
-    image: /img/selvii_premium_zweiteiler_khaki-4.jpg
+  - alt: lässige body bluse in Seidenoptik von selvii
+    image: /img/selvii_body_bluse_in_seidenoptik-1.jpg
+  - alt: lässige body bluse in Seidenoptik von selvii
+    image: /img/selvii_body_bluse_in_seidenoptik-2.jpg
+  - alt: lässige body bluse in Seidenoptik von selvii
+    image: /img/selvii_body_bluse_in_seidenoptik-3.jpg
+  - alt: lässige body bluse in Seidenoptik von selvii
+    image: /img/selvii_body_bluse_in_seidenoptik-4.jpg
+  - alt: lässige body bluse in Seidenoptik von selvii
+    image: /img/selvii_body_bluse_in_seidenoptik-5.jpg
 tags:
-  - Zweiteiler
-  - Premium
+  - Bluse
 ---
 

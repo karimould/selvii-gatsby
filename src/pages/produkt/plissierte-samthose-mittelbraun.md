@@ -18,14 +18,18 @@ modelinfo: Model Größe 168cm. Model trägt größe S/M.
 price: '16.95'
 description: >-
   Plissierte Palazzohose aus Samt. Elastischer Bund mit Schnur. Farbe Mittelbraun.
-featuredImage: /img/selvii_hose_aus_dickem_stoff-1.jpg
+featuredImage: /img/selvii_plissierte_samthose_mittelbraun-1.jpg
 gallery:
-  - alt: Schwarz-Grau Moire Muster Hose von Selvii
-    image: /img/selvii_hose_aus_dickem_stoff-2.jpg
-  - alt: Schwarz-Grau Moire Muster Hose von Selvii
-    image: /img/selvii_hose_aus_dickem_stoff-3.jpg
-  - alt: Schwarz-Grau Moire Muster Hose von Selvii
-    image: /img/selvii_hose_aus_dickem_stoff-1.jpg
+  - alt: Samthose in mittelbraunem Ton von Selvii
+    image: /img/selvii_plissierte_samthose_mittelbraun-1.jpg
+  - alt: Samthose in mittelbraunem Ton von Selvii
+    image: /img/selvii_plissierte_samthose_mittelbraun-2.jpg
+  - alt: Samthose in mittelbraunem Ton von Selvii
+    image: /img/selvii_plissierte_samthose_mittelbraun-3.jpg
+  - alt: Samthose in mittelbraunem Ton von Selvii
+    image: /img/selvii_plissierte_samthose_mittelbraun-4.jpg
+  - alt: Samthose in mittelbraunem Ton von Selvii
+    image: /img/selvii_plissierte_samthose_mittelbraun-5.jpg
 tags:
   - Hose
 ---

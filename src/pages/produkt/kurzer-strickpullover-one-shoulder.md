@@ -18,16 +18,18 @@ modelinfo: Modelgröße 1,65m. Model trägt Größe UNI
 price: '35.95'
 description: >-
   Weiter Bateau-Ausschnitt. One-Shoulder geeignet. Lange Ärmel. Farbe Beige.
-featuredImage: /img/selvii_premium_zweiteiler_khaki-1.jpg
+featuredImage: /img/selvii_kurzer_strickpullover_one_shoulder-1.jpg
 gallery:
-  - alt: sprotlicher premium Zweiteiler von selvii
-    image: /img/selvii_premium_zweiteiler_khaki-1.jpg
-  - alt: sprotlicher premium Zweiteiler von selvii
-    image: /img/selvii_premium_zweiteiler_khaki-2.jpg
-  - alt: Zweiteiler in khaki von Selvii
-    image: /img/selvii_premium_zweiteiler_khaki-3.jpg
-  - alt: sprotlicher premium Zweiteiler von selvii
-    image: /img/selvii_premium_zweiteiler_khaki-4.jpg
+  - alt: one shoulder Strickpullover von selvii
+    image: /img/selvii_kurzer_strickpullover_one_shoulder-1.jpg
+  - alt: one shoulder Strickpullover von selvii
+    image: /img/selvii_kurzer_strickpullover_one_shoulder-2.jpg
+  - alt: one shoulder Strickpullover von selvii
+    image: /img/selvii_kurzer_strickpullover_one_shoulder-3.jpg
+  - alt: one shoulder Strickpullover von selvii
+    image: /img/selvii_kurzer_strickpullover_one_shoulder-4.jpg
+  - alt: one shoulder Strickpullover von selvii
+    image: /img/selvii_kurzer_strickpullover_one_shoulder-5.jpg
 tags:
   - Pullover
 ---
