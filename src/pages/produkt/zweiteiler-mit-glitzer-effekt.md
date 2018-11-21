@@ -19,15 +19,22 @@ price: '39.95'
 description: >-
   Zweiteiler Gestreift in Brauntönen mit Glitzereffekt. Blazerknöfpe in gleicher Farbe. Klassicher Kragen. Hose mit elastischem Bund und keinen Taschen
 featuredImage: /img/selvii_gestreifter_blazer_mit_hose-1.jpg
-gallery:
-  - alt: gestreifter Zweiteiler von Selvii
-    image: /img/selvii_gestreifter_blazer_mit_hose-1.jpg
-  - alt: Gestreifter Zweiteiler von Selvii
-    image: /img/selvii_gestreifter_blazer_mit_hose-2.jpg
-  - alt: Gestreifter Blazer mit Hose von selvii
-    image: /img/selvii_gestreifter_blazer_mit_hose-3.jpg
-  - alt: gestreifter Zweiteiler von Selvii Nahaufnahme
-    image: /img/selvii_gestreifter_blazer_mit_hose-4.jpg
+  - alt: Premium Zweiteiler mit Glitzer effekt von selvii
+    image: /img/selvii_zweiteiler_mit_glitzereffekt_premium-1.jpg
+  - alt: Premium Zweiteiler mit Glitzer effekt von selvii
+    image: /img/selvii_zweiteiler_mit_glitzereffekt_premium-2.jpg
+  - alt: Premium Zweiteiler mit Glitzer effekt von selvii
+    image: /img/selvii_zweiteiler_mit_glitzereffekt_premium-3.jpg
+  - alt: Premium Zweiteiler mit Glitzer effekt von selvii
+    image: /img/selvii_zweiteiler_mit_glitzereffekt_premium-4.jpg
+  - alt: Premium Zweiteiler mit Glitzer effekt von selvii
+    image: /img/selvii_zweiteiler_mit_glitzereffekt_premium-5.jpg
+  - alt: Premium Zweiteiler mit Glitzer effekt von selvii
+    image: /img/selvii_zweiteiler_mit_glitzereffekt_premium-6.jpg
+  - alt: Premium Zweiteiler mit Glitzer effekt von selvii
+    image: /img/selvii_zweiteiler_mit_glitzereffekt_premium-7.jpg
+  - alt: Premium Zweiteiler mit Glitzer effekt von selvii
+    image: /img/selvii_zweiteiler_mit_glitzereffekt_premium-8.jpg
 tags:
   - Blazer
   - Hose

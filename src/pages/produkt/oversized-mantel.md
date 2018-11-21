@@ -19,16 +19,20 @@ modelinfo: Model Größe 168cm.
 price: '51.95'
 description: |-
   Langer Mantel mit jeweils Seitentaschen. Doppelreihig mit zwei schwarzen Knöpfen. Farbe Dunkelgrau. Klassischer Reverskragen.
-featuredImage: /img/selvi_kurzmantel_rosa-3.jpg
+featuredImage: /img/selvii_oversized_mantel-1.jpg
 gallery:
-  - alt: Kurzmantel von Selvii in Altrosa
-    image: /img/selvi_kurzmantel_rosa-1.jpg
-  - alt: Kurzmantel von Selvii in Altrosa
-    image: /img/selvi_kurzmantel_rosa-2.jpg
-  - alt: Kurzmantel von Selvii in Altrosa
-    image: /img/selvi_kurzmantel_rosa-3.jpg
-  - alt: Kurzmantel von Selvii in Altrosa
-    image: /img/selvi_kurzmantel_rosa-4.jpg
+  - alt: Mantel im oversized look von selvii
+    image: /img/selvii_oversized_mantel-1.jpg
+  - alt: Mantel im oversized look von selvii
+    image: /img/selvii_oversized_mantel-2.jpg
+  - alt: Mantel im oversized look von selvii
+    image: /img/selvii_oversized_mantel-3.jpg
+  - alt: Mantel im oversized look von selvii
+    image: /img/selvii_oversized_mantel-4.jpg
+  - alt: Mantel im oversized look von selvii
+    image: /img/selvii_oversized_mantel-5.jpg
+  - alt: Mantel im oversized look von selvii
+    image: /img/selvii_oversized_mantel-6.jpg
 tags:
   - Mantel
   - Kurzmantel
