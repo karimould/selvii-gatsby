@@ -5,7 +5,7 @@ description_SEO: >-
 templateKey: produkt
 new: true
 available: true
-category': premium
+category': zweiteiler
 size:
   - size: UNI
 color:
