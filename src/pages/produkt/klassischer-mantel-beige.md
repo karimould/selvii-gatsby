@@ -9,7 +9,7 @@ size:
   - size: UNI
 color:
   - color: Beige
-title: MANTEL MIT TASCHEN
+title: KLASSISCHER MANTEL BEIGE
 productinfo: >-
   50% Baumwolle 50% Wolle. 30°C Wäsche. Bleichen nicht erlaubt. Bügeln mit
   geringer Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner

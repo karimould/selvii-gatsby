@@ -18,16 +18,14 @@ modelinfo: Model Größe 1.65cm. Model trägt Größe UNI
 price: '26.99'
 description: >-
   Plissierte Cullote mit Braun-Schwarzen Querstreifen sowie mit elstaischem Bund und Gürtel in Lederoptik. Beinlänge 95cm
-featuredImage: /img/selvii_karierte_hose_mit_gürtel-1.jpg
+featuredImage: /img/selvii_weite_hose_mit_schrägstreifen-1.jpg
 gallery:
-  - alt: Selviis Karierte Skinny Hose mit Schwarzer Gürtel
-    image: /img/selvii_karierte_hose_mit_gürtel-1.jpg
-  - alt: Selviis Karierte Skinny Hose mit Schwarzer Gürtel
-    image: /img/selvii_karierte_hose_mit_gürtel-2.jpg
-  - alt: Selviis Karierte Skinny Hose mit Schwarzer Gürtel
-    image: /img/selvii_karierte_hose_mit_gürtel-3.jpg
-  - alt: Selviis Karierte Skinny Hose mit Schwarzer Gürtel
-    image: /img/selvii_karierte_hose_mit_gürtel-4.jpg
+  - alt: Weite Hose mit Querstreifen
+    image: /img/selvii_weite_hose_mit_schrägstreifen-1.jpg
+  - alt: Weite Hose mit Querstreifen
+    image: /img/selvii_weite_hose_mit_schrägstreifen-2.jpg
+  - alt: Weite Hose mit Querstreifen
+    image: /img/selvii_weite_hose_mit_schrägstreifen-3.jpg
 tags:
   - Hose
 ---

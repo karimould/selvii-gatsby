@@ -11,7 +11,7 @@ export default class Navigation extends React.Component {
       <NavigationContainer>
         <NavigationUL>
           <NavigationLI>
-            <NavigationLink to="/pullover">Pullover</NavigationLink>
+            <NavigationLink to="/pullover">Oberteile</NavigationLink>
           </NavigationLI>
           <NavigationLI>
             <NavigationLink to="/blazer">Blazer</NavigationLink>
@@ -30,9 +30,6 @@ export default class Navigation extends React.Component {
           </NavigationLI>
           <NavigationLI>
             <NavigationLink to="/taschen">Taschen</NavigationLink>
-          </NavigationLI>
-          <NavigationLI>
-            <NavigationLink to="/accessoires">Accessoires</NavigationLink>
           </NavigationLI>
           <Break />
           <Break />

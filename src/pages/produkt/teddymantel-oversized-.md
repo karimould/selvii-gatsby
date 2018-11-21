@@ -6,7 +6,8 @@ new: true
 available: true
 category': mäntel/jacken
 size:
-  - size: M-L
+  - size: M
+  - size: L
 color:
   - color: Hellbraun
 title: TEDDYMANTEL OVERSIZED

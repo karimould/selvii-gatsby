@@ -9,7 +9,7 @@ size:
   - size: UNI
 color:
   - color: Beige
-title: LÄSSIGER STRICKPULLOVER MIT BALLON-ÄRMEL
+title: KURZER STRICKPULLOVER ONE SHOULDER
 productinfo: >-
   84% Acryl, 9% Viscose, 8% Lana: 30°C Wäsche. Bleichen nicht
   erlaubt. Bügeln mit geringer Temperatur. Reinigen mit Perchlorethylen. Nicht

@@ -10,7 +10,7 @@ size:
   - size: UNI
 color:
   - color: Marineblau
-title: DOPPELREIHIGER LONGBLAZER
+title: LONGBLAZER AUS FLIESSENDEM STOFF
 productinfo: >-
   99% Polyester, 1% Elastan 30°C Wäsche. Bügeln mit geringer Temperatur.
   Bleichen nicht erlaubt. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner

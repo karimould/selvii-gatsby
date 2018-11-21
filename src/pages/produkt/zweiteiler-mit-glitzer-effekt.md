@@ -11,14 +11,15 @@ color:
   - color: gestreift
 title: ZWEITEILER MIT GLITZER EFFEKT
 productinfo: >-
-  Hose: 95% Baumwolle, 5% Elastan. Blazer: 95% Viscose, 5% Elastan. Hose &
+  95% Polyester 5% Elastan. Hose &
   Blazer: 30°C Wäsche. Bleichen nicht erlaubt. Bügeln mit geringer Temperatur.
   Reinigen mit Perchlorethylen. Nicht im Trommeltrockner trocknen.
 modelinfo: Model Größe 168cm
-price: '39.95'
+price: '69.99'
 description: >-
   Zweiteiler Gestreift in Brauntönen mit Glitzereffekt. Blazerknöfpe in gleicher Farbe. Klassicher Kragen. Hose mit elastischem Bund und keinen Taschen
-featuredImage: /img/selvii_gestreifter_blazer_mit_hose-1.jpg
+featuredImage: /img/selvii_zweiteiler_mit_glitzereffekt_premium-1.jpg
+gallery:
   - alt: Premium Zweiteiler mit Glitzer effekt von selvii
     image: /img/selvii_zweiteiler_mit_glitzereffekt_premium-1.jpg
   - alt: Premium Zweiteiler mit Glitzer effekt von selvii

@@ -18,20 +18,18 @@ modelinfo: Modelgröße 1,68m.
 price: '29.95'
 description: >-
   Lange etwas breite Ärmel. Saum eng. Rollkragen mittelgroß. Farbe Beige. 
-featuredImage: /img/selvii_strickpullover_mit_hohem_rollkragen-1.jpg
+featuredImage: /img/selvii_strickpullover_mit_rollkragen-1.jpg
 gallery:
   - alt: beigeer Strickpullove mit hohem Rollkragen von Selvii
-    image: /img/selvii_strickpullover_mit_hohem_rollkragen-1.jpg
+    image: /img/selvii_strickpullover_mit_rollkragen-1.jpg
   - alt: beigeer Strickpullove mit hohem Rollkragen von Selvii
-    image: /img/selvii_strickpullover_mit_hohem_rollkragen-2.jpg
+    image: /img/selvii_strickpullover_mit_rollkragen-2.jpg
   - alt: beigeer Strickpullove mit hohem Rollkragen von Selvii
-    image: /img/selvii_strickpullover_mit_hohem_rollkragen-3.jpg
+    image: /img/selvii_strickpullover_mit_rollkragen-3.jpg
   - alt: beigeer Strickpullove mit hohem Rollkragen von Selvii
-    image: /img/selvii_strickpullover_mit_hohem_rollkragen-4.jpg
+    image: /img/selvii_strickpullover_mit_rollkragen-4.jpg
   - alt: beigeer Strickpullove mit hohem Rollkragen von Selvii
-    image: /img/selvii_strickpullover_mit_hohem_rollkragen-5.jpg
-  - alt: beigeer Strickpullove mit hohem Rollkragen von Selvii
-    image: /img/selvii_strickpullover_mit_hohem_rollkragen-6.jpg
+    image: /img/selvii_strickpullover_mit_rollkragen-5.jpg
 tags:
   - Pullover
 ---

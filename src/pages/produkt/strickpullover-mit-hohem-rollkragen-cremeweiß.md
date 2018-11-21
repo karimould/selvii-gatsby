@@ -9,7 +9,7 @@ size:
   - size: UNI
 color:
   - color: Cremeweiß
-title: STRICKPULLOVER MIT HOHEM ROLLKRAGEN
+title: STRICKPULLOVER MIT HOHEM ROLLKRAGEN CREMEWEIß
 productinfo: >-
   100% Acryl: 30°C Wäsche. Bleichen nicht
   erlaubt. Bügeln mit geringer Temperatur. Reinigen mit Perchlorethylen. Nicht

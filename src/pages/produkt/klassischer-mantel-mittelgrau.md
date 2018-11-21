@@ -9,7 +9,7 @@ size:
   - size: UNI
 color:
   - color: Mittelgrau
-title: MANTEL MIT TASCHEN
+title: KLASSISCHER MANTEL MITTELGRAU
 productinfo: >-
   50% Baumwolle 50% Wolle. 30°C Wäsche. Bleichen nicht erlaubt. Bügeln mit
   geringer Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner
@@ -18,16 +18,22 @@ modelinfo: Model Größe 168cm.
 price: '36.95'
 description: |-
   Klassischer Mantel. Lange Ärmel. Gürtel aus eigenem Material. Ein grauer Knopf mittig. Zwei vordere Taschen. Klassischer Reverskragen. Kein Innenfutter. Farbe Mittelgrau.
-featuredImage: /img/selvi_kurzmantel_rosa-3.jpg
+featuredImage: /img/selvii_klassischer_mantel-1.jpg
 gallery:
-  - alt: Kurzmantel von Selvii in Altrosa
-    image: /img/selvi_kurzmantel_rosa-1.jpg
-  - alt: Kurzmantel von Selvii in Altrosa
-    image: /img/selvi_kurzmantel_rosa-2.jpg
-  - alt: Kurzmantel von Selvii in Altrosa
-    image: /img/selvi_kurzmantel_rosa-3.jpg
-  - alt: Kurzmantel von Selvii in Altrosa
-    image: /img/selvi_kurzmantel_rosa-4.jpg
+  - alt: Klasischer Mantel in Grau von Selvii
+    image: /img/selvii_klassischer_mantel-1.jpg
+  - alt: Klasischer Mantel in Grau von Selvii
+    image: /img/selvii_klassischer_mantel-2.jpg
+  - alt: Klasischer Mantel in Grau von Selvii
+    image: /img/selvii_klassischer_mantel-3.jpg
+  - alt: Klasischer Mantel in Grau von Selvii
+    image: /img/selvii_klassischer_mantel-4.jpg
+  - alt: Klasischer Mantel in Grau von Selvii
+    image: /img/selvii_klassischer_mantel-5.jpg
+  - alt: Klasischer Mantel in Grau von Selvii
+    image: /img/selvii_klassischer_mantel-6.jpg
+  - alt: Klasischer Mantel in Grau von Selvii
+    image: /img/selvii_klassischer_mantel-7.jpg
 tags:
   - Mantel
   - Kurzmantel
