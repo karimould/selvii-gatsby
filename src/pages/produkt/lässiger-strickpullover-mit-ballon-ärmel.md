@@ -18,20 +18,20 @@ modelinfo: Modelgröße 1,65m. Model trägt Größe UNI
 price: '29.95'
 description: >-
   Breite Ballon-Ärmel. Mittellanger Strickpullover mit Bateau-Ausschnitt. Farbe Dunkelgrau.
-featuredImage: /img/selvii_lässiger_strickpullover_mit_ballon_armel-1.jpg
+featuredImage: /img/selvii_lassiger_strickpullover_mit_ballon_armel-1.jpg
 gallery:
   - alt: Damen Strickpullover mit Ballon-Ärmel von Selvii
-    image: /img/selvii_lässiger_strickpullover_mit_ballon_armel-1.jpg
+    image: /img/selvii_lassiger_strickpullover_mit_ballon_armel-1.jpg
   - alt: Damen Strickpullover mit Ballon-Ärmel von Selvii
-    image: /img/selvii_lässiger_strickpullover_mit_ballon_armel-2.jpg
+    image: /img/selvii_lassiger_strickpullover_mit_ballon_armel-2.jpg
   - alt: Damen Strickpullover mit Ballon-Ärmel von Selvii
-    image: /img/selvii_lässiger_strickpullover_mit_ballon_armel-3.jpg
+    image: /img/selvii_lassiger_strickpullover_mit_ballon_armel-3.jpg
   - alt: Damen Strickpullover mit Ballon-Ärmel von Selvii
-    image: /img/selvii_lässiger_strickpullover_mit_ballon_armel-4.jpg
+    image: /img/selvii_lassiger_strickpullover_mit_ballon_armel-4.jpg
   - alt: Damen Strickpullover mit Ballon-Ärmel von Selvii
-    image: /img/selvii_lässiger_strickpullover_mit_ballon_armel-5.jpg
+    image: /img/selvii_lassiger_strickpullover_mit_ballon_armel-5.jpg
   - alt: Damen Strickpullover mit Ballon-Ärmel von Selvii
-    image: /img/selvii_lässiger_strickpullover_mit_ballon_armel-6.jpg
+    image: /img/selvii_lassiger_strickpullover_mit_ballon_armel-6.jpg
 tags:
   - Pullover
 ---
