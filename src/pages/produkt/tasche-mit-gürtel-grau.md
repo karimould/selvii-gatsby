@@ -16,12 +16,12 @@ modelinfo: Model Größe 168cm.
 price: '9.95'
 description: >-
   graue Tasche mit abnehmbarem Gürtel. Mit zwei Fächern. Passend für Smartphone, Brieftasche etc. Farbe grau
-featuredImage: /img/selvii_tasche_mit_gürtel_grau-1.jpg
+featuredImage: /img/selvii_tasche_mit_gurtel_grau-1.jpg
 gallery:
   - alt: Tasch mit Gürtel in grau von selvii
-    image: /img/selvii_tasche_mit_gürtel_grau-1.jpg
+    image: /img/selvii_tasche_mit_gurtel_grau-1.jpg
   - alt: Tasche in grau von selvii 
-    image: /img/selvii_tasche_mit_gürtel_grau-2.jpg
+    image: /img/selvii_tasche_mit_gurtel_grau-2.jpg
 tags:
   - Zweiteiler
   - Premium

@@ -20,16 +20,16 @@ modelinfo: Model Größe 168cm. Model trägt Größe M
 price: '25.95'
 description: >-
   Karierte Skinny Hose. Schwarzer Gürtel. High Waisted. Fällt eine Größe kleiner aus. Farbe Schwarz- und Brauntöne. 
-featuredImage: /img/selvii_karierte_hose_mit_gürtel-1.jpg
+featuredImage: /img/selvii_karierte_hose_mit_gurtel-1.jpg
 gallery:
   - alt: Selviis Karierte Skinny Hose mit Schwarzer Gürtel
-    image: /img/selvii_karierte_hose_mit_gürtel-1.jpg
+    image: /img/selvii_karierte_hose_mit_gurtel-1.jpg
   - alt: Selviis Karierte Skinny Hose mit Schwarzer Gürtel
-    image: /img/selvii_karierte_hose_mit_gürtel-2.jpg
+    image: /img/selvii_karierte_hose_mit_gurtel-2.jpg
   - alt: Selviis Karierte Skinny Hose mit Schwarzer Gürtel
-    image: /img/selvii_karierte_hose_mit_gürtel-3.jpg
+    image: /img/selvii_karierte_hose_mit_gurtel-3.jpg
   - alt: Selviis Karierte Skinny Hose mit Schwarzer Gürtel
-    image: /img/selvii_karierte_hose_mit_gürtel-4.jpg
+    image: /img/selvii_karierte_hose_mit_gurtel-4.jpg
 tags:
   - Hose
 ---

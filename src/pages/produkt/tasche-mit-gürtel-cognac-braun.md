@@ -16,12 +16,12 @@ modelinfo: Model Größe 172cm.
 price: '9.95'
 description: >-
   Cognac-braune Tasche mit abnehmbarem Gürtel. Mit zwei Fächern. Passend für Smartphone, Brieftasche etc. Farbe cognac-braun
-featuredImage: /img/selvii_tasche_mit_gürtel_cognacbraun-1.jpg
+featuredImage: /img/selvii_tasche_mit_gurtel_cognacbraun-1.jpg
 gallery:
   - alt: spcognac-braune tasche mit gürtel von selvii
-    image: /img/selvii_tasche_mit_gürtel_cognacbraun-1.jpg
+    image: /img/selvii_tasche_mit_gurtel_cognacbraun-1.jpg
   - alt: spcognac-braune tasche mit gürtel von selvii
-    image: /img/selvii_tasche_mit_gürtel_cognacbraun-2.jpg
+    image: /img/selvii_tasche_mit_gurtel_cognacbraun-2.jpg
 tags:
   - Zweiteiler
   - Premium

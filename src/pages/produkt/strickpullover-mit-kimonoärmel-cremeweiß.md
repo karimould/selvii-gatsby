@@ -16,18 +16,18 @@ modelinfo: Modelgröße 1,68m
 price: '25.95'
 description: >-
   Bateau-Ausschnitt. Weite lange Ärmel im Kimono Look. Farbe Cremeweiß.
-featuredImage: /img/selvii_strickpullover_mit_kimono-ärmel-1.jpg
+featuredImage: /img/selvii_strickpullover_mit_kimono-armel-1.jpg
 gallery:
   - alt: Cremeweißer Strickpullove mit kimono ärmeln von selvii
-    image: /img/selvii_strickpullover_mit_kimono-ärmel-1.jpg
+    image: /img/selvii_strickpullover_mit_kimono-armel-1.jpg
   - alt: Cremeweißer Strickpullove mit kimono ärmeln von selvii
-    image: /img/selvii_strickpullover_mit_kimono-ärmel-2.jpg
+    image: /img/selvii_strickpullover_mit_kimono-armel-2.jpg
   - alt: Cremeweißer Strickpullove mit kimono ärmeln von selvii
-    image: /img/selvii_strickpullover_mit_kimono-ärmel-3.jpg
+    image: /img/selvii_strickpullover_mit_kimono-armel-3.jpg
   - alt: Cremeweißer Strickpullove mit kimono ärmeln von selvii
-    image: /img/selvii_strickpullover_mit_kimono-ärmel-4.jpg
+    image: /img/selvii_strickpullover_mit_kimono-armel-4.jpg
   - alt: Cremeweißer Strickpullove mit kimono ärmeln von selvii
-    image: /img/selvii_strickpullover_mit_kimono-ärmel-5.jpg
+    image: /img/selvii_strickpullover_mit_kimono-armel-5.jpg
 tags:
   - Pullover
 ---

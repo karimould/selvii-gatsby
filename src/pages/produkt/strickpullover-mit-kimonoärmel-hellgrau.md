@@ -16,18 +16,18 @@ modelinfo: Modelgröße 1,68m
 price: '25.95'
 description: >-
   Bateau-Ausschnitt. Weite lange Ärmel im Kimono Look. Farbe Cremeweiß.
-featuredImage: /img/selvii_strickpullover_mit_kimono-ärmel_grau-1.jpg
+featuredImage: /img/selvii_strickpullover_mit_kimono-armel_grau-1.jpg
 gallery:
   - alt: Hellgrauer Strickkpullover mit Kiomo-Ärmeln
-    image: /img/selvii_strickpullover_mit_kimono-ärmel_grau-1.jpg
+    image: /img/selvii_strickpullover_mit_kimono-armel_grau-1.jpg
   - alt: Hellgrauer Strickkpullover mit Kiomo-Ärmeln
-    image: /img/selvii_strickpullover_mit_kimono-ärmel_grau-2.jpg
+    image: /img/selvii_strickpullover_mit_kimono-armel_grau-2.jpg
   - alt: Hellgrauer Strickkpullover mit Kiomo-Ärmeln
-    image: /img/selvii_strickpullover_mit_kimono-ärmel_grau-3.jpg
+    image: /img/selvii_strickpullover_mit_kimono-armel_grau-3.jpg
   - alt: Hellgrauer Strickkpullover mit Kiomo-Ärmeln
-    image: /img/selvii_strickpullover_mit_kimono-ärmel_grau-4.jpg
+    image: /img/selvii_strickpullover_mit_kimono-armel_grau-4.jpg
   - alt: Hellgrauer Strickkpullover mit Kiomo-Ärmeln
-    image: /img/selvii_strickpullover_mit_kimono-ärmel_grau-5.jpg
+    image: /img/selvii_strickpullover_mit_kimono-armel_grau-5.jpg
 tags:
   - Pullover
 ---

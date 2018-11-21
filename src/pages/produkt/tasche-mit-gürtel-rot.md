@@ -16,12 +16,12 @@ modelinfo: Model Größe 168cm.
 price: '9.95'
 description: >-
   Rote Tasche mit abnehmbarem Gürtel. Mit zwei Fächern. Passend für Smartphone, Brieftasche etc. Farbe rot
-featuredImage: /img/selvii_tasche_mit_gürtel_rot-1.jpg
+featuredImage: /img/selvii_tasche_mit_gurtel_rot-1.jpg
 gallery:
   - alt: Tasche mit Gürtel in rot
-    image: /img/selvii_tasche_mit_gürtel_rot-1.jpg
+    image: /img/selvii_tasche_mit_gurtel_rot-1.jpg
   - alt: Tasche mit Gürtel in rot
-    image: /img/selvii_tasche_mit_gürtel_rot-2.jpg
+    image: /img/selvii_tasche_mit_gurtel_rot-2.jpg
 tags:
   - Zweiteiler
   - Premium
