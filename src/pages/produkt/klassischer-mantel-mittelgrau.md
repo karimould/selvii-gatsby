@@ -1,6 +1,8 @@
 ---
-description_SEO: 
-  Klassischer Mantel. Lange Ärmel. Gürtel aus eigenem Material. Ein grauer Knopf mittig. Zwei vordere Taschen. Klassischer Reverskragen. Kein Innenfutter. In der Farbe Mittelgrau.
+description_SEO: >-
+  Klassischer Mantel. Lange Ärmel. Gürtel aus eigenem Material. Ein grauer Knopf
+  mittig. Zwei vordere Taschen. Klassischer Reverskragen. Kein Innenfutter. In
+  der Farbe Mittelgrau
 templateKey: produkt
 new: true
 available: true
