@@ -12,7 +12,7 @@ color:
 title: STRICKPULLOVER MIT KIMONOÄRMEL CREMEWEIß
 productinfo: >-
   100% Acryl: Waschen 30°C. nicht Bleichen. Bügeln mit geringerer Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner trocknen.
-modelinfo: Modelgröße 1,68m
+modelinfo: Modelgröße 168cm
 price: '25.95'
 description: >-
   Bateau-Ausschnitt. Weite lange Ärmel im Kimono Look. Farbe Cremeweiß.

@@ -15,7 +15,7 @@ productinfo: >-
   84% Acryl, 9% Viscose, 8% Lana: 30°C Wäsche. Bleichen nicht erlaubt. Bügeln
   mit geringer Temperatur. Reinigen mit Perchlorethylen. Nicht im
   Trommeltrockner trocknen.
-modelinfo: 'Modelgröße 1,65m.'
+modelinfo: 'Modelgröße 165cm.'
 price: '35.95'
 description: Weiter Bateau-Ausschnitt. One-Shoulder geeignet. Lange Ärmel. Farbe beige.
 featuredImage: /img/selvii_kurzer_strickpullover_one_shoulder-3.jpg

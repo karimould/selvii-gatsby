@@ -14,7 +14,7 @@ productinfo: >-
   85% Acryl 15% Polyamide: 30°C Wäsche. Bleichen nicht
   erlaubt. Bügeln mit geringer Temperatur. Reinigen mit Perchlorethylen. Nicht
   im Trommeltrockner trocknen.
-modelinfo: Modelgröße 1,68m.
+modelinfo: Modelgröße 168cm.
 price: '34.95'
 description: >-
   Lange etwas breite Ärmel. Saum eng. Rollkragen mittelgroß. Farbe Beige. 
