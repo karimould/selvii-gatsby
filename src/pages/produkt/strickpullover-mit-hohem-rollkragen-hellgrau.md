@@ -18,20 +18,20 @@ modelinfo: Modelgröße 1,72m. Model trägt Größe UNI
 price: '29.95'
 description: >-
   Lange Ballon-Ärmel. Saum enganliegend. Hoher Rollkragen. Farbe Hellgrau.
-featuredImage: /img/selvii_strickpullover_mit_hohem_rollkragen_grau-1.jpg
+featuredImage: /img/selvii_strickpullover_mit_hohem_rollkragen_hellgrau-1.jpg
 gallery:
   - alt: Grauer damen Strickpullover mit hohem Rollkragen von selvii
-    image: /img/selvii_strickpullover_mit_hohem_rollkragen_grau-1.jpg
+    image: /img/selvii_strickpullover_mit_hohem_rollkragen_hellgrau-1.jpg
   - alt: Grauer damen Strickpullover mit hohem Rollkragen von selvii
-    image: /img/selvii_strickpullover_mit_hohem_rollkragen_grau-2.jpg
+    image: /img/selvii_strickpullover_mit_hohem_rollkragen_hellgrau-2.jpg
   - alt: Grauer damen Strickpullover mit hohem Rollkragen von selvii
-    image: /img/selvii_strickpullover_mit_hohem_rollkragen_grau-3.jpg
+    image: /img/selvii_strickpullover_mit_hohem_rollkragen_hellgrau-3.jpg
   - alt: Grauer damen Strickpullover mit hohem Rollkragen von selvii
-    image: /img/selvii_strickpullover_mit_hohem_rollkragen_grau-4.jpg
+    image: /img/selvii_strickpullover_mit_hohem_rollkragen_hellgrau-4.jpg
   - alt: Grauer damen Strickpullover mit hohem Rollkragen von selvii
-    image: /img/selvii_strickpullover_mit_hohem_rollkragen_grau-5.jpg
+    image: /img/selvii_strickpullover_mit_hohem_rollkragen_hellgrau-5.jpg
   - alt: Grauer damen Strickpullover mit hohem Rollkragen von selvii
-    image: /img/selvii_strickpullover_mit_hohem_rollkragen_grau-6.jpg
+    image: /img/selvii_strickpullover_mit_hohem_rollkragen_hellgrau-6.jpg
 tags:
   - Pullover
 ---
