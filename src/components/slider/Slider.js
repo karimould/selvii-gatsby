@@ -23,17 +23,17 @@ export default class SliderCon extends React.Component {
       <SliderContainer>
         <Slider {...settings}>
           <SliderIMGContainer>
-            <Link to="/blazer">
+            <Link to="/pullover">
               <img src={bg_1} alt="slider img" />
             </Link>
           </SliderIMGContainer>
           <SliderIMGContainer>
-            <Link to="/zweiteiler">
+            <Link to="/jacken">
               <img src={bg_2} alt="slider img" />
             </Link>
           </SliderIMGContainer>
           <SliderIMGContainer>
-            <Link to="/kleider">
+            <Link to="/taschen">
               <img src={bg_3} alt="slider img" />
             </Link>
           </SliderIMGContainer>
