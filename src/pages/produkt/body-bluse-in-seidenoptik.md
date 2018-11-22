@@ -1,7 +1,6 @@
 ---
 description_SEO: >-
-  Lässige Bluse mit Body. V-Ausschnitt. Lange Ärmel. Farbe Mustard. 
-  von Selvii.
+  Lässige Bluse mit Body. V-Ausschnitt. Lange Ärmel. Farbe Mustard von Selvii.
 templateKey: produkt
 new: true
 available: true
@@ -18,7 +17,7 @@ productinfo: >-
 modelinfo: Modelgröße 1,65m. Model trägt Größe UNI
 price: '34.95'
 description: >-
-  Lässige Bluse mit Body. V-Ausschnitt. Lange Ärmel. Farbe Mustard.
+  Lässige Bluse mit Body. V-Ausschnitt. Lange Ärmel. Farbe mustard.
 featuredImage: /img/selvii_body_bluse_in_seidenoptik-1.jpg
 gallery:
   - alt: lässige body bluse in Seidenoptik von selvii

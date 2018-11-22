@@ -1,6 +1,6 @@
 ---
 description_SEO: >-
-  Weiter Bateau-Ausschnitt. One-Shoulder geeignet. Lange Ärmel. Farbe    Beige. Von Selvii.
+  Weiter Bateau-Ausschnitt. One-Shoulder geeignet. Lange Ärmel. In der Farbe beige. Von Selvii.
 templateKey: produkt
 new: true
 available: true
@@ -17,7 +17,7 @@ productinfo: >-
 modelinfo: Modelgröße 1,65m. Model trägt Größe UNI
 price: '35.95'
 description: >-
-  Weiter Bateau-Ausschnitt. One-Shoulder geeignet. Lange Ärmel. Farbe Beige.
+  Weiter Bateau-Ausschnitt. One-Shoulder geeignet. Lange Ärmel. Farbe beige.
 featuredImage: /img/selvii_kurzer_strickpullover_one_shoulder-3.jpg
 gallery:
   - alt: one shoulder Strickpullover von selvii
