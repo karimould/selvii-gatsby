@@ -1,7 +1,7 @@
 ---
 description_SEO: Kurzermantel ohne Knopfleiste in Altrosa mit Rundhalsausschnitt von Selvii.
 templateKey: produkt
-new: true
+new: false
 available: true
 category': mäntel/jacken
 size:

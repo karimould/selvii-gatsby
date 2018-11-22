@@ -29,7 +29,7 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "produkt"}
       - {label: "New", name: "new", widget: "boolean", default: true}
       - {label: "Verfügbar", name: "available", widget: "boolean", default: true}
-      - {label: 'Category', name: category', widget: select, options: [premium, blazer, zweiteiler, kleider, hosen, mäntel/jacken, pullover]}
+      - {label: 'Category', name: category', widget: select, options: [blazer, zweiteiler, kleider, hosen, mäntel/jacken, pullover, taschen, accessoires]}
       - {label: Size, name: size, widget: list, fields: [{label: "Size", name: "size", widget: "string"}]}
       - {label: Color, name: color, widget: list, fields: [{label: "Farbe", name: "color", widget: "string"}]}
       - {label: "Title", name: "title", widget: "string"}

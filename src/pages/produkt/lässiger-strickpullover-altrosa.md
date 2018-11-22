@@ -3,7 +3,7 @@ description_SEO: >-
   Strickpullover in Altrosa mit Rundhalsausschnitt und Butterfly Ärmeln in
   Altrosa von Selvii.
 templateKey: produkt
-new: true
+new: false
 available: true
 category': pullover
 size:

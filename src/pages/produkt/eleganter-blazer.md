@@ -3,7 +3,7 @@ description_SEO: >-
   Figurbetonter Longblazer in schwarz mit goldenem Knopf. Mit Kragen und
   Seitentaschen von Selvii.
 templateKey: produkt
-new: true
+new: false
 available: true
 category': blazer
 size:

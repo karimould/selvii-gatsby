@@ -3,9 +3,9 @@ description_SEO: >-
   Eng anliegender Zweiteiler bestehend aus Hose und kurzem Oberteil mit Weißen
   Seitenstreifen von Selvii.
 templateKey: produkt
-new: true
+new: false
 available: true
-category': premium
+category': zweiteiler
 size:
   - size: UNI
 color:

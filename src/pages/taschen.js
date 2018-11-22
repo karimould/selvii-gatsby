@@ -9,16 +9,18 @@ import ProductCardWrapper from '../components/wrapper/ProductCardWrapper'
 import ProductCard from '../components/productCard/ProductCard'
 import Head from '../components/util/Head'
 
-export default class Premium extends React.Component {
+
+export default class Taschen extends React.Component {
   render() {
     const { data } = this.props
-    const { edges: products } = data.allMarkdownRemark        
+    const { edges: products } = data.allMarkdownRemark
+        
     return(
       <Wrapper>
-        <Head title="Neu | Damenmode | Selvii Online Shop" desc="Endecken Sie die Premium Damenkollektionen von Selvii bei uns im Onlineshop"/>
+        <Head title="Taschen | Damenmode | Selvii Online Shop" desc="Endecken Sie die Selvii Kleider. Kleider für die Abendgarderobe oder Freizeit"/>
         <Header />
           <ProductCardWrapper>
-          {products.map(({node: product}) => (
+          {products.slice(0).reverse().map(({node: product}) => (
             <ProductCard 
               link={product.fields.slug}
               category={product.frontmatter.category_}
@@ -37,13 +39,14 @@ export default class Premium extends React.Component {
   }
 }
 
-Premium.propTypes = {
+Taschen.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
     }),
   }),
 }
+
 
 
 /**
@@ -56,9 +59,9 @@ Premium.propTypes = {
 
 
 export const pageQuery = graphql`
-  query IndexQueryPremiumProducts {
+  query IndexQueryTaschenProducts {
     allMarkdownRemark(
-      filter: { frontmatter: { category_: { eq: "premium" } }}
+      filter: { frontmatter: { category_: { eq: "taschen" } }}
     ) {
       edges {
         node {

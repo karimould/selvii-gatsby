@@ -1,7 +1,7 @@
 ---
 description_SEO: Strickpullover in schwarz mit Rundausschnitt und Butterfly Ärmel von Selvii.
 templateKey: produkt
-new: true
+new: false
 available: true
 category': pullover
 size:

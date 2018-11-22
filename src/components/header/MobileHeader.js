@@ -35,14 +35,16 @@ export default class MobileHeader extends React.Component {
             <LogoLink to="/"> 
                 <img src={Logo} alt="Selvii logo"/>
               </LogoLink>
-              <NavigationLink className="menu-item" to="/pullover">Pullover</NavigationLink>
+              <NavigationLink className="menu-item" to="/new">Neu</NavigationLink>
+              <Break />
+              <NavigationLink className="menu-item" to="/pullover">Oberteile</NavigationLink>
               <NavigationLink className="menu-item" to="/blazer">Blazer</NavigationLink>
               <NavigationLink className="menu-item" to="/zweiteiler">Zweiteiler</NavigationLink>
               <NavigationLink className="menu-item" to="/kleider">Kleider</NavigationLink>
               <NavigationLink className="menu-item" to="/hosen">Hosen</NavigationLink>
               <NavigationLink className="menu-item" to="/jacken">Mäntel</NavigationLink>
+              <NavigationLink className="menu-item" to="/taschen">Taschen</NavigationLink>
               <Break/>
-              <NavigationLink className="menu-item" to="/premium">Premium</NavigationLink>
               <Break/>
               <NavigationLink className="menu-item small" to="/rechtliches/kontakt">Kontakt</NavigationLink>
               <NavigationLink className="menu-item small" to="/rechtliches/unternehmen">Unternehmen</NavigationLink>

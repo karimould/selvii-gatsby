@@ -3,7 +3,7 @@ description_SEO: >-
   Gestreifter figurbetonter Longblazer mit Knöpfen von Selvii mit langen Ärmeln.
   Blazerlänge 83cm
 templateKey: produkt
-new: true
+new: false
 sale: true
 available: false
 category': blazer
