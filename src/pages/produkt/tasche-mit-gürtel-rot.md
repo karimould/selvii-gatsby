@@ -12,10 +12,10 @@ color:
 title: TASCHE MIT ABNEHMBAREM GÜRTEL ROT
 productinfo: >-
   Kunstleder. Pflege: Trocken/ mit feuchtem Tuch reinigen.
-modelinfo: Model Größe 168cm.
-price: '9.95'
+modelinfo: 
+price: '14.95'
 description: >-
-  Rote Tasche mit abnehmbarem Gürtel. Mit zwei Fächern. Passend für Smartphone, Brieftasche etc. Farbe rot
+  Tasche mit abnehmbarem Gürtel. Mit zwei Fächern. Passend für Smartphone, Brieftasche etc. Farbe rot.
 featuredImage: /img/selvii_tasche_mit_gurtel_rot-1.jpg
 gallery:
   - alt: Tasche mit Gürtel in rot

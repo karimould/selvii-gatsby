@@ -12,10 +12,10 @@ color:
 title: KLEINE OVALBAG GRAU
 productinfo: >-
   Kunstleder. Pflege: Trocken/ mit feuchtem Tuch reinigen.
-modelinfo: Model Größe 168cm.
+modelinfo: 
 price: '12.95'
 description: >-
-  Die kleinere ovale Tasche mit abnehmbarem Gürtel. Zusätzlich mit Umhängekette/-gurt. Farbe: grau
+  Die kleinere ovale Tasche mit abnehmbarem Gürtel. Zusätzlich mit Umhängekette/-gurt. Farbe grau.
 featuredImage: /img/selvii_kleine_ovalbag_grau-1.jpg
 gallery:
   - alt: Ovbalbag in grau von selvii

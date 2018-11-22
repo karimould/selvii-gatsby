@@ -12,10 +12,10 @@ color:
 title: TASCHE MIT ABNEHMBAREM GÜRTEL GRAU
 productinfo: >-
   Kunstleder. Pflege: Trocken/ mit feuchtem Tuch reinigen.
-modelinfo: Model Größe 168cm.
-price: '9.95'
+modelinfo: 
+price: '14.95'
 description: >-
-  graue Tasche mit abnehmbarem Gürtel. Mit zwei Fächern. Passend für Smartphone, Brieftasche etc. Farbe grau
+  Tasche mit abnehmbarem Gürtel. Mit zwei Fächern. Passend für Smartphone, Brieftasche etc. Farbe grau
 featuredImage: /img/selvii_tasche_mit_gurtel_grau-1.jpg
 gallery:
   - alt: Tasch mit Gürtel in grau von selvii

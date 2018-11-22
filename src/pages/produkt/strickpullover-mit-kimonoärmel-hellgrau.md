@@ -9,13 +9,13 @@ size:
   - size: UNI
 color:
   - color: Hellgrau
-title: STRICKPULLOVER MIT KIMONOÄRMEL
+title: STRICKPULLOVER MIT KIMONOÄRMEL GRAU
 productinfo: >-
   100% Acryl: Waschen 30°C. nicht Bleichen. Bügeln mit geringerer Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner trocknen.
 modelinfo: Modelgröße 1,68m
 price: '25.95'
 description: >-
-  Bateau-Ausschnitt. Weite lange Ärmel im Kimono Look. Farbe Cremeweiß.
+  Bateau-Ausschnitt. Weite lange Ärmel im Kimono Look. Farbe grau.
 featuredImage: /img/selvii_strickpullover_mit_kimono-armel_grau-1.jpg
 gallery:
   - alt: Hellgrauer Strickkpullover mit Kiomo-Ärmeln

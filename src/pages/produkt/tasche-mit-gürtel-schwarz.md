@@ -12,10 +12,10 @@ color:
 title: TASCHE MIT ABNEHMBAREM GÜRTEL SCHWARZ
 productinfo: >-
   Kunstleder. Pflege: Trocken/ mit feuchtem Tuch reinigen.
-modelinfo: Model Größe 172cm.
-price: '9.95'
+modelinfo: 
+price: '14.95'
 description: >-
-  schwarze Tasche mit abnehmbarem Gürtel. Mit zwei Fächern. Passend für Smartphone, Brieftasche etc. Farbe schwarz
+  Tasche mit abnehmbarem Gürtel. Mit zwei Fächern. Passend für Smartphone, Brieftasche etc. Farbe schwarz.
 featuredImage: /img/selvii_tasche_mit_gurtel_schwarz-1.jpg
 gallery:
   - alt: schwarze tasche mit gürtel

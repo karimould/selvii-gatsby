@@ -15,9 +15,9 @@ productinfo: >-
   geringer Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner
   trocknen.
 modelinfo: Model Größe 168cm. 
-price: '36.95'
+price: '49.95'
 description: |-
-  Klassischer Mantel. Lange Ärmel. Gürtel aus eigenem Material. Ein grauer Knopf mittig. Zwei vordere Taschen. Klassischer Reverskragen. Kein Innenfutter. Farbe Mittelgrau.
+  Klassischer Mantel. Lange Ärmel. Gurt aus selben Stoff. Ein grauer Knopf mittig. Zwei vordere Taschen. Klassischer Reverskragen. Kein Innenfutter. Farbe mittelgrau.
 featuredImage: /img/selvii_klassischer_mantel-1.jpg
 gallery:
   - alt: Klasischer Mantel in Grau von Selvii

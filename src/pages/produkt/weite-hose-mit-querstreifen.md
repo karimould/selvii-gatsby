@@ -14,10 +14,10 @@ productinfo: >-
   95% Polyester, 5% Elastan. 30°C Wäsche. Bleichen nicht erlaubt. Bügeln mit
   geringer Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner
   trocknen.
-modelinfo: Model Größe 1.65cm. Model trägt Größe UNI
-price: '26.99'
+modelinfo: Modelgröße 165cm.
+price: '26.95'
 description: >-
-  Plissierte Cullote mit Braun-Schwarzen Querstreifen sowie mit elstaischem Bund und Gürtel in Lederoptik. Beinlänge 95cm
+  Plissierte Cullote mit Braun-Schwarzen Querstreifen sowie mit elastischem Bund und Gürtel in Lederoptik. Beinlänge 95cm
 featuredImage: /img/selvii_weite_hose_mit_schragstreifen-1.jpg
 gallery:
   - alt: Weite Hose mit Querstreifen

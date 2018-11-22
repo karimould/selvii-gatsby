@@ -9,7 +9,7 @@ size:
   - size: UNI
 color:
   - color: Cremeweiß
-title: STRICKPULLOVER MIT KIMONOÄRMEL
+title: STRICKPULLOVER MIT KIMONOÄRMEL CREMEWEIß
 productinfo: >-
   100% Acryl: Waschen 30°C. nicht Bleichen. Bügeln mit geringerer Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner trocknen.
 modelinfo: Modelgröße 1,68m

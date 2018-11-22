@@ -8,14 +8,14 @@ category': taschen
 size:
   - size: UNI
 color:
-  - color: Cognac-braun
+  - color: Cognac braun
 title: TASCHE MIT ABNEHMBAREM GÜRTEL COGNAC BRAUN
 productinfo: >-
   Kunstleder. Pflege: Trocken/ mit feuchtem Tuch reinigen.
 modelinfo: Model Größe 172cm.
-price: '9.95'
+price: '14.95'
 description: >-
-  Cognac-braune Tasche mit abnehmbarem Gürtel. Mit zwei Fächern. Passend für Smartphone, Brieftasche etc. Farbe cognac-braun
+  Tasche mit abnehmbarem Gürtel. Mit zwei Fächern. Passend für Smartphone, Brieftasche etc. Farbe cognac braun.
 featuredImage: /img/selvii_tasche_mit_gurtel_cognacbraun-1.jpg
 gallery:
   - alt: spcognac-braune tasche mit gürtel von selvii

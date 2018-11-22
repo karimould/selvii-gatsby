@@ -15,9 +15,9 @@ productinfo: >-
   erlaubt. Bügeln mit geringer Temperatur. Reinigen mit Perchlorethylen. Nicht
   im Trommeltrockner trocknen.
 modelinfo: Modelgröße 1,72m. Model trägt Größe UNI
-price: '34.95'
+price: '29.95'
 description: >-
-  Lange Ballon-Ärmel. Saum enganliegend. Doppelter Rollkragen. Farbe Hellgrau.
+  Lange Ballon-Ärmel. Saum enganliegend. Hoher Rollkragen. Farbe Hellgrau.
 featuredImage: /img/selvii_strickpullover_mit_hohem_rollkragen_grau-1.jpg
 gallery:
   - alt: Grauer damen Strickpullover mit hohem Rollkragen von selvii

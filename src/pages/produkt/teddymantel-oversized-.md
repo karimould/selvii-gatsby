@@ -9,15 +9,15 @@ size:
   - size: M
   - size: L
 color:
-  - color: Hellbraun
+  - color: hellbraun
 title: TEDDYMANTEL OVERSIZED
 productinfo: >-
   80%Acril, 20% Polyester. Waschen 30°C. nicht Bleichen. Bügeln mit geringerer Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner trocknen
-modelinfo: Model Größe 172cm.
+modelinfo: Model Größe 172cm. Model trägt Größe L.
 price: '59.95'
 description: |-
-  Mittellanger Mantel.Ärmel lang. Oversized Look. Zwei Seitentaschen. Kein Innenfutter. Ein schwarzer Knopf zum Verschließen. Farbe Hellbraun. Klassicher Reverskragen.
-featuredImage: /img/selvii_teddymantel_oversized-1.jpg
+  Mittellanger Mantel. Ärmel lang. Oversized Look. Zwei Seitentaschen. Kein Innenfutter. Ein schwarzer Knopf zum Verschließen. Farbe Hellbraun. Klassicher Reverskragen.
+featuredImage: /img/selvii_teddymantel_oversized-3.jpg
 gallery:
   - alt: Oversized Teddy Mantel von selvii
     image: /img/selvii_teddymantel_oversized-1.jpg

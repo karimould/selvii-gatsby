@@ -12,10 +12,10 @@ color:
 title: KLEINE OVALBAG SCHWARZ
 productinfo: >-
   Kunstleder. Pflege: Trocken/ mit feuchtem Tuch reinigen.
-modelinfo: Model Größe 168cm.
+modelinfo:
 price: '12.95'
 description: >-
-  Die kleinere ovale Tasche mit abnehmbarem Gürtel. Zusätzlich mit Umhängekette/-gurt. Farbe: schwarz
+  Die kleinere ovale Tasche mit abnehmbarem Gürtel. Zusätzlich mit Umhängekette/-gurt. Farbe schwarz.
 featuredImage: /img/selvii_kleine_ovalbag_schwarz-1.jpg
 gallery:
   - alt: Ovalbag in schwarz von selvii

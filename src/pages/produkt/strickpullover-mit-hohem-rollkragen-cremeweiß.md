@@ -15,9 +15,9 @@ productinfo: >-
   erlaubt. Bügeln mit geringer Temperatur. Reinigen mit Perchlorethylen. Nicht
   im Trommeltrockner trocknen.
 modelinfo: Modelgröße 1,68m.
-price: '34.95'
+price: '29.95'
 description: >-
-  Lange Ballon-Ärmel. Saum enganliegend. Doppelter Rollkragen. Farbe Cremeweiß.
+  Lange Ballon-Ärmel. Saum enganliegend. Hoher Rollkragen. Farbe Cremeweiß.
 featuredImage: /img/selvii_strickpullover_mit_hohem_rollkragen-1.jpg
 gallery:
   - alt: Cremeweißer Strickpullove mit hohem Rollkragen von Selvii

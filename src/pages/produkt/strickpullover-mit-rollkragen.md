@@ -15,7 +15,7 @@ productinfo: >-
   erlaubt. Bügeln mit geringer Temperatur. Reinigen mit Perchlorethylen. Nicht
   im Trommeltrockner trocknen.
 modelinfo: Modelgröße 1,68m.
-price: '29.95'
+price: '34.95'
 description: >-
   Lange etwas breite Ärmel. Saum eng. Rollkragen mittelgroß. Farbe Beige. 
 featuredImage: /img/selvii_strickpullover_mit_rollkragen-1.jpg

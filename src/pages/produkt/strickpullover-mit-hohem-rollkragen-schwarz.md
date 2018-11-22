@@ -15,9 +15,9 @@ productinfo: >-
   erlaubt. Bügeln mit geringer Temperatur. Reinigen mit Perchlorethylen. Nicht
   im Trommeltrockner trocknen.
 modelinfo: Modelgröße 1,65m.
-price: '34.95'
+price: '29.95'
 description: >-
-  Lange Ballon-Ärmel. Saum enganliegend. Doppelter Rollkragen. Farbe Schwarz.
+  Lange Ballon-Ärmel. Saum enganliegend. Hoher Rollkragen. Farbe Schwarz.
 featuredImage: /img/selvii_strickpullover_mit_hohem_rollkragen_schwarz-1.jpg
 gallery:
   - alt: Damen Strick-Pullover mit hohem Rollkragen in schwarz

@@ -9,14 +9,14 @@ size:
   - size: M
   - size: L
 color:
-  - color: Dunkelgrau
+  - color: dunkelgrau
 title: OVERSIZED MANTEL
 productinfo: >-
   95% Baumwolle 5% Elastan. 30°C Wäsche. Bleichen nicht erlaubt. Bügeln mit
   geringer Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner
   trocknen.
-modelinfo: Model Größe 168cm. 
-price: '51.95'
+modelinfo: Model Größe 168cm. Model trägt Größe L.
+price: '64.95'
 description: |-
   Langer Mantel mit jeweils Seitentaschen. Doppelreihig mit zwei schwarzen Knöpfen. Farbe Dunkelgrau. Klassischer Reverskragen.
 featuredImage: /img/selvii_oversized_mantel-1.jpg

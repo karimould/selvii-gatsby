@@ -8,16 +8,16 @@ category': mäntel/jacken
 size:
   - size: UNI
 color:
-  - color: Beige
+  - color: beige
 title: KLASSISCHER MANTEL BEIGE
 productinfo: >-
   50% Baumwolle 50% Wolle. 30°C Wäsche. Bleichen nicht erlaubt. Bügeln mit
   geringer Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner
   trocknen.
 modelinfo: Model Größe 168cm. 
-price: '36.95'
+price: '49.95'
 description: |-
-  Klassischer Mantel. Lange Ärmel. Gürtel aus eigenem Material. Ein grauer Knopf mittig. Zwei vordere Taschen. Klassischer Reverskragen. Kein Innenfutter. Farbe Mittelgrau.
+  Klassischer Mantel. Lange Ärmel. Gurt aus selbem Stoff. Ein grauer Knopf mittig. Zwei vordere Taschen. Klassischer Reverskragen. Kein Innenfutter. Farbe beige.
 featuredImage: /img/selvii_mantel_mit_taschen_beige-1.jpg
 gallery:
   - alt: Mantel mit Taschen in der Farbe beige von Selvii

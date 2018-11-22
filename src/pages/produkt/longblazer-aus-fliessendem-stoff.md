@@ -18,7 +18,7 @@ productinfo: >-
 modelinfo: Model Größe 168cm
 price: '19.95'
 description: |-
-  Farbe Marineblau. ¾-Ärmel. Klassisch, fallendes Reverskragen. Perle am Ärmel. Vordere Scheintaschen.
+  Farbe Marineblau. ¾-Ärmel. Klassisch, fallender Reverskragen. Perle am Ärmel. Vordere Scheintaschen.
 featuredImage: /img/selvii_longblazer_aus_fliessendem_stoff-1.jpg
 gallery:
   - alt: Marineblauer Long Blazer von Selvii mit perle am Ärmel.

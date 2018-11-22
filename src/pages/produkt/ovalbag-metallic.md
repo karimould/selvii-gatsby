@@ -12,10 +12,10 @@ color:
 title: OVALBAG METALLIC
 productinfo: >-
   Kunstleder. Pflege: Trocken/ mit feuchtem Tuch reinigen.
-modelinfo: Model Größe 168cm.
+modelinfo:
 price: '14.95'
 description: >-
-  Ovale Tasche mit abnehmbarem Gürtel. Zusätzlich mit Umhängekette/-gurt. Bietet viel Platz. Farbe: weiss
+  Ovale Tasche mit abnehmbarem Gürtel. Zusätzlich mit Umhängekette/-gurt. Bietet viel Platz. Farbe weiss.
 featuredImage: /img/selvii_ovalbag_metallic-1.jpg
 gallery:
   - alt: Ovalback in metallic von selvii 

@@ -1,6 +1,6 @@
 ---
 description_SEO: >-
-  Breite Ballon-Ärmel. Mittellanger Strickpullover mit Bateau-Ausschnitt. Farbe Dunkelgrau. Von Selvii.
+  Breite Ballon-Ärmel. Mittellanger Strickpullover mit Bateau-Ausschnitt. Farbe Dunkelgrau. Von Selvii
 templateKey: produkt
 new: true
 available: true
@@ -9,13 +9,13 @@ size:
   - size: UNI
 color:
   - color: Dunkelgrau
-title: LÄSSIGER STRICKPULLOVER MIT BALLON-ÄRMEL
+title: STRICKPULLOVER MIT BALLON-ÄRMEL
 productinfo: >-
   86% Acryl, 7% Viscose, 7% Lana: 30°C Wäsche. Bleichen nicht
   erlaubt. Bügeln mit geringer Temperatur. Reinigen mit Perchlorethylen. Nicht
   im Trommeltrockner trocknen.
 modelinfo: Modelgröße 1,65m. Model trägt Größe UNI
-price: '29.95'
+price: '35.95'
 description: >-
   Breite Ballon-Ärmel. Mittellanger Strickpullover mit Bateau-Ausschnitt. Farbe Dunkelgrau.
 featuredImage: /img/selvii_lassiger_strickpullover_mit_ballon_armel-1.jpg
