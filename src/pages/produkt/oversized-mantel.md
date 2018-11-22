@@ -1,6 +1,6 @@
 ---
 description_SEO: 
-  Langer Mantel mit jeweils Seitentaschen. Doppelreihig mit zwei schwarzen Knöpfen. Farbe Dunkelgrau. Klassischer Reverskragen.
+  Langer Mantel mit jeweils Seitentaschen. Doppelreihig mit zwei schwarzen Knöpfen. Farbe Dunkelgrau. Klassischer Reverskragen
 templateKey: produkt
 new: true
 available: true

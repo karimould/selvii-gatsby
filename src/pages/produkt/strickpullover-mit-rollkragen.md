@@ -1,6 +1,6 @@
 ---
 description_SEO: >-
-  Lange etwas breite Ärmel. Saum eng. Rollkragen mittelgroß. Farbe Beige. 
+  Langer Strickpullover mir Rollkragen in beige von selvii
 templateKey: produkt
 new: true
 available: true

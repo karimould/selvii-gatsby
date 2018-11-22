@@ -1,6 +1,6 @@
 ---
 description_SEO: >-
-  Rote Tasche mit abnehmbarem Gürtel von selvii. Mit zwei Fächern. Passend für Smartphone, Brieftasche etc.
+  Rote Tasche mit abnehmbarem Gürtel von selvii. Mit zwei Fächern. Passend für Smartphone, Brieftasche etc..
 templateKey: produkt
 new: true
 available: true

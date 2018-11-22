@@ -1,6 +1,6 @@
 ---
 description_SEO: >-
-  Longblazer aus fliessendem Stoff in Marineblau von Selvii. Jetzt unsere neue Blazer Kollektion shoppen.
+  Longblazer aus fliessendem Stoff in Marineblau von Selvii. Jetzt unsere neue Blazer Kollektion shoppen
 templateKey: produkt
 new: true
 sale: true

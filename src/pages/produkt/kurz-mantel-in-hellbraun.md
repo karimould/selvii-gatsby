@@ -3,7 +3,7 @@ description_SEO: >-
   Kurzer Mantel ohne Knopfleiste in nussbarun von Selvii. Rundhals ausschnitt
   mit Seiten Taschen und Ohne Innenfutter.
 templateKey: produkt
-new: true
+new: false
 available: true
 category': mäntel/jacken
 size:

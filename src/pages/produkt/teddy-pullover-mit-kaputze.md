@@ -1,6 +1,6 @@
 ---
 description_SEO: >-
-  Pullover mit Kaputze. Ärmel lang. Elastischer Saum. Farbe Beige. Von Selvii
+  Pullover mit Kaputze. Ärmel lang. Elastischer Saum. Farbe Beige. Von Selvii.
 templateKey: produkt
 new: true
 available: true

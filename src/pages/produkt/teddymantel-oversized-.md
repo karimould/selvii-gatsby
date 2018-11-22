@@ -1,6 +1,6 @@
 ---
 description_SEO: 
-  Mittellanger Mantel mit langen Ärmeln im Oversized Look von Selvii. Zwei Seitentaschen. Kein Innenfutter. Ein schwarzer Knopf zum Verschließen. Farbe Hellbraun. Klassicher Reverskragen. 
+  Mittellanger Mantel mit langen Ärmeln im Oversized Look von Selvii. Zwei Seitentaschen. Kein Innenfutter. Ein schwarzer Knopf zum Verschließen. Farbe Hellbraun. Klassicher Reverskragen
 templateKey: produkt
 new: true
 available: true

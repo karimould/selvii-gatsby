@@ -7,7 +7,7 @@ description_SEO: >-
 
   Ärmel 52cm
 templateKey: produkt
-new: true
+new: false
 available: true
 category': zweiteiler
 size:

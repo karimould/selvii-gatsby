@@ -5,7 +5,7 @@ description_SEO: >
 
   Kariert mit dunkelrotem Akzent.
 templateKey: produkt
-new: true
+new: false
 available: true
 category': zweiteiler
 size:

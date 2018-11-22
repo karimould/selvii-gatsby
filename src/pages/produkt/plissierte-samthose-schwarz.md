@@ -10,7 +10,7 @@ size:
   - size: M/L
 color:
   - color: Schwarz
-title: PLISSIERTE SAMTHOSE
+title: PLISSIERTE SAMTHOSE SCHWARZ
 productinfo: >-
   85% Polyamide, 5% Elastan. 30°C Wäsche. Bleichen nicht erlaubt. Bügeln mit
   geringer Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner

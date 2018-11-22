@@ -9,7 +9,7 @@ size:
   - size: S/M
 color:
   - color: Mittelbraun
-title: PLISSIERTE SAMTHOSE
+title: PLISSIERTE SAMTHOSE MITTELBRAUN
 productinfo: >-
   85% Polyamide, 5% Elastan. 30°C Wäsche. Bleichen nicht erlaubt. Bügeln mit
   geringer Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner

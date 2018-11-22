@@ -1,6 +1,6 @@
 ---
 description_SEO: >-
-  Lange Ballon-Ärmel. Saum enganliegend. Doppelter Rollkragen. Farbe Cremeweiß. Von Selvii.
+  Strickpullover in cremeweiß mit hohem Rollkragen für Damen von selvii.
 templateKey: produkt
 new: true
 available: true

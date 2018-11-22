@@ -1,6 +1,6 @@
 ---
 description_SEO: >-
-  Lange Ballon-Ärmel. Saum enganliegend. Doppelter Rollkragen. Farbe Schwarz. Von Selvii.
+  Strickpullover in schwarz mit hohem Rollkragen für Damen von selvii.
 templateKey: produkt
 new: true
 available: true

@@ -1,6 +1,6 @@
 ---
 description_SEO: >-
-  Bateau-Ausschnitt. Weite lange Ärmel im Kimono Look von Selvii. Farbe Cremeweiß.
+  Strickpullover für Damen von Selvii. Strickpullover mit Kimonoärmeln
 templateKey: produkt
 new: true
 available: true

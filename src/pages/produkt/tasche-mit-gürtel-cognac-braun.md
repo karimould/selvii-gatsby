@@ -9,7 +9,7 @@ size:
   - size: UNI
 color:
   - color: Cognac-braun
-title: TASCHE MIT ABNEHMBAREM GÜRTEL cognac-braun
+title: TASCHE MIT ABNEHMBAREM GÜRTEL COGNAC BRAUN
 productinfo: >-
   Kunstleder. Pflege: Trocken/ mit feuchtem Tuch reinigen.
 modelinfo: Model Größe 172cm.

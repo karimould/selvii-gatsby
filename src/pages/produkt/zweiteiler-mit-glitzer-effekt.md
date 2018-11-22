@@ -1,6 +1,6 @@
 ---
 description_SEO: >-
-  Zweiteiler Gestreift in Brauntönen mit Glitzereffekt. Blazerknöfpe in gleicher Farbe. Klassicher Kragen. Hose mit elastischem Bund und keinen Taschen
+  Zweiteiler Gestreift in Brauntönen mit Glitzereffekt. Blazerknöfpe in gleicher Farbe. Klassicher Kragen. Hose mit elastischem Bund und keinen Taschen.
 templateKey: produkt
 new: true
 available: true

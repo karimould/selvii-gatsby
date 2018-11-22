@@ -1,7 +1,7 @@
 ---
 description_SEO: Fliedergrauer Blazer im leichtem Oversize Look mit Schulterpolster von Selvii.
 templateKey: produkt
-new: true
+new: false
 sale: true
 available: true
 category': blazer

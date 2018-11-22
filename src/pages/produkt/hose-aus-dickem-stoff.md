@@ -3,7 +3,7 @@ description_SEO: >-
   Schwarz-Grau Moire Muster aus dickem Stoff von Selvii. Seitentaschen.
   Elastischer bund mit Gürtel aus gleichem Material.
 templateKey: produkt
-new: true
+new: false
 available: true
 category': hosen
 size:

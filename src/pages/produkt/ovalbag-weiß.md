@@ -1,6 +1,6 @@
 ---
 description_SEO: >-
-  Weiße ovalbag von selvii. Ideal zum Verstauen von kleinigkeiten, schick und handlich!
+  Weiße ovalbag von selvii. Ideal zum Verstauen von kleinigkeiten, schick und handlich.
 templateKey: produkt
 new: true
 available: true
