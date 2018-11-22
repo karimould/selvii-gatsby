@@ -14,7 +14,7 @@ productinfo: >-
   100% Acryl: 30°C Wäsche. Bleichen nicht
   erlaubt. Bügeln mit geringer Temperatur. Reinigen mit Perchlorethylen. Nicht
   im Trommeltrockner trocknen.
-modelinfo: Modelgröße 1,72m. Model trägt Größe UNI
+modelinfo: Modelgröße 1,72m.
 price: '29.95'
 description: >-
   Lange Ballon-Ärmel. Saum enganliegend. Hoher Rollkragen. Farbe Hellgrau.

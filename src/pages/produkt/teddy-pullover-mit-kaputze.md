@@ -14,7 +14,7 @@ productinfo: >-
   100% Polyester: 30°C Wäsche. Bleichen nicht
   erlaubt. Bügeln mit geringer Temperatur. Reinigen mit Perchlorethylen. Nicht
   im Trommeltrockner trocknen.
-modelinfo: Modelgröße 1,65m. Model trägt Größe UNI
+modelinfo: Modelgröße 1,65m.
 price: '39.95'
 description: >-
   Pullover mit Kapuze. Ärmel lang. Elastischer Saum. Farbe Beige.

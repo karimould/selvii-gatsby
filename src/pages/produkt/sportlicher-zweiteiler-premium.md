@@ -15,7 +15,7 @@ productinfo: >-
   95% Baumwolle, 5% Elastan. Hose & Oberteil: 30°C Wäsche. Bleichen nicht
   erlaubt. Bügeln mit geringer Temperatur. Reinigen mit Perchlorethylen. Nicht
   im Trommeltrockner trocknen.
-modelinfo: Model Größe 163cm. Model trägt Größe UNI
+modelinfo: Model Größe 163cm.
 price: '54.95'
 description: >-
   Eng anliegender Zweiteiler mit weißen Seitenstreifen. Hose Highwaist mit
