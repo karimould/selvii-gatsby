@@ -6,7 +6,7 @@ description_SEO: >-
   V-Ausschnitt.
 templateKey: produkt
 new: false
-available: true
+available: false
 category': kleider
 size:
   - size: UNI
