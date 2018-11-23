@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'react-emotion'
-import bg_0 from '../../img/startseite/slider_0.jpg'
 import bg_1 from '../../img/startseite/slider_1.jpg'
 import bg_2 from '../../img/startseite/slider_2.jpg'
 import bg_3 from '../../img/startseite/slider_3.jpg'
@@ -23,9 +22,6 @@ export default class SliderCon extends React.Component {
     return(
       <SliderContainer>
         <Slider {...settings}>
-        <SliderIMGContainer>
-              <img src={bg_0} alt="slider img" />
-          </SliderIMGContainer>
           <SliderIMGContainer>
             <Link to="/pullover">
               <img src={bg_1} alt="slider img" />
