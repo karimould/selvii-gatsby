@@ -6,8 +6,8 @@ new: true
 available: true
 category': hosen
 size:
-  - size: S/M
   - size: M/L
+  - size: XL/XXL
 color:
   - color: Mittelbraun
 title: PLISSIERTE SAMTHOSE MITTELBRAUN
@@ -15,7 +15,7 @@ productinfo: >-
   85% Polyamide, 5% Elastan. 30°C Wäsche. Bleichen nicht erlaubt. Bügeln mit
   geringer Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner
   trocknen.
-modelinfo: Model Größe 172cm. Model trägt Größe M/L.
+modelinfo: Model Größe 168cm. Model trägt Größe M/L.
 price: '16.95'
 description: >-
   Plissierte Palazzohose aus Samt. Elastischer Bund mit Schnur. Farbe mittelbraun.
