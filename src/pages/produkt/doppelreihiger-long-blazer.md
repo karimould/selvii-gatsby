@@ -3,7 +3,7 @@ description_SEO: >-
   Cremeweißer figurbetonter Longblazer mit goldenen Knöpfen von Selvii mit
   langen Ärmeln. Blazerlänge 83cm
 templateKey: produkt
-new: true
+new: false
 sale: true
 available: true
 category': blazer

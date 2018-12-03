@@ -10,12 +10,15 @@ export default class Navigation extends React.Component {
     return(
       <NavigationContainer>
         <NavigationUL>
-        <NavigationLI>
+          <NavigationLI>
             <NavigationLink to="/sale">Sale</NavigationLink>
+          </NavigationLI>
+          <NavigationLI>
+            <NavigationLink to="/new">Neu</NavigationLink>
           </NavigationLI>
           <Break />
           <NavigationLI>
-            <NavigationLink to="/pullover">Pullover</NavigationLink>
+            <NavigationLink to="/pullover">Oberteile</NavigationLink>
           </NavigationLI>
           <NavigationLI>
             <NavigationLink to="/blazer">Blazer</NavigationLink>
@@ -32,10 +35,10 @@ export default class Navigation extends React.Component {
           <NavigationLI>
             <NavigationLink to="/jacken">Mäntel</NavigationLink>
           </NavigationLI>
-          <Break />
           <NavigationLI>
-            <NavigationLink to="/premium">Premium</NavigationLink>
+            <NavigationLink to="/taschen">Taschen</NavigationLink>
           </NavigationLI>
+          <Break />
           <Break />
           <Break />
           <NavigationLI>

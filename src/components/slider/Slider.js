@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'react-emotion'
-import bg_1 from '../../img/startseite/selvii_start_3_zweiteiler.jpg'
-import bg_2 from '../../img/startseite/selvii_start_2_premium.jpg'
-import bg_3 from '../../img/startseite/selvii_slider_startseite-3.jpg'
+import bg_1 from '../../img/startseite/slider_1.jpg'
+import bg_2 from '../../img/startseite/slider_2.jpg'
+import bg_3 from '../../img/startseite/slider_3.jpg'
 import Link from 'gatsby-link'
 import Slider from "react-slick";
 import '../../styles/normalize.css'
@@ -13,7 +13,7 @@ export default class SliderCon extends React.Component {
       arrows: false,
       infinite: true,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 6000,
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1
@@ -23,18 +23,18 @@ export default class SliderCon extends React.Component {
       <SliderContainer>
         <Slider {...settings}>
           <SliderIMGContainer>
-            <Link to="/kleider">
-              <img src={bg_3} alt="slider img" />
+            <Link to="/pullover">
+              <img src={bg_1} alt="slider img" />
             </Link>
           </SliderIMGContainer>
           <SliderIMGContainer>
-            <Link to="/premium">
+            <Link to="/jacken">
               <img src={bg_2} alt="slider img" />
             </Link>
           </SliderIMGContainer>
           <SliderIMGContainer>
-            <Link to="/zweiteiler">
-              <img src={bg_1} alt="slider img" />
+            <Link to="/taschen">
+              <img src={bg_3} alt="slider img" />
             </Link>
           </SliderIMGContainer>
         </Slider>

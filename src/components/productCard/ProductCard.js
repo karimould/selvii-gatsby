@@ -26,8 +26,12 @@ export default class ProductCard extends React.Component {
         <ProductCardContainer>
         <ProductCardImageContainer>
           <ProductCardImage alt={this.props.title} src={this.props.img}></ProductCardImage>
+<<<<<<< HEAD
           {this.props.new ? (<NewProduct>Ausverkauft</NewProduct>) : (null)}
           {this.props.sale ? (<NewProduct>SALE</NewProduct>) : (null)}
+=======
+          <NewProduct>Ausverkauft</NewProduct>
+>>>>>>> fc1cf2471c836869bb23983f1d174ef3fbe5e909
         <ProductCardTitle>{this.props.title}</ProductCardTitle>
         {this.props.sale ? (<div><ProductSalePrice>{this.props.price} €</ProductSalePrice><ProductPrice><Red>{this.props.sale_price} €</Red></ProductPrice></div>) : (<ProductPrice>{this.props.sale}</ProductPrice>)}
         </ProductCardImageContainer>

@@ -1,7 +1,7 @@
 ---
 description_SEO: Strickpullover in schwarz mit Rundausschnitt und Butterfly Ärmel von Selvii.
 templateKey: produkt
-new: true
+new: false
 available: true
 category': pullover
 size:
@@ -12,7 +12,7 @@ title: LÄSSIGER STRICKPULLOVER IN SCHWARZ
 productinfo: >-
   100% Acryl. 30°C Wäsche. Bleichen nicht erlaubt. Bügeln mit geringer
   Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner trocknen.
-modelinfo: Model Größe 168cm. Model trägt Größe UNI
+modelinfo: Model Größe 168cm.
 price: '19.95'
 description: >-
   Strickpullover mit Rundhalsausschnitt und Butterfly Ärmeln in Schwarz.

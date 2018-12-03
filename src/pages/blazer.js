@@ -20,7 +20,7 @@ export default class Blazer extends React.Component {
         <Head title="Blazer | Damenmode | Selvii Online Shop" desc="Endecken Sie die Selvii Blazer von kurz bis oversized finden Sie hier alles"/>
         <Header />
           <ProductCardWrapper>
-          {products.map(({node: product}) => (
+          {products.slice(0).reverse().map(({node: product}) => (
             <ProductCard 
               link={product.fields.slug}
               category={product.frontmatter.category_}
