@@ -3,6 +3,7 @@ description_SEO: >-
   Karierte Skinny Hose von Selvii. Schwarzer Gürtel. High Waisted. Fällt eine Größe kleiner aus. Farbe Schwarz- und Brauntöne. 
 templateKey: produkt
 new: true
+sale: true
 available: true
 category': hosen
 size:
@@ -18,6 +19,7 @@ productinfo: >-
   trocknen.
 modelinfo: Model Größe 168cm. Model trägt Größe M
 price: '25.95'
+sale-price: '23.95'
 description: >-
   Karierte Skinny Hose. Schwarzer Gürtel. High Waisted. Fällt eine Größe kleiner aus. Farbe Schwarz- und Brauntöne. 
 featuredImage: /img/selvii_karierte_hose_mit_gurtel-1.jpg

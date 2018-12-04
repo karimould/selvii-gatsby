@@ -4,6 +4,7 @@ description_SEO: >-
   Dunkelgrau. Von Selvii
 templateKey: produkt
 new: true
+sale: true
 available: true
 category': pullover
 size:
@@ -17,6 +18,7 @@ productinfo: >-
   Trommeltrockner trocknen.
 modelinfo: 'Modelgröße 1,65m.'
 price: '35.95'
+sale-price: '27.95'
 description: >-
   Breite Ballon-Ärmel. Mittellanger Strickpullover mit Bateau-Ausschnitt. Farbe
   Dunkelgrau.

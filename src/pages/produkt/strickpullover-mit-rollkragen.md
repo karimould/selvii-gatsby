@@ -3,6 +3,7 @@ description_SEO: >-
   Langer Strickpullover mir Rollkragen in beige von selvii
 templateKey: produkt
 new: true
+sale: true
 available: true
 category': pullover
 size:
@@ -16,6 +17,7 @@ productinfo: >-
   im Trommeltrockner trocknen.
 modelinfo: Modelgröße 168cm.
 price: '34.95'
+sale-price: '29.95'
 description: >-
   Lange etwas breite Ärmel. Saum eng. Rollkragen mittelgroß. Farbe Beige. 
 featuredImage: /img/selvii_strickpullover_mit_rollkragen-1.jpg

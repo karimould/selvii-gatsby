@@ -4,6 +4,7 @@ description_SEO: >-
   Altrosa von Selvii.
 templateKey: produkt
 new: false
+sale: true
 available: true
 category': pullover
 size:
@@ -16,6 +17,7 @@ productinfo: >-
   Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner trocknen.
 modelinfo: Model Größe 163cm.
 price: '19.95'
+sale-price: '10.95'
 description: >-
   Strickpullover mit Rundausschnitt und Butterfly Ärmeln in Dunkelgrau.
   Rückseite etwas länger als Vorderseite.

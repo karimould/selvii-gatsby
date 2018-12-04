@@ -18,7 +18,7 @@ productinfo: >-
   trocknen.
 modelinfo: Model Größe 168cm
 price: '25.95'
-sale-price: '19.99'
+sale-price: '17.95'
 description: |-
   Cremeweißer figurbetonter Longblazer mit goldenen Knöpfen.
   Ärmel lang.

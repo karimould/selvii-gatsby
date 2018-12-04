@@ -3,6 +3,7 @@ description_SEO: >-
   Metallic ovalbag von selvii. Ideal zum Verstauen von kleinigkeiten, schick und handlich.
 templateKey: produkt
 new: true
+sale: true
 available: true
 category': taschen
 size:
@@ -14,6 +15,7 @@ productinfo: >-
   Kunstleder. Pflege: Trocken/ mit feuchtem Tuch reinigen.
 modelinfo:
 price: '14.95'
+sale-price: '11.95'
 description: >-
   Ovale Tasche mit abnehmbarem Gürtel. Zusätzlich mit Umhängekette/-gurt. Bietet viel Platz. Farbe weiss.
 featuredImage: /img/selvii_ovalbag_metallic-1.jpg
