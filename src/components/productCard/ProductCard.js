@@ -13,7 +13,7 @@ export default class ProductCard extends React.Component {
         <ProductCardLink title={this.props.title} to={this.props.link}>
         <ProductCardImageContainer>
           <ProductCardImage alt={this.props.title} src={this.props.img}/>
-        {this.props.new ? (<NewProduct>NEU</NewProduct>) : (null)}
+        {this.props.new && !this.props.sale ? (<NewProduct>NEU</NewProduct>) : (null)}
         {this.props.sale ? (<NewProduct>SALE</NewProduct>) : (null)}
         <ProductCardTitle>{this.props.title}</ProductCardTitle>
         {this.props.sale ? (<div><ProductSalePrice>{this.props.price} €</ProductSalePrice><ProductPrice><Red>{this.props.sale_price} €</Red></ProductPrice></div>) : (<ProductPrice>{this.props.price} €</ProductPrice>)}
@@ -26,7 +26,7 @@ export default class ProductCard extends React.Component {
         <ProductCardContainer>
         <ProductCardImageContainer>
           <ProductCardImage alt={this.props.title} src={this.props.img}></ProductCardImage>
-          {this.props.new ? (<NewProduct>NEU</NewProduct>) : (null)}
+          {this.props.new && !this.props.sale ? (<NewProduct>NEU</NewProduct>) : (null)}
           {this.props.sale ? (<NewProduct>SALE</NewProduct>) : (null)}
           <NewProduct>Ausverkauft</NewProduct>
         <ProductCardTitle>{this.props.title}</ProductCardTitle>
