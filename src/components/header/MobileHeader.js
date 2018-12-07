@@ -40,7 +40,6 @@ export default class MobileHeader extends React.Component {
               <NavigationLink className="menu-item" to="/new">Neu</NavigationLink>
               <Break/>
               <NavigationLink className="menu-item" to="/pullover">Pullover</NavigationLink>
-              <Break />
               <NavigationLink className="menu-item" to="/pullover">Oberteile</NavigationLink>
               <NavigationLink className="menu-item" to="/blazer">Blazer</NavigationLink>
               <NavigationLink className="menu-item" to="/zweiteiler">Zweiteiler</NavigationLink>
