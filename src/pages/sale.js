@@ -5,22 +5,22 @@ import Wrapper from '../components/wrapper/Wrapper'
 import Header from '../components/header/Header'
 import Footer from '../components/footer/Footer'
 import '../styles/normalize.css'
-import ProductCardWrapper from '../components/wrapper/ProductCardWrapper'
-import ProductCard from '../components/productCard/ProductCard'
-import Head from '../components/util/Head'
+import ProductCardWrapper from '../components/wrapper/ProductCardWrapper';
+import ProductCard from '../components/productCard/ProductCard';
+import Head from '../components/util/Head';
 
 
-export default class Pullover extends React.Component {
+export default class Sale extends React.Component {
   render() {
     const { data } = this.props
     const { edges: products } = data.allMarkdownRemark
         
     return(
       <Wrapper>
-        <Head title="Pullover | Damenmode | Selvii Online Shop" desc="Endecken Sie die Selvii Kleider. Kleider für die Abendgarderobe oder Freizeit"/>
+        <Head title="Sale | Damenmode | Selvii Online Shop" desc="Endecken Sie viele günstige Angebote in unserem Sale"/>
         <Header />
           <ProductCardWrapper>
-          {products.slice(0).reverse().map(({node: product}) => (
+          {products.map(({node: product}) => (
             <ProductCard 
               link={product.fields.slug}
               category={product.frontmatter.category_}
@@ -41,14 +41,13 @@ export default class Pullover extends React.Component {
   }
 }
 
-Pullover.propTypes = {
+Sale.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
     }),
   }),
 }
-
 
 
 /**
@@ -61,29 +60,29 @@ Pullover.propTypes = {
 
 
 export const pageQuery = graphql`
-  query IndexQueryPulloverProducts {
-    allMarkdownRemark(
-      filter: { frontmatter: { category_: { eq: "pullover" } }}
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-          }
-          frontmatter {
-            available
-            sale
-            price
-            sale_price
-            new
-            title
-            templateKey
-            description
-            featuredImage
-            category_
+  query IndexQuerySaleProducts {
+      allMarkdownRemark(
+           filter: { frontmatter: { sale: { eq: true } }}
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                available
+                sale
+                price
+                sale_price
+                new
+                title
+                templateKey
+                description
+                featuredImage
+                category_
+              }
+            }
           }
         }
       }
-    }
-  }
 `

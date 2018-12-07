@@ -10,7 +10,10 @@ export default class Navigation extends React.Component {
     return(
       <NavigationContainer>
         <NavigationUL>
-        <NavigationLI>
+          <NavigationLI>
+            <NavigationLink to="/sale">Sale</NavigationLink>
+          </NavigationLI>
+          <NavigationLI>
             <NavigationLink to="/new">Neu</NavigationLink>
           </NavigationLI>
           <Break />
@@ -80,7 +83,7 @@ const NavigationLinkSmall = styled(LinkSmall)`
   color: black !important;
   text-decoration: none !important;
   text-transform: none !important;
-  font-size: 1.0rem !important;
+  font-size: 0.9rem !important;
   font-weight: medium !important;
 `
 
@@ -89,5 +92,5 @@ const NavigationLink = styled(Link)`
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 `

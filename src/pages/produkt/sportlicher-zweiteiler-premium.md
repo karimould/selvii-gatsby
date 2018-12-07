@@ -4,6 +4,7 @@ description_SEO: >-
   Seitenstreifen von Selvii.
 templateKey: produkt
 new: false
+sale: true
 available: true
 category': zweiteiler
 size:
@@ -17,6 +18,7 @@ productinfo: >-
   im Trommeltrockner trocknen.
 modelinfo: Model Größe 163cm.
 price: '54.95'
+sale-price: '28.95'
 description: >-
   Eng anliegender Zweiteiler mit weißen Seitenstreifen. Hose Highwaist mit
   elastischem Bund und Schnur. Oberteil kurz.

@@ -4,6 +4,7 @@ description_SEO: >-
   Elastischer bund mit Gürtel aus gleichem Material.
 templateKey: produkt
 new: false
+sale: true
 available: true
 category': hosen
 size:
@@ -17,6 +18,7 @@ productinfo: >-
   trocknen.
 modelinfo: Model Größe 168cm
 price: '27.95'
+sale-price: '17.95'
 description: >-
   Schwarz-Grau Moire Muster aus dickem Stoff. Seitentaschen. Elastischer bund
   mit Gürtel aus gleichem Material.

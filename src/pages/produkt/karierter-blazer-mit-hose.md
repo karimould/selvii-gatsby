@@ -6,6 +6,7 @@ description_SEO: >
   Kariert mit dunkelrotem Akzent.
 templateKey: produkt
 new: false
+sale: true
 available: true
 category': zweiteiler
 size:
@@ -19,6 +20,7 @@ productinfo: >-
   Reinigen mit Perchlorethylen. Nicht im Trommeltrockner trocknen.
 modelinfo: Model Größe 168cm
 price: '39.95'
+sale-price: '26.95'
 description: >-
   Karierter Zweiteiler bestehend aus Blazer und Hose. Blazer ohne Knopfleiste
   und Taschen.  Hose mit elastischem Bund. Gürtel aus selbem Material.

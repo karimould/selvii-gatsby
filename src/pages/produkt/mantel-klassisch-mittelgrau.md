@@ -5,6 +5,7 @@ description_SEO: >-
   der Farbe Mittelgrau
 templateKey: produkt
 new: true
+sale: true
 available: true
 category': mäntel/jacken
 size:
@@ -18,6 +19,7 @@ productinfo: >-
   trocknen.
 modelinfo: Model Größe 168cm. 
 price: '45.95'
+sale-price: '40.95'
 description: |-
   Klassischer Mantel. Lange Ärmel. Gurt aus selben Stoff. Ein grauer Knopf mittig. Zwei vordere Taschen. Klassischer Reverskragen. Kein Innenfutter. Farbe mittelgrau.
 featuredImage: /img/selvii_klassischer_mantel-1.jpg

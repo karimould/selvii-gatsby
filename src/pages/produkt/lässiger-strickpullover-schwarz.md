@@ -2,6 +2,7 @@
 description_SEO: Strickpullover in schwarz mit Rundausschnitt und Butterfly Ärmel von Selvii.
 templateKey: produkt
 new: false
+sale: true
 available: true
 category': pullover
 size:
@@ -14,6 +15,7 @@ productinfo: >-
   Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner trocknen.
 modelinfo: Model Größe 168cm.
 price: '19.95'
+sale-price: '10.95'
 description: >-
   Strickpullover mit Rundhalsausschnitt und Butterfly Ärmeln in Schwarz.
   Rückseite etwas länger als Vorderseite.

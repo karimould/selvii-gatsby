@@ -20,6 +20,8 @@ export const Produkt = ({ data }) => {
         desc={product.frontmatter.description}
         productinfo={product.frontmatter.productinfo}
         modelinfo={product.frontmatter.modelinfo}
+        sale={product.frontmatter.sale}
+        sale_price={product.frontmatter.sale_price}
         price={product.frontmatter.price}
         link={product.fields.slug}
         gallery={product.frontmatter.gallery}
@@ -54,6 +56,8 @@ export const aboutPageQuery = graphql`
           size
         }
         title
+        sale
+        sale_price
         price
         description
         productinfo

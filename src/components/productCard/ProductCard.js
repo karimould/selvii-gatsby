@@ -13,9 +13,10 @@ export default class ProductCard extends React.Component {
         <ProductCardLink title={this.props.title} to={this.props.link}>
         <ProductCardImageContainer>
           <ProductCardImage alt={this.props.title} src={this.props.img}/>
-        {this.props.new ? (<NewProduct>NEU</NewProduct>) : (null)}
+        {this.props.new && !this.props.sale ? (<NewProduct>NEU</NewProduct>) : (null)}
+        {this.props.sale ? (<NewProduct>SALE</NewProduct>) : (null)}
         <ProductCardTitle>{this.props.title}</ProductCardTitle>
-        <ProductPrice>{this.props.price} €</ProductPrice>
+        {this.props.sale ? (<div><ProductSalePrice>{this.props.price} €</ProductSalePrice><ProductPrice><Red>{this.props.sale_price} €</Red></ProductPrice></div>) : (<ProductPrice>{this.props.price} €</ProductPrice>)}
         </ProductCardImageContainer>
         </ProductCardLink>
       </ProductCardContainer>
@@ -25,9 +26,11 @@ export default class ProductCard extends React.Component {
         <ProductCardContainer>
         <ProductCardImageContainer>
           <ProductCardImage alt={this.props.title} src={this.props.img}></ProductCardImage>
+          {this.props.new && !this.props.sale ? (<NewProduct>NEU</NewProduct>) : (null)}
+          {this.props.sale ? (<NewProduct>SALE</NewProduct>) : (null)}
           <NewProduct>Ausverkauft</NewProduct>
         <ProductCardTitle>{this.props.title}</ProductCardTitle>
-        <ProductPrice>{this.props.price} €</ProductPrice>
+        {this.props.sale ? (<div><ProductSalePrice>{this.props.price} €</ProductSalePrice><ProductPrice><Red>{this.props.sale_price} €</Red></ProductPrice></div>) : (<ProductPrice>{this.props.price} €</ProductPrice>)}
         </ProductCardImageContainer>
         </ProductCardContainer>
       )
@@ -81,6 +84,15 @@ const ProductPrice = styled('p')`
   color: '#5d3126';
 `
 
+const ProductSalePrice = styled('p')`
+  color: '#5d3126';
+  text-decoration: line-through;
+`
+
 const ProductCardLink = styled(Link)`
   color: black;
+`
+
+const Red = styled('span')`
+  color: red;
 `

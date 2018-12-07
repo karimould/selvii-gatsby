@@ -3,6 +3,7 @@ description_SEO: >-
   Kleine graue ovalbag von selvii. Ideal zum Verstauen von kleinigkeiten, schick und handlich!
 templateKey: produkt
 new: true
+sale: true
 available: true
 category': taschen
 size:
@@ -14,6 +15,7 @@ productinfo: >-
   Kunstleder. Pflege: Trocken/ mit feuchtem Tuch reinigen.
 modelinfo: 
 price: '12.95'
+sale-price: '10.95'
 description: >-
   Die kleinere ovale Tasche mit abnehmbarem Gürtel. Zusätzlich mit Umhängekette/-gurt. Farbe grau.
 featuredImage: /img/selvii_kleine_ovalbag_grau-1.jpg

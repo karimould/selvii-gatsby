@@ -4,6 +4,7 @@ description_SEO: >-
   Seitentaschen von Selvii.
 templateKey: produkt
 new: false
+sale: true
 available: true
 category': blazer
 size:
@@ -19,6 +20,7 @@ productinfo: >-
   Bügeln mit geringer Temperatur.
 modelinfo: Model Größe 163cm. Model trägt Größe S
 price: '34.95'
+sale-price: '24.95'
 description: >-
   Figurbetonter Longblazer in schwarz mit goldenem Knopf. Kragen und
   Seitentaschen.

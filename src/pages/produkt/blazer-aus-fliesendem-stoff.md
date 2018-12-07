@@ -16,7 +16,7 @@ productinfo: >-
   trocknen.
 modelinfo: Model Größe 168cm
 price: '22.95'
-sale-price: '19.99'
+sale-price: '15.95'
 description: |-
   Fliedergrauer Blazer in leichtem Oversize Look mit Schulterpolster.
   3/4 Ärmel mit Perle. Ohne Taschen.

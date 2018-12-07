@@ -20,6 +20,6 @@ info@selvii.de
 
 ## Soziale Netzwerke
 
-[instagram](https://www.instagram.com/selvii/)
+[instagram](https://www.instagram.com/selviiofficial/)
 
 [pinterest](https://www.pinterest.de/cd815bc591e728ea8ef3d6be17ae77/?eq=selvii%20wom&etslf=3710)

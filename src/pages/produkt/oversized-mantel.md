@@ -3,6 +3,7 @@ description_SEO:
   Langer Mantel mit jeweils Seitentaschen. Doppelreihig mit zwei schwarzen Knöpfen. Farbe Dunkelgrau. Klassischer Reverskragen
 templateKey: produkt
 new: true
+sale: true
 available: true
 category': mäntel/jacken
 size:
@@ -17,6 +18,7 @@ productinfo: >-
   trocknen.
 modelinfo: Model Größe 168cm. Model trägt Größe L.
 price: '64.95'
+sale-price: '59.95'
 description: |-
   Langer Mantel mit jeweils Seitentaschen. Doppelreihig mit zwei schwarzen Knöpfen. Farbe Dunkelgrau. Klassischer Reverskragen.
 featuredImage: /img/selvii_oversized_mantel-1.jpg
