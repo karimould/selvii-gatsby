@@ -10,7 +10,6 @@ category': mäntel/jacken
 size:
   - size: S
   - size: M
-  - size: L
 color:
   - color: nussbraun
 title: KURZMANTEL IN NUSSBRAUN
