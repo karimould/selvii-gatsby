@@ -6,7 +6,7 @@ description_SEO: >-
 templateKey: produkt
 new: true
 sale: true
-available: true
+available: false
 category': mäntel/jacken
 size:
   - size: UNI
@@ -17,11 +17,13 @@ productinfo: >-
   50% Baumwolle 50% Wolle. 30°C Wäsche. Bleichen nicht erlaubt. Bügeln mit
   geringer Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner
   trocknen.
-modelinfo: Model Größe 168cm. 
+modelinfo: Model Größe 168cm.
 price: '45.95'
 sale-price: '40.95'
-description: |-
-  Klassischer Mantel. Lange Ärmel. Gurt aus selben Stoff. Ein grauer Knopf mittig. Zwei vordere Taschen. Klassischer Reverskragen. Kein Innenfutter. Farbe mittelgrau.
+description: >-
+  Klassischer Mantel. Lange Ärmel. Gurt aus selben Stoff. Ein grauer Knopf
+  mittig. Zwei vordere Taschen. Klassischer Reverskragen. Kein Innenfutter.
+  Farbe mittelgrau.
 featuredImage: /img/selvii_klassischer_mantel-1.jpg
 gallery:
   - alt: Klasischer Mantel in Grau von Selvii
