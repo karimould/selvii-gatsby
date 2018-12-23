@@ -8,7 +8,6 @@ sale: true
 available: true
 category': mäntel/jacken
 size:
-  - size: S
   - size: M
 color:
   - color: nussbraun
