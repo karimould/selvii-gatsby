@@ -4,8 +4,8 @@ description_SEO: >-
   und Gürtel in Lederoptik von selvii.
 templateKey: produkt
 new: true
-sale: true
-available: false
+sale: false
+available: true
 category': hosen
 size:
   - size: UNI
