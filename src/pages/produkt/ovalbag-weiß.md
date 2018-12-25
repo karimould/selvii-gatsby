@@ -1,28 +1,29 @@
 ---
 description_SEO: >-
-  Weiße ovalbag von selvii. Ideal zum Verstauen von kleinigkeiten, schick und handlich.
+  Weiße ovalbag von selvii. Ideal zum Verstauen von kleinigkeiten, schick und
+  handlich.
 templateKey: produkt
 new: true
 sale: true
-available: true
+available: false
 category': taschen
 size:
   - size: UNI
 color:
   - color: Weiß
 title: OVALBAG WEISS
-productinfo: >-
-  Kunstleder. Pflege: Trocken/ mit feuchtem Tuch reinigen.
-modelinfo:
+productinfo: 'Kunstleder. Pflege: Trocken/ mit feuchtem Tuch reinigen.'
+modelinfo: .
 price: '14.95'
 sale-price: '11.95'
 description: >-
-  Ovale Tasche mit abnehmbarem Gürtel. Zusätzlich mit Umhängekette/-gurt. Bietet viel Platz. Farbe weiss.
+  Ovale Tasche mit abnehmbarem Gürtel. Zusätzlich mit Umhängekette/-gurt. Bietet
+  viel Platz. Farbe weiss.
 featuredImage: /img/selvii_ovalbag_weiß-1.jpg
 gallery:
-  - alt: Ovalback in weiß von selvii 
+  - alt: Ovalback in weiß von selvii
     image: /img/selvii_ovalbag_weiß-1.jpg
-  - alt: Ovalback in weiß von selvii 
+  - alt: Ovalback in weiß von selvii
     image: /img/selvii_ovalbag_weiß-2.jpg
 tags:
   - taschen
