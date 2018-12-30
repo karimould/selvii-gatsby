@@ -28,7 +28,7 @@ collections:
       - {label: "SEO Description", name: "description_SEO", widget: "text"}
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "produkt"}
       - {label: "New", name: "new", widget: "boolean", default: true}
-      - {label: "Sale", name: "sale", widget: "boolean", default: false}
+      - {label: "Sale", name: "sale", required: false, widget: "boolean", default: false}
       - {label: "Verfügbar", name: "available", widget: "boolean", default: true}
       - {label: 'Category', name: category', widget: select, options: [blazer, zweiteiler, kleider, hosen, mäntel/jacken, pullover, taschen, accessoires]}
       - {label: Size, name: size, widget: list, fields: [{label: "Size", name: "size", widget: "string"}]}
@@ -37,7 +37,7 @@ collections:
       - {label: "Produktinformationen", name: "productinfo", widget: "string"}
       - {label: "Modelinformationen", name: "modelinfo", widget: "string"}
       - {label: "Preis", name: "price", widget: "number"}
-      - {label: "Sale-Preis", name: "sale-price", widget: "number"}
+      - {label: "Sale-Preis", required: false, name: "sale-price", widget: "number"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "featuredImage", widget: "image"}
       - {label: Gallery, name: gallery, widget: list, fields: [{label: Image, name: image, widget: image}, {label: ALT, name: alt, widget: text}]}
