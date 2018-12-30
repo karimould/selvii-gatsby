@@ -9,7 +9,6 @@ available: true
 category': blazer
 size:
   - size: S
-  - size: M
   - size: L
 color:
   - color: schwarz
