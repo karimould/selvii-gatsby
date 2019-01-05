@@ -3,7 +3,7 @@ description_SEO: Langer Strickpullover mir Rollkragen in beige von selvii
 templateKey: produkt
 new: true
 sale: true
-available: true
+available: false
 category': pullover
 size:
   - size: UNI
