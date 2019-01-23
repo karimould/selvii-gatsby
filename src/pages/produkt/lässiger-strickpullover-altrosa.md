@@ -17,7 +17,7 @@ productinfo: >-
   Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner trocknen.
 modelinfo: Model Größe 168cm.
 price: '19.95'
-sale-price: '10.95'
+sale-price: '7.95'
 description: >-
   Strickpullover mit Rundhalsausschnitt und Butterfly Ärmeln in Altrosa.
   Rückseite etwas länger als Vorderseite.

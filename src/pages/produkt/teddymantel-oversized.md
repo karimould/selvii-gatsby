@@ -18,7 +18,7 @@ productinfo: >-
   Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner trocknen
 modelinfo: Model Größe 172cm. Model trägt Größe L.
 price: '59.95'
-sale-price: '51.95'
+sale-price: '49.95'
 description: >-
   Mittellanger Mantel. Ärmel lang. Oversized Look. Zwei Seitentaschen. Kein
   Innenfutter. Ein schwarzer Knopf zum Verschließen. Farbe Hellbraun. Klassicher

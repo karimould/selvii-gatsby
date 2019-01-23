@@ -18,7 +18,7 @@ productinfo: >-
   trocknen.
 modelinfo: Model Größe 168cm. Model trägt Größe S
 price: '42.95'
-sale-price: '29.95'
+sale-price: '22.95'
 description: |-
   Kurzmantel ohne Knopfleiste in Altrosa. Rundhalsausschnitt. Seitentaschen.
   Ohne Innenfutter.

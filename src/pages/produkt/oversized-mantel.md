@@ -18,7 +18,7 @@ productinfo: >-
   trocknen.
 modelinfo: Model Größe 168cm. Model trägt Größe L.
 price: '64.95'
-sale-price: '59.95'
+sale-price: '49.95'
 description: >-
   Langer Mantel mit jeweils Seitentaschen. Doppelreihig mit zwei schwarzen
   Knöpfen. Farbe Dunkelgrau. Klassischer Reverskragen.

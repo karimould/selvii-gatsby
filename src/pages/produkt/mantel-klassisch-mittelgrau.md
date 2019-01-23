@@ -19,7 +19,7 @@ productinfo: >-
   trocknen.
 modelinfo: Model Größe 168cm.
 price: '45.95'
-sale-price: '40.95'
+sale-price: '34.95'
 description: >-
   Klassischer Mantel. Lange Ärmel. Gurt aus selben Stoff. Ein grauer Knopf
   mittig. Zwei vordere Taschen. Klassischer Reverskragen. Kein Innenfutter.

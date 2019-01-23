@@ -3,6 +3,7 @@ description_SEO: >-
   Strickpullover in hellgrau mit hohem Rollkragen für Damen von selvii.
 templateKey: produkt
 new: true
+sale: true
 available: true
 category': pullover
 size:
@@ -16,6 +17,7 @@ productinfo: >-
   im Trommeltrockner trocknen.
 modelinfo: Modelgröße 172cm.
 price: '29.95'
+sale-price: '24.95'
 description: >-
   Lange Ballon-Ärmel. Saum enganliegend. Hoher Rollkragen. Farbe Hellgrau.
 featuredImage: /img/selvii_strickpullover_mit_hohem_rollkragen_hellgrau-1.jpg

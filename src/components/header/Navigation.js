@@ -26,9 +26,9 @@ export default class Navigation extends React.Component {
           <NavigationLI>
             <NavigationLink to="/zweiteiler">Zweiteiler</NavigationLink>
           </NavigationLI>
-          <NavigationLI>
+          {/* <NavigationLI>
             <NavigationLink to="/kleider">Kleider</NavigationLink>
-          </NavigationLI>
+          </NavigationLI> */}
           <NavigationLI>
             <NavigationLink to="/hosen">Hosen</NavigationLink>
           </NavigationLI>
