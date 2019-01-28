@@ -5,7 +5,7 @@ description_SEO: >-
 templateKey: produkt
 new: true
 sale: false
-available: true
+available: false
 category': hosen
 size:
   - size: UNI
