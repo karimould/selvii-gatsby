@@ -1,23 +1,24 @@
 ---
 description_SEO: >-
-  schwarze Tasche mit abnehmbarem Gürtel von selvii. Mit zwei Fächern. Passend für Smartphone, Brieftasche etc..
+  schwarze Tasche mit abnehmbarem Gürtel von selvii. Mit zwei Fächern. Passend
+  für Smartphone, Brieftasche etc..
 templateKey: produkt
-new: true
+new: false
 sale: true
-available: true
+available: false
 category': taschen
 size:
   - size: UNI
 color:
   - color: Schwarz
 title: TASCHE MIT ABNEHMBAREM GÜRTEL SCHWARZ
-productinfo: >-
-  Kunstleder. Pflege: Trocken/ mit feuchtem Tuch reinigen.
-modelinfo: 
+productinfo: 'Kunstleder. Pflege: Trocken/ mit feuchtem Tuch reinigen.'
+modelinfo: 164cm
 price: '14.95'
 sale-price: '9.95'
 description: >-
-  Tasche mit abnehmbarem Gürtel. Mit zwei Fächern. Passend für Smartphone, Brieftasche etc. Farbe schwarz.
+  Tasche mit abnehmbarem Gürtel. Mit zwei Fächern. Passend für Smartphone,
+  Brieftasche etc. Farbe schwarz.
 featuredImage: /img/selvii_tasche_mit_gurtel_schwarz-1.jpg
 gallery:
   - alt: schwarze tasche mit gürtel
