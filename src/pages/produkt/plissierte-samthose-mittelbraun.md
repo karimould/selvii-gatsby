@@ -8,7 +8,6 @@ available: true
 category': hosen
 size:
   - size: S/M
-  - size: M/L
 color:
   - color: Mittelbraun
 title: PLISSIERTE SAMTHOSE MITTELBRAUN
