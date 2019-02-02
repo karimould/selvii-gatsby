@@ -1,10 +1,9 @@
 ---
-description_SEO: >-
-  Strickpullover in schwarz mit hohem Rollkragen für Damen von selvii.
+description_SEO: Strickpullover in schwarz mit hohem Rollkragen für Damen von selvii.
 templateKey: produkt
 new: true
 sale: true
-available: true
+available: false
 category': pullover
 size:
   - size: UNI
@@ -12,14 +11,12 @@ color:
   - color: Schwarz
 title: STRICKPULLOVER MIT HOHEM ROLLKRAGEN SCHWARZ
 productinfo: >-
-  100% Acryl: 30°C Wäsche. Bleichen nicht
-  erlaubt. Bügeln mit geringer Temperatur. Reinigen mit Perchlorethylen. Nicht
-  im Trommeltrockner trocknen.
+  100% Acryl: 30°C Wäsche. Bleichen nicht erlaubt. Bügeln mit geringer
+  Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner trocknen.
 modelinfo: Modelgröße 165cm.
 price: '29.95'
 sale-price: '24.95'
-description: >-
-  Lange Ballon-Ärmel. Saum enganliegend. Hoher Rollkragen. Farbe Schwarz.
+description: Lange Ballon-Ärmel. Saum enganliegend. Hoher Rollkragen. Farbe Schwarz.
 featuredImage: /img/selvii_strickpullover_mit_hohem_rollkragen_schwarz-1.jpg
 gallery:
   - alt: Damen Strick-Pullover mit hohem Rollkragen in schwarz
