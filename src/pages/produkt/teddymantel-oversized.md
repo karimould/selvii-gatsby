@@ -6,7 +6,7 @@ description_SEO: >-
 templateKey: produkt
 new: true
 sale: true
-available: true
+available: false
 category': mäntel/jacken
 size:
   - size: M
