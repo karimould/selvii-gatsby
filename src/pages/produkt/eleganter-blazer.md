@@ -9,7 +9,6 @@ available: true
 category': blazer
 size:
   - size: S
-  - size: L
 color:
   - color: schwarz
 title: ELEGANTER BLAZER
