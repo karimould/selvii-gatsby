@@ -3,7 +3,7 @@ description_SEO: Strickpullover in schwarz mit Rundausschnitt und Butterfly Ärm
 templateKey: produkt
 new: false
 sale: true
-available: true
+available: false
 category': pullover
 size:
   - size: UNI
