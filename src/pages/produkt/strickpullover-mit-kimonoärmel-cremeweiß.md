@@ -1,9 +1,9 @@
 ---
 description_SEO: Strickpullover für Damen von Selvii. Strickpullover mit Kimonoärmeln
 templateKey: produkt
-new: true
+new: false
 sale: false
-available: true
+available: false
 category': pullover
 size:
   - size: UNI
