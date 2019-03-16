@@ -4,7 +4,7 @@ description_SEO: >-
   mittelbraun von Selvii.
 templateKey: produkt
 new: true
-available: true
+available: false
 category': hosen
 size:
   - size: S/M
