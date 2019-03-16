@@ -3,7 +3,7 @@ description_SEO: Strickpullover in cremeweiß mit hohem Rollkragen für Damen vo
 templateKey: produkt
 new: true
 sale: true
-available: false
+available: true
 category': pullover
 size:
   - size: UNI
