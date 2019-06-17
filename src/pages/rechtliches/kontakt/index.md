@@ -10,10 +10,6 @@ title: ' '
 
 Montag - Freitag: 09:00 - 15:00 Uhr
 
-## Postfach
-
-61 01 33, 30601 Hannover
-
 ## Email
 
 info@selvii.de
