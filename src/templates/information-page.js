@@ -5,7 +5,8 @@ import Wrapper from '../components/wrapper/Wrapper'
 import Header from '../components/header/Header'
 import Footer from '../components/footer/Footer'
 import Content, { HTMLContent } from '../components/siteContent/Content'
-import styled from 'react-emotion'
+import styled from '@emotion/styled'
+import { css } from 'emotion'
 import Head from '../components/util/Head'
 
 export const InformationPageTemplate = ({ title, content, contentComponent }) => {

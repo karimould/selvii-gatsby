@@ -1,5 +1,6 @@
 import React from 'react'
-import styled from 'react-emotion'
+import styled from '@emotion/styled'
+import { css } from 'emotion'
 import Navigation from './Navigation'
 import AddToCart from '../../img/addToCart.svg'
 import MobileHeader from './MobileHeader'
@@ -34,7 +35,7 @@ export default class Header extends React.Component {
               </LogoLink>
             </LogoContainer>
             <CartContainer>
-              <div class="snipcart-summary">
+              <div className="snipcart-summary">
                 <Cart href="#" className="snipcart-checkout">
                   <img src={AddToCart} />
                   <span className="snipcart-total-items">{this.state.cartCount}</span>
