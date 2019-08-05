@@ -48,16 +48,13 @@ export default class ProductPage extends React.Component {
     setTimeout(function () {
       window.Snipcart.api.modal.show();
       this.setState.cartCount = window.Snipcart.api.items.count()
-      console.log("Kaufen: " + window.Snipcart.api.items.count());
     },2500);
   }
 
   //Update state cartCounter in the Header component to show item count in the cart 
   //and rerender the header component
   getCartCount() {
-    this.setState.cartCount = window.Snipcart.api.items.count()
-    console.log("In Warenkorb: " + window.Snipcart.api.items.count());
-    
+    this.setState.cartCount = window.Snipcart.api.items.count()    
   }
 
   //Saves the different sizes in a string

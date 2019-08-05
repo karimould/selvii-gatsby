@@ -4,8 +4,6 @@ import Img from "gatsby-image"
 
 export default class ProductGallery extends React.Component {
   render() {   
-    console.log("ÄÄÄÄ");
-    console.log(this.props.gallery)
     return(
       <ProductGalleryContainer>
       {this.props.gallery.map(function(img, i){
