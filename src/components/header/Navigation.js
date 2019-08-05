@@ -1,10 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { css } from 'emotion'
 import Link from 'gatsby-link'
 import LinkSmall from 'gatsby-link'
-
-
 
 export default class Navigation extends React.Component {
   render() {

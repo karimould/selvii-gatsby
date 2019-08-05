@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { css } from 'emotion'
 import CartSVG from '../../img/addToCart.svg'
 import { slide as Menu } from 'react-burger-menu'
 import Link from 'gatsby-link'

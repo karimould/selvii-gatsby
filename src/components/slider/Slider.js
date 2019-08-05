@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { css } from 'emotion'
 import bg_1 from '../../img/startseite/slider_1.jpg'
 import bg_2 from '../../img/startseite/slider_2.jpg'
 import bg_3 from '../../img/startseite/slider_3.jpg'

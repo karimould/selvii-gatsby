@@ -65,7 +65,13 @@ export const aboutPageQuery = graphql`
         category_
         gallery {
           alt
-          image
+          image {
+              childImageSharp {
+                fluid(maxWidth: 1400, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
         }
       }
     }

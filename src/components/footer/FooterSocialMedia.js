@@ -1,6 +1,5 @@
 import * as React from 'react'
 import styled from '@emotion/styled'
-import { css } from 'emotion'
 import instagram from '../../img/socialmedia/instagram_black.svg'
 import pinterest from '../../img/socialmedia/pinterest_black.svg'
 

@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { css } from 'emotion'
 import Navigation from './Navigation'
 import AddToCart from '../../img/addToCart.svg'
 import MobileHeader from './MobileHeader'

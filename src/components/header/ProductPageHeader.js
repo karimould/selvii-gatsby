@@ -1,10 +1,8 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { css } from 'emotion'
 import CartSVG from '../../img/addToCart.svg'
 import BackArrow from '../../img/svgs/baseline-arrow_back-24px.svg'
 import Link from 'gatsby-link'
-
 
 export default class ProductPageHeader extends React.Component {
   constructor(props) {
