@@ -6,6 +6,7 @@ import bg_3 from '../../img/startseite/slider_3.jpg'
 import Link from 'gatsby-link'
 import Slider from "react-slick";
 import '../../styles/normalize.css'
+
 export default class SliderCon extends React.Component {
   render() {
     var settings = {
