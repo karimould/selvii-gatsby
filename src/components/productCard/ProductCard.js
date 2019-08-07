@@ -9,6 +9,8 @@ export default class ProductCard extends React.Component {
 
   renderCard() {    
     if(this.props.available) {
+      console.log("#####################")
+      console.log(this.props.title)
       return(
         <ProductCardContainer>
         <ProductCardLink title={this.props.title} to={this.props.link}>
