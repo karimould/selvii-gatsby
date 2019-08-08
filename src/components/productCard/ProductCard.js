@@ -13,7 +13,7 @@ export default class ProductCard extends React.Component {
         <ProductCardContainer>
         <ProductCardLink title={this.props.title} to={this.props.link}>
         <ProductCardImageContainer>
-        <Img fadeIn={true} alt={this.props.title} fluid={this.props.img.childImageSharp.fluid} />
+        <Img critical={true} fadeIn={false} alt={this.props.title} fluid={this.props.img.childImageSharp.fluid} />
           {this.props.new && !this.props.sale ? (<NewProduct>NEU</NewProduct>) : (null)}
           {this.props.sale ? (<NewProduct>SALE</NewProduct>) : (null)}
           <ProductCardTitle>{this.props.title}</ProductCardTitle>
@@ -26,7 +26,7 @@ export default class ProductCard extends React.Component {
       return(
         <ProductCardContainer>
         <ProductCardImageContainer>
-        <Img fadeIn={true} alt={this.props.title} fluid={this.props.img.childImageSharp.fluid} />
+        <Img critical={true} fadeIn={false} alt={this.props.title} fluid={this.props.img.childImageSharp.fluid} />
           {this.props.new && !this.props.sale ? (<NewProduct>NEU</NewProduct>) : (null)}
           {this.props.sale ? (<NewProduct>SALE</NewProduct>) : (null)}
           <NewProduct>Ausverkauft</NewProduct>
