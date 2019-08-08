@@ -2,7 +2,7 @@
 description_SEO: >-
   Zweiteiler Gestreift in Brauntönen mit glitter Effekt. Blazerknöfpe in gleicher Farbe. Klassicher Kragen. Hose mit elastischem Bund und keinen Taschen.
 templateKey: produkt
-new: true
+new: false
 available: true
 category': zweiteiler
 size:

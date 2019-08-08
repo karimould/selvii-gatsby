@@ -2,7 +2,7 @@
 description_SEO: >-
   Plissierte Palazzohose aus Samt. Elastischer Bund mit Schnur. Farbe Schwarz von Selvii.
 templateKey: produkt
-new: true
+new: false
 available: true
 category': hosen
 size:

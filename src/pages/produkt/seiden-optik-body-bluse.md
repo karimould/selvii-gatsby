@@ -2,7 +2,7 @@
 description_SEO: 
   Lässige Bluse mit Body. V-Ausschnitt. Lange Ärmel. Farbe Mustard von Selvii
 templateKey: produkt
-new: true
+new: false
 sale: true
 available: true
 category': pullover

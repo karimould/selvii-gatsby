@@ -2,7 +2,7 @@
 description_SEO: >-
   Metallic ovalbag von selvii. Ideal zum Verstauen von kleinigkeiten, schick und handlich.
 templateKey: produkt
-new: true
+new: false
 sale: true
 available: true
 category': taschen

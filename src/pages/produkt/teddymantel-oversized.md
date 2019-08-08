@@ -4,7 +4,7 @@ description_SEO: >-
   Seitentaschen. Kein Innenfutter. Ein schwarzer Knopf zum Verschließen. Farbe
   Hellbraun. Klassicher Reverskragen
 templateKey: produkt
-new: true
+new: false
 sale: true
 available: true
 category': mäntel/jacken

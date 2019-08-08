@@ -3,7 +3,7 @@ description_SEO: >-
   Plissierte Cullote mit Braun-Schwarzen Querstreifen sowie mit elstaischem Bund
   und Gürtel in Lederoptik von selvii.
 templateKey: produkt
-new: true
+new: false
 sale: false
 available: true
 category': hosen

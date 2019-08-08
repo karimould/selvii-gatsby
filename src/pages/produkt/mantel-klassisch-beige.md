@@ -4,7 +4,7 @@ description_SEO: >-
   mittig. Zwei vordere Taschen. Klassischer Reverskragen. Kein Innenfutter. In
   der Farbe beige
 templateKey: produkt
-new: true
+new: false
 sale: true
 available: true
 category': mäntel/jacken

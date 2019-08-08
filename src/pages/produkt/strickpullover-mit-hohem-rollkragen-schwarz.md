@@ -2,7 +2,7 @@
 description_SEO: >-
   Strickpullover in schwarz mit hohem Rollkragen für Damen von selvii.
 templateKey: produkt
-new: true
+new: false
 sale: true
 available: true
 category': pullover

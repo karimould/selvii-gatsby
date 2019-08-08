@@ -3,7 +3,7 @@ description_SEO: >-
   Breite Ballon-Ärmel. Mittellanger Strickpullover mit Bateau-Ausschnitt. Farbe
   Dunkelgrau. Von Selvii
 templateKey: produkt
-new: true
+new: false
 sale: true
 available: true
 category': pullover
