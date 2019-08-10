@@ -29,10 +29,6 @@ gallery:
     image: /img/selvii_gestreifter_blazer_mit_hose-1.jpg
   - alt: Zweiteiler von Selvii mit Blazer und Hose
     image: /img/selvii_gestreifter_blazer_mit_hose-2.jpg
-  - alt: Zweiteiler von Selvii mit Blazer und Hose
-    image: /img/selvii_gestreifter_blazer_mit_hose-3.jpg
-  - alt: Zweiteiler von Selvii mit Blazer und Hose
-    image: /img/selvii_gestreifter_blazer_mit_hose-4.jpg
 tags:
   - Blazer
   - Hose

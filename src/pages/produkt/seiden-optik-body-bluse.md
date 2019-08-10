@@ -25,12 +25,6 @@ gallery:
     image: /img/selvii_body_bluse_in_seidenoptik-1.jpg
   - alt: lässige body bluse in Seidenoptik von selvii
     image: /img/selvii_body_bluse_in_seidenoptik-2.jpg
-  - alt: lässige body bluse in Seidenoptik von selvii
-    image: /img/selvii_body_bluse_in_seidenoptik-3.jpg
-  - alt: lässige body bluse in Seidenoptik von selvii
-    image: /img/selvii_body_bluse_in_seidenoptik-4.jpg
-  - alt: lässige body bluse in Seidenoptik von selvii
-    image: /img/selvii_body_bluse_in_seidenoptik-5.jpg
 tags:
   - Bluse
 ---
