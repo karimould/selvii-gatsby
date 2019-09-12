@@ -8,7 +8,7 @@ sale: true
 available: true
 category': pullover
 size:
-  - size: UNI
+  - size: S
 color:
   - color: Altrosa
 title: LÄSSIGER STRICKPULLOVER IN ALTROSA
