@@ -3,8 +3,9 @@ description_SEO: >-
   Plissierte Palazzohose aus Samt. Elastischer Bund mit Schnur. Farbe
   mittelbraun von Selvii.
 templateKey: produkt
-new: true
-available: false
+new: false
+sale: true
+available: true
 category': hosen
 size:
   - size: S/M
@@ -17,6 +18,7 @@ productinfo: >-
   trocknen.
 modelinfo: Model Größe 168cm. Model trägt Größe M/L.
 price: '16.95'
+sale-price: '7.95'
 description: >-
   Plissierte Palazzohose aus Samt. Elastischer Bund mit Schnur. Farbe
   mittelbraun.
