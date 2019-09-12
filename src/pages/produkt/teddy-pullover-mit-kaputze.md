@@ -1,7 +1,7 @@
 ---
 description_SEO: Pullover mit Kapuze. Ärmel lang. Elastischer Saum. Farbe Beige. Von Selvii.
 templateKey: produkt
-new: true
+new: false
 sale: true
 available: true
 category': pullover
