@@ -3,9 +3,9 @@ description_SEO: >-
   Longblazer aus fliessendem Stoff in Marineblau von Selvii. Jetzt unsere neue
   Blazer Kollektion shoppen
 templateKey: produkt
-new: true
-sale: false
-available: false
+new: false
+sale: true
+available: true
 category': blazer
 size:
   - size: UNI
@@ -18,6 +18,7 @@ productinfo: >-
   trocknen.
 modelinfo: Model Größe 168cm.
 price: '19.95'
+sale-price: '7.95'
 description: >-
   Farbe Marineblau. ¾-Ärmel. Klassisch, fallender Reverskragen. Perle am Ärmel.
   Vordere Scheintaschen.
