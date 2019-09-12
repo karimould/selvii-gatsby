@@ -12,7 +12,7 @@ category': zweiteiler
 size:
   - size: UNI
 color:
-  - color: kariert
+  - color: schwarz/weiss
 title: GESTREIFTER ZWEITEILER
 productinfo: >-
   Hose: 95% Baumwolle, 5% Elastan Blazer: 95% Viscose, 5% Elastan. Hose &
