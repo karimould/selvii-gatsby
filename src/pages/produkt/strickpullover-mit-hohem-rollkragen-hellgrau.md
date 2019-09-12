@@ -1,12 +1,12 @@
 ---
 description_SEO: Strickpullover in hellgrau mit hohem Rollkragen für Damen von selvii.
 templateKey: produkt
-new: true
+new: false
 sale: true
 available: true
 category': pullover
 size:
-  - size: UNI
+  - size: M
 color:
   - color: Hellgrau
 title: STRICKPULLOVER MIT HOHEM ROLLKRAGEN HELLGRAU
