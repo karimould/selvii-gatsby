@@ -3,12 +3,12 @@ description_SEO: >-
   Weiter Bateau-Ausschnitt. One-Shoulder geeignet. Lange Ärmel. In der Farbe
   beige. Von Selvii
 templateKey: produkt
-new: true
+new: false
 sale: true
 available: true
 category': pullover
 size:
-  - size: UNI
+  - size: S
 color:
   - color: Beige
 title: KURZER STRICKPULLOVER ONE SHOULDER
