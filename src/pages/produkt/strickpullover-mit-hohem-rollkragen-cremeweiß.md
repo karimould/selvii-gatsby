@@ -15,7 +15,7 @@ productinfo: >-
   Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner trocknen.
 modelinfo: Modelgröße 168cm.
 price: '29.95'
-sale-price: '24.95'
+sale-price: '7.95'
 description: Lange Ballon-Ärmel. Saum enganliegend. Hoher Rollkragen. Farbe Cremeweiß.
 featuredImage: /img/selvii_strickpullover_mit_hohem_rollkragen-1.jpg
 gallery:
