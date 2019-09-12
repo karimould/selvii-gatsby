@@ -5,7 +5,7 @@ description_SEO: >-
 templateKey: produkt
 new: false
 sale: true
-available: false
+available: true
 category': pullover
 size:
   - size: UNI
