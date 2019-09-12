@@ -8,8 +8,8 @@ sale: true
 available: true
 category': hosen
 size:
-  - size: S/M
-  - size: M/L
+  - size: S
+  - size: M
 color:
   - color: Schwarz
 title: PLISSIERTE SAMTHOSE SCHWARZ
