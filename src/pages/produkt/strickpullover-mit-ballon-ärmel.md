@@ -8,7 +8,7 @@ sale: true
 available: true
 category': pullover
 size:
-  - size: UNI
+  - size: M
 color:
   - color: Dunkelgrau
 title: STRICKPULLOVER MIT BALLON-ÄRMEL
