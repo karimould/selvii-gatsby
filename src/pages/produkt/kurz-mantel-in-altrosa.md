@@ -7,8 +7,6 @@ available: true
 category': mäntel/jacken
 size:
   - size: S
-  - size: M - ausverkauft!
-  - size: L - ausverkauft!
 color:
   - color: Altrosa
 title: KURZMANTEL IN ALTROSA
