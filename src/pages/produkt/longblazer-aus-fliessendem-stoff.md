@@ -8,7 +8,7 @@ sale: true
 available: true
 category': blazer
 size:
-  - size: UNI
+  - size: M
 color:
   - color: Marineblau
 title: LONGBLAZER AUS FLIESSENDEM STOFF
