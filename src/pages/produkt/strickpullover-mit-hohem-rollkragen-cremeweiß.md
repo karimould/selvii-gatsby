@@ -1,19 +1,19 @@
 ---
 description_SEO: Strickpullover in cremeweiß mit hohem Rollkragen für Damen von selvii.
 templateKey: produkt
-new: true
+new: false
 sale: true
 available: true
 category': pullover
 size:
-  - size: UNI
+  - size: M
 color:
   - color: Cremeweiß
 title: STRICKPULLOVER MIT HOHEM ROLLKRAGEN CREMEWEIß
 productinfo: >-
   100% Acryl: 30°C Wäsche. Bleichen nicht erlaubt. Bügeln mit geringer
   Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner trocknen.
-modelinfo: Modelgröße 168cm.
+modelinfo: Model Größe 168cm.
 price: '29.95'
 sale-price: '7.95'
 description: Lange Ballon-Ärmel. Saum enganliegend. Hoher Rollkragen. Farbe Cremeweiß.
