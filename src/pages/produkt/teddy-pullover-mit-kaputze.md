@@ -6,7 +6,7 @@ sale: true
 available: true
 category': pullover
 size:
-  - size: UNI
+  - size: M
 color:
   - color: Beige
 title: TEDDY PULLOVER MIT KAPUZE
