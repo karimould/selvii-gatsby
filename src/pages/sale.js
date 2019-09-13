@@ -13,9 +13,7 @@ import Head from '../components/util/Head';
 export default class Sale extends React.Component {
   render() {
     const { data } = this.props
-    const { edges: products } = data.allMarkdownRemark
-    console.log(products);
-  
+    const { edges: products } = data.allMarkdownRemark  
     return(
       <Wrapper>
         <Head title="Sale | Damenmode | Selvii Online Shop" desc="Endecken Sie viele günstige Angebote in unserem Sale"/>
