@@ -51,7 +51,7 @@ const ProductCardContainer = styled('div')`
   font-size: 0.8rem;
   width: 500px;
   margin-bottom: 100px;
-
+  text-transform: uppercase;
   @media (max-width: 980px) {
     width: 350px;
   }

@@ -251,6 +251,7 @@ export default class ProductPage extends React.Component {
 
 const ProductPageContainer = styled('div')`
   padding-top: 100px;
+  text-transform: uppercase;
   display: flex;
   justify-content: center;
   @media (max-width: 1000px) {
