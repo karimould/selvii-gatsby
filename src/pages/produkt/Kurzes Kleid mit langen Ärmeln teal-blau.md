@@ -13,7 +13,7 @@ title: Kurzes Kleid mit langen Ärmeln teal-blau
 productinfo: >-
   100% Polyester, Wäsche bei 30°C
 modelinfo: Model Größe 168cm
-price: '20.90'
+price: '30.95'
 description: |-
 featuredImage: /img/01_Selvii_Kurzes Kleid mit langen Aermeln teal-blau_1.jpg
 gallery:

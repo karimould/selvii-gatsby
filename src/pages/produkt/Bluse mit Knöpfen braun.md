@@ -13,7 +13,7 @@ title: Bluse mit Knöpfen braun
 productinfo: >-
   100% Polyester.30°C Wäsche. 30°C Wäsche. Nicht bleichen. Behandlung mit Perchlorethylen. Nicht trockenreinigen. Nicht heiß bügeln.
 modelinfo: 'Modelgröße 168cm.'
-price: '18.70'
+price: '28.95'
 description: Braune Bluse mit Knöpfen auf der Vorderseite und kurzem Kragen. Bund an den Ärmeln.
 featuredImage: /img/09_Selvii_Bluse mit Knoepfen braun_1.jpg
 gallery:

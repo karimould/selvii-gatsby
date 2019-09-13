@@ -13,7 +13,7 @@ title: Bluse mit Struktur weiß
 productinfo: >-
   95 % Viscose, 5% Elasthan. 30°C Wäsche. Nicht bleichen. Behandlung mit Perchlorethylen. Nicht trockenreinigen. Nicht heiß bügeln.
 modelinfo: 'Modelgröße 168cm.'
-price: '14.30'
+price: '23.95'
 description: Dünne Bluse aus Viskose mit weichen V-Auschnitt. Sitzt locker. Material mit Struktur.
 featuredImage: /img/10_Selvii_Bluse mit Struktur weiß_1.jpg
 gallery:

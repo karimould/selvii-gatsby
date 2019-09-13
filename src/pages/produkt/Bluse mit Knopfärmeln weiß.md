@@ -13,7 +13,7 @@ title: Bluse mit Knopfärmeln weiß
 productinfo: >-
   100% Polyester.30°C Wäsche. 30°C Wäsche. Nicht bleichen. Behandlung mit Perchlorethylen. Nicht trockenreinigen. Nicht heiß bügeln.
 modelinfo: 'Modelgröße 168cm.'
-price: '15.40'
+price: '24.95'
 description: Feine Bluse aus dünnem Stoff mit rundem Ausschnitt. Ärmel mit jeweils vier weissen Knöpfen.
 featuredImage: /img/06_Selvii_Bluse mit Knopfaermeln weiß_1.jpg
 gallery:

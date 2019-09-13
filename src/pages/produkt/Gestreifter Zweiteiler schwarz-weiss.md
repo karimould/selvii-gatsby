@@ -13,7 +13,7 @@ title: Gestreifter Zweiteiler schwarz-weiss
 productinfo: >-
   95% Polyester 5% Elastan. 30°C Wäsche. Nicht bleichen. Behandlung mit Perchlorethylen. Nicht trockenreinigen. Nicht heiß bügeln.
 modelinfo: Model Größe 168cm
-price: '27.50'
+price: '36.95'
 description: >-
   Zweiteiler bestehend aus Hose und Jacket in schwarz mit feinen weißen Streifen. Hose mit Taschen und Bund zum festbinden. Jacket ohne Knöpfe.
 featuredImage: /img/03_SELVII_Gestreifter_Zweiteiler_schwarz-weiss_1.jpg
