@@ -1,9 +1,7 @@
 ---
 description_SEO: >
   Gestreifter Zweiteiler von Selvii. Blazer ohne Knopfleiste und Taschen. Gürtel
-  aus selbem Material. Elastischer Bund.
-
-  Kariert mit dunkelrotem Akzent.
+  aus selbem Material. Elastischer Bund. Kariert mit dunkelrotem Akzent.
 templateKey: produkt
 new: false
 sale: true
@@ -12,7 +10,7 @@ category': zweiteiler
 size:
   - size: UNI
 color:
-  - color: kariert
+  - color: schwarz/weiss
 title: GESTREIFTER ZWEITEILER
 productinfo: >-
   Hose: 95% Baumwolle, 5% Elastan Blazer: 95% Viscose, 5% Elastan. Hose &
@@ -20,9 +18,10 @@ productinfo: >-
   Reinigen mit Perchlorethylen. Nicht im Trommeltrockner trocknen.
 modelinfo: Model Größe 168cm
 price: '39.95'
-sale-price: '26.95'
+sale-price: '11.95'
 description: >-
-  Gestreifter Zweiteiler bestehend aus Blazer und Hose. Blazer ohne Knopfleiste und Taschen. Gürtel aus gleichem Material. Elastischer Bund. Ärmel 52cm.
+  Gestreifter Zweiteiler bestehend aus Blazer und Hose. Blazer ohne Knopfleiste
+  und Taschen. Gürtel aus gleichem Material. Elastischer Bund. Ärmel 52cm.
 featuredImage: /img/selvii_gestreifter_blazer_mit_hose-1.jpg
 gallery:
   - alt: Zweiteiler von Selvii mit Blazer und Hose
@@ -34,3 +33,4 @@ tags:
   - Hose
   - Zweiteiler
 ---
+

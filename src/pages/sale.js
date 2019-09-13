@@ -14,13 +14,15 @@ export default class Sale extends React.Component {
   render() {
     const { data } = this.props
     const { edges: products } = data.allMarkdownRemark
-        
+    console.log(products);
+  
     return(
       <Wrapper>
         <Head title="Sale | Damenmode | Selvii Online Shop" desc="Endecken Sie viele günstige Angebote in unserem Sale"/>
         <Header />
           <ProductCardWrapper>
           {products.map(({node: product}) => (
+            
             <ProductCard 
               link={product.fields.slug}
               category={product.frontmatter.category_}

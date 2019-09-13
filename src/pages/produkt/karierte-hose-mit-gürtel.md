@@ -8,8 +8,8 @@ sale: true
 available: true
 category': hosen
 size:
-  - size: M
-  - size: L
+  - size: Mit Taschen
+  - size: Ohne Taschen
 color:
   - color: Schwarz-Braun
 title: KARIERTE HOSE MIT GÜRTEL
@@ -19,10 +19,11 @@ productinfo: >-
   trocknen.
 modelinfo: Model Größe 168cm. Model trägt Größe M
 price: '25.95'
-sale-price: '23.95'
+sale-price: '7.95'
 description: >-
   Karierte Skinny Hose. Schwarzer Gürtel. High Waisted. Fällt eine Größe kleiner
-  aus. Farbe Schwarz- und Brauntöne. 
+  aus. Farbe Schwarz- und Brauntöne. Hose mit oder ohne Taschen verfügbar.
+  Einheitsgröße M/L
 featuredImage: /img/selvii_karierte_hose_mit_gurtel-1.jpg
 gallery:
   - alt: Selviis Karierte Skinny Hose mit Schwarzer Gürtel

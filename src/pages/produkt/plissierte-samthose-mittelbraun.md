@@ -4,11 +4,11 @@ description_SEO: >-
   mittelbraun von Selvii.
 templateKey: produkt
 new: false
+sale: true
 available: true
 category': hosen
 size:
-  - size: S/M
-  - size: M/L
+  - size: S
 color:
   - color: Mittelbraun
 title: PLISSIERTE SAMTHOSE MITTELBRAUN
@@ -18,6 +18,7 @@ productinfo: >-
   trocknen.
 modelinfo: Model Größe 168cm. Model trägt Größe M/L.
 price: '16.95'
+sale-price: '7.95'
 description: >-
   Plissierte Palazzohose aus Samt. Elastischer Bund mit Schnur. Farbe
   mittelbraun.

@@ -8,7 +8,7 @@ sale: true
 available: true
 category': pullover
 size:
-  - size: UNI
+  - size: S
 color:
   - color: Beige
 title: KURZER STRICKPULLOVER ONE SHOULDER
@@ -16,9 +16,9 @@ productinfo: >-
   84% Acryl, 9% Viscose, 8% Lana: 30°C Wäsche. Bleichen nicht erlaubt. Bügeln
   mit geringer Temperatur. Reinigen mit Perchlorethylen. Nicht im
   Trommeltrockner trocknen.
-modelinfo: 'Modelgröße 165cm.'
+modelinfo: Modelgröße 165cm.
 price: '35.95'
-sale-price: '19.95'
+sale-price: '6.95'
 description: Weiter Bateau-Ausschnitt. One-Shoulder geeignet. Lange Ärmel. Farbe beige.
 featuredImage: /img/selvii_kurzer_strickpullover_one_shoulder-1.jpg
 gallery:

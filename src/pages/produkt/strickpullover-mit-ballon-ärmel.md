@@ -8,7 +8,7 @@ sale: true
 available: true
 category': pullover
 size:
-  - size: UNI
+  - size: M
 color:
   - color: Dunkelgrau
 title: STRICKPULLOVER MIT BALLON-ÄRMEL
@@ -18,7 +18,7 @@ productinfo: >-
   Trommeltrockner trocknen.
 modelinfo: 'Modelgröße 1,65m.'
 price: '35.95'
-sale-price: '27.95'
+sale-price: '7.95'
 description: >-
   Breite Ballon-Ärmel. Mittellanger Strickpullover mit Bateau-Ausschnitt. Farbe
   Dunkelgrau.
