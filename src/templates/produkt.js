@@ -11,7 +11,7 @@ export const Produkt = ({ data }) => {
   return (
     <Wrapper>
       <Head title={"Selvii | " + product.frontmatter.title} desc={product.frontmatter.description}/>
-      <Header productPage={true} backLink={product.frontmatter.category_}/>
+      <Header productPage={true} backLink={product.frontmatter.new ? "/new" : product.frontmatter.category_}/>
         <ProductPage 
         title={product.frontmatter.title}
         id={product.id}
@@ -56,6 +56,7 @@ export const aboutPageQuery = graphql`
           size
         }
         title
+        new
         sale
         sale_price
         price
