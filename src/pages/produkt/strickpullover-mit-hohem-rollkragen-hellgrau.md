@@ -23,14 +23,6 @@ gallery:
     image: /img/selvii_strickpullover_mit_hohem_rollkragen_hellgrau-1.jpg
   - alt: Grauer damen Strickpullover mit hohem Rollkragen von selvii
     image: /img/selvii_strickpullover_mit_hohem_rollkragen_hellgrau-2.jpg
-  - alt: Grauer damen Strickpullover mit hohem Rollkragen von selvii
-    image: /img/selvii_strickpullover_mit_hohem_rollkragen_hellgrau-3.jpg
-  - alt: Grauer damen Strickpullover mit hohem Rollkragen von selvii
-    image: /img/selvii_strickpullover_mit_hohem_rollkragen_hellgrau-4.jpg
-  - alt: Grauer damen Strickpullover mit hohem Rollkragen von selvii
-    image: /img/selvii_strickpullover_mit_hohem_rollkragen_hellgrau-5.jpg
-  - alt: Grauer damen Strickpullover mit hohem Rollkragen von selvii
-    image: /img/selvii_strickpullover_mit_hohem_rollkragen_hellgrau-6.jpg
 tags:
   - Pullover
 ---
