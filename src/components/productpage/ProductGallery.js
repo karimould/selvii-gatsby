@@ -7,7 +7,7 @@ export default class ProductGallery extends React.Component {
     return(
       <ProductGalleryContainer>
       {this.props.gallery.map(function(img, i){
-        return <ProductImgContainer><Img critical={true} fadeIn={true} alt={img.alt} fluid={img.image.childImageSharp.fluid} />
+        return <ProductImgContainer><Img critical={true} durationFadeIn={1} fadeIn={true} alt={img.alt} fluid={img.image.childImageSharp.fluid} />
         </ProductImgContainer>
       })}
       </ProductGalleryContainer>
