@@ -251,7 +251,6 @@ export default class ProductPage extends React.Component {
 
 const ProductPageContainer = styled('div')`
   padding-top: 100px;
-  text-transform: uppercase;
   display: flex;
   justify-content: center;
   @media (max-width: 1000px) {
@@ -303,6 +302,7 @@ const ModalContainer = styled('div')`
 const ProductPageTitle = styled('h1')`
   font-size: 1.4rem;
   font-weight: bold;
+  text-transform: uppercase;
   @media (max-width: 850px) {
     font-size: 1.3rem;
   }

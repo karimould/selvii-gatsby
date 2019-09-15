@@ -28,12 +28,6 @@ gallery:
     image: /img/selvii_longblazer_aus_fliessendem_stoff-1.jpg
   - alt: Marineblauer Long Blazer von Selvii mit perle am Ärmel.
     image: /img/selvii_longblazer_aus_fliessendem_stoff-2.jpg
-  - alt: Marineblauer Long Blazer von Selvii mit perle am Ärmel.
-    image: /img/selvii_longblazer_aus_fliessendem_stoff-3.jpg
-  - alt: Marineblauer Long Blazer von Selvii mit perle am Ärmel.
-    image: /img/selvii_longblazer_aus_fliessendem_stoff-4.jpg
-  - alt: Marineblauer Long Blazer von Selvii mit perle am Ärmel.
-    image: /img/selvii_longblazer_aus_fliessendem_stoff-5.jpg
 tags:
   - Blazer
 ---

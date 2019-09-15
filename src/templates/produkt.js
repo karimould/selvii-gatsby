@@ -10,7 +10,7 @@ export const Produkt = ({ data }) => {
   const { markdownRemark: product } = data
   return (
     <Wrapper>
-      <Head title={product.frontmatter.title} desc={product.frontmatter.description}/>
+      <Head title={"Selvii | " + product.frontmatter.title} desc={product.frontmatter.description}/>
       <Header productPage={true} backLink={product.frontmatter.category_}/>
         <ProductPage 
         title={product.frontmatter.title}
