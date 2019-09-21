@@ -28,12 +28,6 @@ gallery:
     image: /img/selvii_plissierte_samthose_mittelbraun-1.jpg
   - alt: Plissierte Hose in mittelbraun
     image: /img/selvii_plissierte_samthose_mittelbraun-2.jpg
-  - alt: Plissierte Hose in mittelbraun
-    image: /img/selvii_plissierte_samthose_mittelbraun-3.jpg
-  - alt: Plissierte Hose in mittelbraun
-    image: /img/selvii_plissierte_samthose_mittelbraun-4.jpg
-  - alt: Plissierte Hose in mittelbraun
-    image: /img/selvii_plissierte_samthose_mittelbraun-5.jpg
 tags:
   - Hose
 ---
