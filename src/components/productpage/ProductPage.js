@@ -232,7 +232,7 @@ export default class ProductPage extends React.Component {
             <ProductModelInfos>{this.props.modelinfo}</ProductModelInfos>
             <br />
             {this.renderSelection()}
-            <br />^
+            <br />
             {this.renderProduct()}
             <br />
             <MoreInformationLink onClick={this.onOpenModal}>Pflege und Material</MoreInformationLink>
