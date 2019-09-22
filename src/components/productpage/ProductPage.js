@@ -377,7 +377,6 @@ const ProductPageSelect = styled('select')`
   font-size: 0.9rem;
   cursor: pointer;
   outline: none;
-
   option {
     color: #666;
   }
