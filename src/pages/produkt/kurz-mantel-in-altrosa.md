@@ -20,12 +20,12 @@ sale-price: '11.95'
 description: |-
   Kurzmantel ohne Knopfleiste in Altrosa. Rundhalsausschnitt. Seitentaschen.
   Ohne Innenfutter.
-featuredImage: /img/selvi_kurzmantel_rosa-1.jpg
+featuredImage: /img/selvi_kurzmantel_in_altrosa-1.jpg
 gallery:
   - alt: Kurzmantel von Selvii in Altrosa
-    image: /img/selvi_kurzmantel_rosa-1.jpg
+    image: /img/selvi_kurzmantel_in_altrosa-1.jpg
   - alt: Kurzmantel von Selvii in Altrosa
-    image: /img/selvi_kurzmantel_rosa-2.jpg
+    image: /img/selvii_kurzmantel_in_altrosa-2.jpg
 tags:
   - Mantel
   - Kurzmantel
