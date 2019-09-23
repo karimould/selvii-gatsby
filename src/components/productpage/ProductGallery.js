@@ -1,16 +1,14 @@
 import React from 'react'
-import styled from 'react-emotion'
-import img_1 from '../../img/test_1.jpg'
+import styled from '@emotion/styled'
+import Img from "gatsby-image"
 
 export default class ProductGallery extends React.Component {
-  render() {
-    console.log("KARIIIIM");
-    console.log(this.props.gallery);
-    
+  render() {   
     return(
       <ProductGalleryContainer>
       {this.props.gallery.map(function(img, i){
-        return <ProductImgContainer><img alt={img.alt} src={img.image} /></ProductImgContainer>
+        return <ProductImgContainer><Img alt={img.alt} fluid={img.image.childImageSharp.fluid} />
+        </ProductImgContainer>
       })}
       </ProductGalleryContainer>
 

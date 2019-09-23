@@ -1,7 +1,6 @@
 import Link from 'gatsby-link'
 import * as React from 'react'
-import styled from 'react-emotion'
-
+import styled from '@emotion/styled'
 export default class FooterNav extends React.Component {
   render() {
     return(

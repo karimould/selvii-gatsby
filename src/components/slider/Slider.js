@@ -1,11 +1,12 @@
 import React from 'react'
-import styled from 'react-emotion'
+import styled from '@emotion/styled'
 import bg_1 from '../../img/startseite/slider_1.jpg'
 import bg_2 from '../../img/startseite/slider_2.jpg'
 import bg_3 from '../../img/startseite/slider_3.jpg'
 import Link from 'gatsby-link'
 import Slider from "react-slick";
 import '../../styles/normalize.css'
+
 export default class SliderCon extends React.Component {
   render() {
     var settings = {

@@ -30,18 +30,6 @@ gallery:
       Fliedergrauer Blazer im leichtem Oversize Look mit Schulterpolster von
       Selvii.
     image: /img/selvii_fliessender_blazer_fliedergrau-2.jpg
-  - alt: >-
-      Fliedergrauer Blazer im leichtem Oversize Look mit Schulterpolster von
-      Selvii.
-    image: /img/selvii_fliessender_blazer_fliedergrau-3.jpg
-  - alt: >-
-      Fliedergrauer Blazer im leichtem Oversize Look mit Schulterpolster von
-      Selvii.
-    image: /img/selvii_fliessender_blazer_fliedergrau-4.jpg
-  - alt: >-
-      Fliedergrauer Blazer im leichtem Oversize Look mit Schulterpolster von
-      Selvii.
-    image: /img/selvii_fliessender_blazer_fliedergrau-5.jpg
 tags:
   - Blazer
 ---

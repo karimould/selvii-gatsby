@@ -23,14 +23,6 @@ gallery:
     image: /img/selvii_teddy_pullover_mit_kapuze-1.jpg
   - alt: Damen Teddy Pullover mit Kaputze
     image: /img/selvii_teddy_pullover_mit_kapuze-2.jpg
-  - alt: Damen Teddy Pullover mit Kaputze
-    image: /img/selvii_teddy_pullover_mit_kapuze-3.jpg
-  - alt: Damen Teddy Pullover mit Kaputze
-    image: /img/selvii_teddy_pullover_mit_kapuze-4.jpg
-  - alt: Damen Teddy Pullover mit Kaputze
-    image: /img/selvii_teddy_pullover_mit_kapuze-5.jpg
-  - alt: Damen Teddy Pullover mit Kaputze
-    image: /img/selvii_teddy_pullover_mit_kapuze-6.jpg
 tags:
   - Pullover
 ---

@@ -3,7 +3,7 @@ description_SEO: >-
   Breite Ballon-Ärmel. Mittellanger Strickpullover mit Bateau-Ausschnitt. Farbe
   Dunkelgrau. Von Selvii
 templateKey: produkt
-new: true
+new: false
 sale: true
 available: true
 category': pullover
@@ -28,14 +28,6 @@ gallery:
     image: /img/selvii_lassiger_strickpullover_mit_ballon_armel-1.jpg
   - alt: Damen Strickpullover mit Ballon-Ärmel von Selvii
     image: /img/selvii_lassiger_strickpullover_mit_ballon_armel-2.jpg
-  - alt: Damen Strickpullover mit Ballon-Ärmel von Selvii
-    image: /img/selvii_lassiger_strickpullover_mit_ballon_armel-3.jpg
-  - alt: Damen Strickpullover mit Ballon-Ärmel von Selvii
-    image: /img/selvii_lassiger_strickpullover_mit_ballon_armel-4.jpg
-  - alt: Damen Strickpullover mit Ballon-Ärmel von Selvii
-    image: /img/selvii_lassiger_strickpullover_mit_ballon_armel-5.jpg
-  - alt: Damen Strickpullover mit Ballon-Ärmel von Selvii
-    image: /img/selvii_lassiger_strickpullover_mit_ballon_armel-6.jpg
 tags:
   - Pullover
 ---

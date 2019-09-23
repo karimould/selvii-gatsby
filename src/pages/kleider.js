@@ -78,8 +78,14 @@ export const pageQuery = graphql`
             title
             templateKey
             description
-            featuredImage
-            category_
+            featuredImage {
+              childImageSharp {
+                fluid(maxWidth: 500, quality: 50) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          category_
           }
         }
       }

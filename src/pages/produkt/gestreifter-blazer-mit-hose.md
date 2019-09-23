@@ -1,9 +1,7 @@
 ---
 description_SEO: >
   Gestreifter Zweiteiler von Selvii. Blazer ohne Knopfleiste und Taschen. Gürtel
-  aus selbem Material. Elastischer Bund.
-
-  Kariert mit dunkelrotem Akzent.
+  aus selbem Material. Elastischer Bund. Kariert mit dunkelrotem Akzent.
 templateKey: produkt
 new: false
 sale: true
@@ -30,10 +28,6 @@ gallery:
     image: /img/selvii_gestreifter_blazer_mit_hose-1.jpg
   - alt: Zweiteiler von Selvii mit Blazer und Hose
     image: /img/selvii_gestreifter_blazer_mit_hose-2.jpg
-  - alt: Zweiteiler von Selvii mit Blazer und Hose
-    image: /img/selvii_gestreifter_blazer_mit_hose-3.jpg
-  - alt: Zweiteiler von Selvii mit Blazer und Hose
-    image: /img/selvii_gestreifter_blazer_mit_hose-4.jpg
 tags:
   - Blazer
   - Hose

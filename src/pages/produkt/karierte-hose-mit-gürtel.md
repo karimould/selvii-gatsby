@@ -30,10 +30,6 @@ gallery:
     image: /img/selvii_karierte_hose_mit_gurtel-1.jpg
   - alt: Selviis Karierte Skinny Hose mit Schwarzer Gürtel
     image: /img/selvii_karierte_hose_mit_gurtel-2.jpg
-  - alt: Selviis Karierte Skinny Hose mit Schwarzer Gürtel
-    image: /img/selvii_karierte_hose_mit_gurtel-3.jpg
-  - alt: Selviis Karierte Skinny Hose mit Schwarzer Gürtel
-    image: /img/selvii_karierte_hose_mit_gurtel-4.jpg
 tags:
   - Hose
 ---

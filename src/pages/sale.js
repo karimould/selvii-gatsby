@@ -13,14 +13,14 @@ import Head from '../components/util/Head';
 export default class Sale extends React.Component {
   render() {
     const { data } = this.props
-    const { edges: products } = data.allMarkdownRemark
-        
+    const { edges: products } = data.allMarkdownRemark  
     return(
       <Wrapper>
         <Head title="Sale | Damenmode | Selvii Online Shop" desc="Endecken Sie viele günstige Angebote in unserem Sale"/>
         <Header />
           <ProductCardWrapper>
           {products.map(({node: product}) => (
+            
             <ProductCard 
               link={product.fields.slug}
               category={product.frontmatter.category_}
@@ -78,7 +78,13 @@ export const pageQuery = graphql`
                 title
                 templateKey
                 description
-                featuredImage
+                featuredImage {
+                  childImageSharp {
+                    fluid(maxWidth: 500, quality: 50) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }                
                 category_
               }
             }

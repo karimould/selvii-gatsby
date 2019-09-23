@@ -27,12 +27,6 @@ gallery:
     image: /img/selvii_plissierte_samthose_schwarz-1.jpg
   - alt: Plissierte Hose in schwarz
     image: /img/selvii_plissierte_samthose_schwarz-2.jpg
-  - alt: Plissierte Hose in schwarz
-    image: /img/selvii_plissierte_samthose_schwarz-3.jpg
-  - alt: Plissierte Hose in schwarz
-    image: /img/selvii_plissierte_samthose_schwarz-4.jpg
-  - alt: Plissierte Hose in schwarz
-    image: /img/selvii_plissierte_samthose_schwarz-5.jpg
 tags:
   - Hose
 ---

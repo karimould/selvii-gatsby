@@ -27,8 +27,6 @@ gallery:
     image: /img/selvii_strickpullover_altrosa-1.jpg
   - alt: Strickpullover in altrosa von Selvii
     image: /img/selvii_strickpullover_altrosa-2.jpg
-  - alt: Strickpullover in altrosa von Selvii
-    image: /img/selvii_strickpullover_altrosa-3.jpg
 tags:
   - Pullover
 ---

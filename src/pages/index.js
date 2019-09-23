@@ -11,6 +11,9 @@ export default class IndexPage extends React.Component {
   render() {
     // const { data } = this.props
     // const { edges: products } = data.allMarkdownRemark  
+    if (typeof window !== 'undefined') {
+      window.location = '/new';
+    }
   
     return (
       <Wrapper>
