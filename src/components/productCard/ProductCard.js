@@ -1,5 +1,6 @@
 import React from 'react'
-import styled from 'react-emotion'
+import styled from '@emotion/styled'
+import Img from "gatsby-image"
 import { Link } from 'gatsby'
 
 
@@ -12,11 +13,11 @@ export default class ProductCard extends React.Component {
         <ProductCardContainer>
         <ProductCardLink title={this.props.title} to={this.props.link}>
         <ProductCardImageContainer>
-          <ProductCardImage alt={this.props.title} src={this.props.img}/>
-        {this.props.new && !this.props.sale ? (<NewProduct>NEU</NewProduct>) : (null)}
-        {this.props.sale ? (<NewProduct>SALE</NewProduct>) : (null)}
-        <ProductCardTitle>{this.props.title}</ProductCardTitle>
-        {this.props.sale ? (<div><ProductSalePrice>{this.props.price} €</ProductSalePrice><ProductPrice><Red>{this.props.sale_price} €</Red></ProductPrice></div>) : (<ProductPrice>{this.props.price} €</ProductPrice>)}
+        <Img critical={true} fadeIn={false} alt={this.props.title} fluid={this.props.img.childImageSharp.fluid} />
+          {this.props.new && !this.props.sale ? (<NewProduct>NEU</NewProduct>) : (null)}
+          {this.props.sale ? (<NewProduct>SALE</NewProduct>) : (null)}
+          <ProductCardTitle>{this.props.title}</ProductCardTitle>
+          {this.props.sale ? (<div><ProductSalePrice>{this.props.price} €</ProductSalePrice><ProductPrice><Red>{this.props.sale_price} €</Red></ProductPrice></div>) : (<ProductPrice>{this.props.price} €</ProductPrice>)}
         </ProductCardImageContainer>
         </ProductCardLink>
       </ProductCardContainer>
@@ -25,7 +26,7 @@ export default class ProductCard extends React.Component {
       return(
         <ProductCardContainer>
         <ProductCardImageContainer>
-          <ProductCardImage alt={this.props.title} src={this.props.img}></ProductCardImage>
+        <Img critical={true} fadeIn={false} alt={this.props.title} fluid={this.props.img.childImageSharp.fluid} />
           {this.props.new && !this.props.sale ? (<NewProduct>NEU</NewProduct>) : (null)}
           {this.props.sale ? (<NewProduct>SALE</NewProduct>) : (null)}
           <NewProduct>Ausverkauft</NewProduct>
@@ -50,12 +51,12 @@ const ProductCardContainer = styled('div')`
   font-size: 0.8rem;
   width: 500px;
   margin-bottom: 100px;
-
+  text-transform: uppercase;
   @media (max-width: 980px) {
     width: 350px;
   }
   @media (max-width: 500px) {
-    width: auto;
+    width: 450px;
   }
 `
 

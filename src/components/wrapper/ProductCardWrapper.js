@@ -1,5 +1,5 @@
 import React, { Children } from 'react'
-import styled from 'react-emotion'
+import styled from '@emotion/styled'
 
 
 export default ({ children }) => <Wrapper>{children}</Wrapper>

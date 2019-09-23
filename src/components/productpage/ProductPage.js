@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'react-emotion'
+import styled from '@emotion/styled'
 import ProductGallery from './ProductGallery'
 import Modal from 'react-responsive-modal'
 
@@ -48,16 +48,13 @@ export default class ProductPage extends React.Component {
     setTimeout(function () {
       window.Snipcart.api.modal.show();
       this.setState.cartCount = window.Snipcart.api.items.count()
-      console.log("Kaufen: " + window.Snipcart.api.items.count());
     },2500);
   }
 
   //Update state cartCounter in the Header component to show item count in the cart 
   //and rerender the header component
   getCartCount() {
-    this.setState.cartCount = window.Snipcart.api.items.count()
-    console.log("In Warenkorb: " + window.Snipcart.api.items.count());
-    
+    this.setState.cartCount = window.Snipcart.api.items.count()    
   }
 
   //Saves the different sizes in a string
@@ -305,6 +302,7 @@ const ModalContainer = styled('div')`
 const ProductPageTitle = styled('h1')`
   font-size: 1.4rem;
   font-weight: bold;
+  text-transform: uppercase;
   @media (max-width: 850px) {
     font-size: 1.3rem;
   }
@@ -379,7 +377,6 @@ const ProductPageSelect = styled('select')`
   font-size: 0.9rem;
   cursor: pointer;
   outline: none;
-
   option {
     color: #666;
   }

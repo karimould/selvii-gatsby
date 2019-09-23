@@ -20,7 +20,7 @@ productinfo: >-
   Reinigen mit Perchlorethylen. Nicht im Trommeltrockner trocknen.
 modelinfo: Model Größe 168cm
 price: '39.95'
-sale-price: '26.95'
+sale-price: '11.95'
 description: >-
   Karierter Zweiteiler bestehend aus Blazer und Hose. Blazer ohne Knopfleiste
   und Taschen.  Hose mit elastischem Bund. Gürtel aus selbem Material.
@@ -34,12 +34,6 @@ gallery:
     image: /img/selvii_karierter_blazer_mit_hose-1.jpg
   - alt: Zweiteiler von Selvii mit Blazer und Hose
     image: /img/selvii_karierter_blazer_mit_hose-2.jpg
-  - alt: Karrierter Blazer mit pullover
-    image: /img/selvii_karierter_blazer_mit_hose-3.jpg
-  - alt: Blazer karriert von selvii
-    image: /img/selvii_karierter_blazer_mit_hose-4.jpg
-  - alt: Hose zum Zweiteiler
-    image: /img/selvii_karierter_blazer_mit_hose-5.jpg
 tags:
   - Blazer
   - Hose

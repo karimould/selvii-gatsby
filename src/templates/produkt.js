@@ -10,8 +10,8 @@ export const Produkt = ({ data }) => {
   const { markdownRemark: product } = data
   return (
     <Wrapper>
-      <Head title={product.frontmatter.title} desc={product.frontmatter.description}/>
-      <Header productPage={true} backLink={product.frontmatter.category_}/>
+      <Head title={"Selvii | " + product.frontmatter.title} desc={product.frontmatter.description}/>
+      <Header productPage={true} backLink={product.frontmatter.new ? "/new" : product.frontmatter.category_}/>
         <ProductPage 
         title={product.frontmatter.title}
         id={product.id}
@@ -56,6 +56,7 @@ export const aboutPageQuery = graphql`
           size
         }
         title
+        new
         sale
         sale_price
         price
@@ -65,7 +66,13 @@ export const aboutPageQuery = graphql`
         category_
         gallery {
           alt
-          image
+          image {
+              childImageSharp {
+                fluid(maxWidth: 800, quality: 50) {
+                  ...GatsbyImageSharpFluid_withWebp
+                }
+              }
+            }
         }
       }
     }

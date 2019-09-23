@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'react-emotion'
+import styled from '@emotion/styled'
 import CartSVG from '../../img/addToCart.svg'
 import { slide as Menu } from 'react-burger-menu'
 import Link from 'gatsby-link'
@@ -43,7 +43,7 @@ export default class MobileHeader extends React.Component {
               <NavigationLink className="menu-item" to="/pullover">Oberteile</NavigationLink>
               <NavigationLink className="menu-item" to="/blazer">Blazer</NavigationLink>
               <NavigationLink className="menu-item" to="/zweiteiler">Zweiteiler</NavigationLink>
-              {/* <NavigationLink className="menu-item" to="/kleider">Kleider</NavigationLink> */}
+              <NavigationLink className="menu-item" to="/kleider">Kleider</NavigationLink>
               <NavigationLink className="menu-item" to="/hosen">Hosen</NavigationLink>
               <NavigationLink className="menu-item" to="/jacken">Mäntel</NavigationLink>
               <NavigationLink className="menu-item" to="/taschen">Taschen</NavigationLink>
@@ -54,7 +54,7 @@ export default class MobileHeader extends React.Component {
             </Menu>
           </BurgerMenuContainer>
           <CartContainer>
-            <div class="snipcart-summary">
+            <div className="snipcart-summary">
               <Cart href="#" className="snipcart-checkout">
                 <img src={CartSVG} />
                 <span className="snipcart-total-items">{this.state.cartCount}</span>

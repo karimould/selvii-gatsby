@@ -1,5 +1,5 @@
 import * as React from 'react'
-import styled from 'react-emotion'
+import styled from '@emotion/styled'
 import FooterNav from './FooterNav'
 import FooterSlogan from './FooterSlogan'
 import FooterSocialMedia from './FooterSocialMedia'

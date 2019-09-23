@@ -1,7 +1,6 @@
 import React from 'react'
-import styled from 'react-emotion'
+import styled from '@emotion/styled'
 import '../all.sass'
-import Helmet from 'react-helmet'
 
 
 //Wrapper to set default css configs

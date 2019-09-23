@@ -7,8 +7,6 @@ available: true
 category': mäntel/jacken
 size:
   - size: S
-  - size: M - ausverkauft!
-  - size: L - ausverkauft!
 color:
   - color: Altrosa
 title: KURZMANTEL IN ALTROSA
@@ -18,20 +16,16 @@ productinfo: >-
   trocknen.
 modelinfo: Model Größe 168cm. Model trägt Größe S
 price: '42.95'
-sale-price: '22.95'
+sale-price: '11.95'
 description: |-
   Kurzmantel ohne Knopfleiste in Altrosa. Rundhalsausschnitt. Seitentaschen.
   Ohne Innenfutter.
-featuredImage: /img/selvi_kurzmantel_rosa-3.jpg
+featuredImage: /img/selvi_kurzmantel_in_altrosa-1.jpg
 gallery:
   - alt: Kurzmantel von Selvii in Altrosa
-    image: /img/selvi_kurzmantel_rosa-1.jpg
+    image: /img/selvi_kurzmantel_in_altrosa-1.jpg
   - alt: Kurzmantel von Selvii in Altrosa
-    image: /img/selvi_kurzmantel_rosa-2.jpg
-  - alt: Kurzmantel von Selvii in Altrosa
-    image: /img/selvi_kurzmantel_rosa-3.jpg
-  - alt: Kurzmantel von Selvii in Altrosa
-    image: /img/selvi_kurzmantel_rosa-4.jpg
+    image: /img/selvii_kurzmantel_in_altrosa-2.jpg
 tags:
   - Mantel
   - Kurzmantel

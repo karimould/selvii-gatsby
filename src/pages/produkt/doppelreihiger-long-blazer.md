@@ -18,7 +18,7 @@ productinfo: >-
   trocknen.
 modelinfo: Model Größe 168cm
 price: '25.95'
-sale-price: '17.95'
+sale-price: '7.95'
 description: |-
   Cremeweißer figurbetonter Longblazer mit goldenen Knöpfen.
   Ärmel lang.
@@ -29,14 +29,6 @@ gallery:
     image: /img/selvii_doppelreihiger_blazer_weiss-1.jpg
   - alt: Cremeweißer figurbetonter Long Blazer mit goldenen knöpfen von Selvii
     image: /img/selvii_doppelreihiger_blazer_weiss-2.jpg
-  - alt: Cremeweißer figurbetonter Long Blazer mit goldenen knöpfen von Selvii
-    image: /img/selvii_doppelreihiger_blazer_weiss-3.jpg
-  - alt: Cremeweißer Long Blazer mit goldenen knöpfen von Selvii Nahaufnahme
-    image: /img/selvii_doppelreihiger_blazer_weiss-4.jpg
-  - alt: >-
-      Cremeweißer Long Blazer mit goldenen Knöpfen von Selvii Nahaufnahme vom
-      Ärmel
-    image: /img/selvii_doppelreihiger_blazer_weiss-5.jpg
 tags:
   - Blazer
 ---

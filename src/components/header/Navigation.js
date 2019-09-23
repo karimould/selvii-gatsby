@@ -1,9 +1,7 @@
 import React from 'react'
-import styled from 'react-emotion'
+import styled from '@emotion/styled'
 import Link from 'gatsby-link'
 import LinkSmall from 'gatsby-link'
-
-
 
 export default class Navigation extends React.Component {
   render() {
@@ -26,9 +24,9 @@ export default class Navigation extends React.Component {
           <NavigationLI>
             <NavigationLink to="/zweiteiler">Zweiteiler</NavigationLink>
           </NavigationLI>
-          {/* <NavigationLI>
+          <NavigationLI>
             <NavigationLink to="/kleider">Kleider</NavigationLink>
-          </NavigationLI> */}
+          </NavigationLI>
           <NavigationLI>
             <NavigationLink to="/hosen">Hosen</NavigationLink>
           </NavigationLI>
