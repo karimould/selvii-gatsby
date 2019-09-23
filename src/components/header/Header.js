@@ -29,7 +29,7 @@ export default class Header extends React.Component {
         <HeaderContainer>
           <HeaderContainerFlex>
             <LogoContainer>
-              <LogoLink to="/"> 
+              <LogoLink to="/new"> 
                 <img src={Logo} alt="Selvii logo"/>
               </LogoLink>
             </LogoContainer>

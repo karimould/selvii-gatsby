@@ -32,7 +32,7 @@ export default class MobileHeader extends React.Component {
         <FlexWrapper>
           <BurgerMenuContainer>
             <Menu>
-            <LogoLink to="/"> 
+            <LogoLink to="/new"> 
                 <img src={Logo} alt="Selvii logo"/>
               </LogoLink>
               <Break/>
