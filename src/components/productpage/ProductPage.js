@@ -388,7 +388,13 @@ const ProductPageSelect = styled('select')`
   }
   :focus::-ms-value {
   background-color: transparent;
-}
+  }
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;   
+  -webkit-border-radius: 0;  /* Safari 3-4, iOS 1-3.2, Android 1.6- */    
+  -moz-border-radius: 0;  /* Firefox 1-3.6 */     
+  border-radius: 0;  /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
 `
 
 const ProductBuyButtonMobileContainer = styled('div')`
