@@ -1,28 +1,27 @@
-import * as React from 'react'
-import styled from '@emotion/styled'
-import FooterNav from './FooterNav'
-import FooterSlogan from './FooterSlogan'
-import FooterSocialMedia from './FooterSocialMedia'
-
+import * as React from "react";
+import styled from "@emotion/styled";
+import FooterNav from "./FooterNav";
+import FooterSlogan from "./FooterSlogan";
+import FooterSocialMedia from "./FooterSocialMedia";
 
 export default class Footer extends React.Component {
   render() {
-    return(
+    return (
       <div>
-      <FooterContainer>
-        <FooterNav />
-        <FooterSlogan />
-        <FooterSocialMedia />
-      </FooterContainer>
-      <CopyRightCon>
-        <p>© All rights reserved</p>
-      </CopyRightCon>
+        <FooterContainer>
+          <FooterNav />
+          <FooterSlogan />
+          <FooterSocialMedia />
+        </FooterContainer>
+        <CopyRightCon>
+          <p>© All rights reserved</p>
+        </CopyRightCon>
       </div>
-    )
+    );
   }
 }
 
-const FooterContainer = styled('div')`
+const FooterContainer = styled("div")`
   margin-top: 100px;
   border-top: 1px solid lightgray;
   display: flex;
@@ -39,13 +38,12 @@ const FooterContainer = styled('div')`
     align-items: center;
     height: auto;
   }
+`;
 
-`
-
-const CopyRightCon = styled('div')`
+const CopyRightCon = styled("div")`
   text-align: right;
   color: black;
   margin-top: 30px;
   margin-right: 10px;
   font-size: 0.8rem;
-`
+`;

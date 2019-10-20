@@ -1,36 +1,53 @@
-import Link from 'gatsby-link'
-import * as React from 'react'
-import styled from '@emotion/styled'
+import Link from "gatsby-link";
+import * as React from "react";
+import styled from "@emotion/styled";
 export default class FooterNav extends React.Component {
   render() {
-    return(
+    return (
       <FooterNavContainer>
-      <FooterNavLeft>
-        <FooterNavUL>
-          <FoterNavLI>
-            <FoterNavLink title="link zum impressum" to="/rechtliches/impressum">Impressum</FoterNavLink>
-          </FoterNavLI>
-          <FoterNavLI>
-            <FoterNavLink title="link zum datenschutz" to="/rechtliches/datenschutz">Datenschutz</FoterNavLink>
-          </FoterNavLI>
-        </FooterNavUL>
-      </FooterNavLeft>
-      <FooterNavRight>
-        <FooterNavUL>
-          <FoterNavLI>
-            <FoterNavLink title="link zu der Widerrufsbelehrung" to="/rechtliches/widerrufsbelehrung">Widerruf</FoterNavLink>
-          </FoterNavLI>
-          <FoterNavLI>
-            <FoterNavLink title="link zu den AGBs" to="/rechtliches/agbs">AGB</FoterNavLink>
-          </FoterNavLI>
-        </FooterNavUL>
-      </FooterNavRight>
+        <FooterNavLeft>
+          <FooterNavUL>
+            <FoterNavLI>
+              <FoterNavLink
+                title="link zum impressum"
+                to="/rechtliches/impressum"
+              >
+                Impressum
+              </FoterNavLink>
+            </FoterNavLI>
+            <FoterNavLI>
+              <FoterNavLink
+                title="link zum datenschutz"
+                to="/rechtliches/datenschutz"
+              >
+                Datenschutz
+              </FoterNavLink>
+            </FoterNavLI>
+          </FooterNavUL>
+        </FooterNavLeft>
+        <FooterNavRight>
+          <FooterNavUL>
+            <FoterNavLI>
+              <FoterNavLink
+                title="link zu der Widerrufsbelehrung"
+                to="/rechtliches/widerrufsbelehrung"
+              >
+                Widerruf
+              </FoterNavLink>
+            </FoterNavLI>
+            <FoterNavLI>
+              <FoterNavLink title="link zu den AGBs" to="/rechtliches/agbs">
+                AGB
+              </FoterNavLink>
+            </FoterNavLI>
+          </FooterNavUL>
+        </FooterNavRight>
       </FooterNavContainer>
-    )
+    );
   }
 }
 
-const FooterNavContainer = styled('div')`
+const FooterNavContainer = styled("div")`
   grid-area: left;
   justify-self: start;
   display: flex;
@@ -38,25 +55,24 @@ const FooterNavContainer = styled('div')`
   margin-bottom: 10px;
   text-transform: uppercase;
   font-size: 0.8rem;
+  z-index: 1001;
   @media (max-width: 550px) {
     flex-direction: column;
     align-items: center;
     height: auto;
     text-align: center;
   }
-`
+`;
 
-const FooterNavLeft = styled('div')`
-`
+const FooterNavLeft = styled("div")``;
 
-const FooterNavRight = styled('div')`
-`
+const FooterNavRight = styled("div")``;
 
-const FooterNavUL = styled('ul')`
+const FooterNavUL = styled("ul")`
   list-style: none;
-`
+`;
 
-const FoterNavLI = styled('li')`
+const FoterNavLI = styled("li")`
   text-decoration: none;
   margin-top: 10px;
   color: black;
@@ -64,7 +80,7 @@ const FoterNavLI = styled('li')`
   @media (max-width: 550px) {
     margin-left: 0px;
   }
-`
+`;
 
 const FoterNavLink = styled(Link)`
   text-decoration: none;
@@ -72,4 +88,4 @@ const FoterNavLink = styled(Link)`
   :hover {
     text-decoration: underline;
   }
-`
+`;

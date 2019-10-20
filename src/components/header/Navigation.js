@@ -1,11 +1,11 @@
-import React from 'react'
-import styled from '@emotion/styled'
-import Link from 'gatsby-link'
-import LinkSmall from 'gatsby-link'
+import React from "react";
+import styled from "@emotion/styled";
+import Link from "gatsby-link";
+import LinkSmall from "gatsby-link";
 
 export default class Navigation extends React.Component {
   render() {
-    return(
+    return (
       <NavigationContainer>
         <NavigationUL>
           <NavigationLI>
@@ -30,9 +30,9 @@ export default class Navigation extends React.Component {
           <NavigationLI>
             <NavigationLink to="/hosen">Hosen</NavigationLink>
           </NavigationLI>
-          <NavigationLI>
+          {/* <NavigationLI>
             <NavigationLink to="/jacken">Mäntel</NavigationLink>
-          </NavigationLI>
+          </NavigationLI> */}
           <NavigationLI>
             <NavigationLink to="/taschen">Taschen</NavigationLink>
           </NavigationLI>
@@ -40,42 +40,45 @@ export default class Navigation extends React.Component {
           <Break />
           <Break />
           <NavigationLI>
-            <NavigationLinkSmall to="/rechtliches/kontakt">Kontakt</NavigationLinkSmall>
+            <NavigationLinkSmall to="/rechtliches/kontakt">
+              Kontakt
+            </NavigationLinkSmall>
           </NavigationLI>
-            <BreakSmall />
+          <BreakSmall />
           <NavigationLI>
-            <NavigationLinkSmall to="/rechtliches/unternehmen">Unternehmen</NavigationLinkSmall>
+            <NavigationLinkSmall to="/rechtliches/unternehmen">
+              Unternehmen
+            </NavigationLinkSmall>
           </NavigationLI>
         </NavigationUL>
       </NavigationContainer>
-    )
+    );
   }
 }
 
-
-const Break = styled('br')`
+const Break = styled("br")`
   display: block;
   margin: 10px 0;
-`
+`;
 
-const BreakSmall = styled('br')`
+const BreakSmall = styled("br")`
   display: block;
   margin: -2px 0;
-`
+`;
 
-const NavigationContainer = styled('div')`
+const NavigationContainer = styled("div")`
   margin-left: 50px;
   margin-top: 70px;
   color: black;
   width: 250px;
-`
-const NavigationUL = styled('div')`
+`;
+const NavigationUL = styled("div")`
   list-style: none;
-`
+`;
 
-const NavigationLI = styled('li')`
+const NavigationLI = styled("li")`
   text-decoration: none;
-`
+`;
 
 const NavigationLinkSmall = styled(LinkSmall)`
   color: black !important;
@@ -83,7 +86,7 @@ const NavigationLinkSmall = styled(LinkSmall)`
   text-transform: none !important;
   font-size: 0.9rem !important;
   font-weight: medium !important;
-`
+`;
 
 const NavigationLink = styled(Link)`
   color: black;
@@ -91,4 +94,4 @@ const NavigationLink = styled(Link)`
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1.2rem;
-`
+`;
