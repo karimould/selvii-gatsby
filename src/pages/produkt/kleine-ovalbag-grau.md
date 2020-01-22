@@ -4,7 +4,7 @@ description_SEO: >-
   handlich!
 templateKey: produkt
 new: false
-sale: true
+sale: false
 available: true
 category': taschen
 size:
@@ -15,7 +15,7 @@ title: OVALBAG GRAU
 productinfo: 'Kunstleder. Pflege: Trocken/ mit feuchtem Tuch reinigen.'
 modelinfo: Model Größe 168cm
 price: '12.95'
-sale-price: '7.95'
+sale-price: ''
 description: >-
   Die kleinere ovale Tasche mit abnehmbarem Gürtel. Zusätzlich mit
   Umhängekette/-gurt. Farbe grau.
