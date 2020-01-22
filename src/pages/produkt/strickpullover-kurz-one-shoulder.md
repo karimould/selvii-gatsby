@@ -4,7 +4,7 @@ description_SEO: >-
   beige. Von Selvii
 templateKey: produkt
 new: false
-sale: true
+sale: false
 available: true
 category': pullover
 size:
@@ -18,7 +18,7 @@ productinfo: >-
   Trommeltrockner trocknen.
 modelinfo: Modelgröße 165cm.
 price: '35.95'
-sale-price: '6.95'
+sale-price: ''
 description: Weiter Bateau-Ausschnitt. One-Shoulder geeignet. Lange Ärmel. Farbe beige.
 featuredImage: /img/selvii_kurzer_strickpullover_one_shoulder-1.jpg
 gallery:
