@@ -4,7 +4,7 @@ description_SEO: >-
   von Selvii.
 templateKey: produkt
 new: false
-sale: true
+sale: false
 available: true
 category': hosen
 size:
@@ -19,7 +19,7 @@ productinfo: >-
   trocknen.
 modelinfo: Model Größe 172cm. Model trägt Größe M/L.
 price: '16.95'
-sale-price: '5.95'
+sale-price: ''
 description: Plissierte Palazzohose aus Samt. Elastischer Bund mit Schnur. Farbe Schwarz.
 featuredImage: /img/selvii_plissierte_samthose_schwarz-1.jpg
 gallery:
