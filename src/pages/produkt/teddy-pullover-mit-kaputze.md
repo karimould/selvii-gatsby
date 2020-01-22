@@ -2,7 +2,7 @@
 description_SEO: Pullover mit Kapuze. Ärmel lang. Elastischer Saum. Farbe Beige. Von Selvii.
 templateKey: produkt
 new: false
-sale: true
+sale: false
 available: true
 category': pullover
 size:
@@ -15,7 +15,7 @@ productinfo: >-
   Temperatur. Reinigen mit Perchlorethylen. Nicht im Trommeltrockner trocknen.
 modelinfo: Modelgröße 165cm.
 price: '39.95'
-sale-price: '11.95'
+sale-price: ''
 description: Pullover mit Kapuze. Ärmel lang. Elastischer Saum. Farbe Beige.
 featuredImage: /img/selvii_teddy_pullover_mit_kapuze-1.jpg
 gallery:
