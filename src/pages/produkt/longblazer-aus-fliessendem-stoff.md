@@ -4,7 +4,7 @@ description_SEO: >-
   Blazer Kollektion shoppen
 templateKey: produkt
 new: false
-sale: true
+sale: false
 available: true
 category': blazer
 size:
@@ -18,7 +18,7 @@ productinfo: >-
   trocknen.
 modelinfo: Model Größe 168cm.
 price: '19.95'
-sale-price: '7.95'
+sale-price: ''
 description: >-
   Farbe Marineblau. ¾-Ärmel. Klassisch, fallender Reverskragen. Perle am Ärmel.
   Vordere Scheintaschen.
