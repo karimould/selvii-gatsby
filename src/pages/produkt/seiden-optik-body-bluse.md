@@ -2,7 +2,7 @@
 description_SEO: Lässige Bluse mit Body. V-Ausschnitt. Lange Ärmel. Farbe Mustard von Selvii
 templateKey: produkt
 new: false
-sale: true
+sale: false
 available: true
 category': pullover
 size:
@@ -16,7 +16,7 @@ productinfo: >-
   Trommeltrockner trocknen.
 modelinfo: Modelgröße 165cm.
 price: '34.95'
-sale-price: '7.95'
+sale-price: ''
 description: Lässige Bluse mit Body. V-Ausschnitt. Lange Ärmel. Farbe mustard.
 featuredImage: /img/selvii_body_bluse_in_seidenoptik-1.jpg
 gallery:
