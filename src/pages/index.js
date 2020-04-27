@@ -1,29 +1,25 @@
-import React from 'react'
-import Wrapper from '../components/wrapper/Wrapper'
-import Header from '../components/header/Header'
-import SliderComp from '../components/slider/Slider'
-import Footer from '../components/footer/Footer'
-import '../styles/normalize.css'
-import Head from '../components/util/Head';
-import SocialmediaIndex from '../components/util/socialmedia-index/Socialmedia-index';
+import React from "react";
+import Wrapper from "../components/wrapper/Wrapper";
+import "../styles/normalize.css";
+import comingSoon from "../img/comingsoon.jpeg";
+import Head from "../components/util/Head";
 
 export default class IndexPage extends React.Component {
   render() {
-    // const { data } = this.props
-    // const { edges: products } = data.allMarkdownRemark  
-    if (typeof window !== 'undefined') {
-      window.location = '/new';
-    }
-  
     return (
       <Wrapper>
-        <Head title="Selvii Online Shop | Die neue Kollektion online kaufen" desc="Selvii Damenmode online kaufen. Shoppen Sie die neueste Selvii Damenmode."/>
+        <Head title="Selvii Online Shop coming soon" desc="Selvii Damenmode online kaufen. Shoppen Sie die neueste Selvii Damenmode." />
+        <div style={{ display: "flex", justifyContent: "center", marginTop: "100px" }}>
+          <img style={{ width: "300px" }} src={comingSoon} alt="selvi coming soon" title="selvi coming soon" />
+        </div>
+        <h1 style={{ textAlign: "center" }}>coming soon...</h1>
+        {/* 
         <Header />
         <SliderComp />
         <SocialmediaIndex />
-        <Footer />
+        <Footer /> */}
       </Wrapper>
-    )
+    );
   }
 }
 
@@ -34,7 +30,6 @@ export default class IndexPage extends React.Component {
 //     }),
 //   }),
 // }
-
 
 // export const pageQuery = graphql`
 //   query IndexQuery {
