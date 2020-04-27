@@ -10,9 +10,9 @@ export default class IndexPage extends React.Component {
       <Wrapper>
         <Head title="Selvii Online Shop coming soon" desc="Selvii Damenmode online kaufen. Shoppen Sie die neueste Selvii Damenmode." />
         <div style={{ display: "flex", justifyContent: "center", marginTop: "100px" }}>
-          <img style={{ width: "300px" }} src={comingSoon} alt="selvi coming soon" title="selvi coming soon" />
+          <img style={{ width: "300px", height: "300px" }} src={comingSoon} alt="selvi coming soon" title="selvi coming soon" />
         </div>
-        <h1 style={{ textAlign: "center" }}>coming soon...</h1>
+        <h1 style={{ textAlign: "center" }}>coming soon</h1>
         {/* 
         <Header />
         <SliderComp />
